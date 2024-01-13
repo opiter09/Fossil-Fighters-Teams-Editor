@@ -114,8 +114,7 @@ def makeLayout():
         [ psg.Text("Name:"), psg.DropDown(eNames, key = "name", default_value = teams[curr]["name"]) ],
         [ psg.Text("Fighter Rank:"), psg.Input(default_text = teams[curr]["rank"], key = "rank", size = 5, enable_events = True) ],
         [ psg.Text("Battle Points:"), psg.Input(default_text = teams[curr]["points"], key = "points", size = 5, enable_events = True) ],
-        [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])),
-            psg.Button("Load", key = "load") ]
+        [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])) ]
     ]
     for i in range(teams[curr]["numVivos"]):
         row = [ # yes, I know this is formatted as a column ulol
