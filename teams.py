@@ -70,7 +70,7 @@ if (rom == "ff1"):
                         teams[teamN]["vivos"][i]["superName"] = "NONE"
                         teams[teamN]["vivos"][i]["superPoints"] = 0
                         teams[teamN]["vivos"][i]["cpu"] = int.from_bytes(r[(0x94 + (numVivos * 12) + (i * 4)):(0x94 + (numVivos * 12) + (i * 4) + 4)], "little")
-                        teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + (numVivos * 16) + (i * 4)):(0x94 + (numVivos * 16) + (i * 4) + 4)], "little")
+                        teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + (numVivos * 20) + (i * 4)):(0x94 + (numVivos * 20) + (i * 4) + 4)], "little")
 else:
     for root, dirs, files in os.walk("NDS_UNPACK/data/battle_param/bin"):
         for file in files:
@@ -114,14 +114,17 @@ def makeLayout():
         [ psg.Text("Name:"), psg.DropDown(eNames, key = "name", default_value = teams[curr]["name"]) ],
         [ psg.Text("Fighter Rank:"), psg.Input(default_text = teams[curr]["rank"], key = "rank", size = 5, enable_events = True) ],
         [ psg.Text("Battle Points:"), psg.Input(default_text = teams[curr]["points"], key = "points", size = 5, enable_events = True) ],
-        [ psg.Text("# of Vivos:"), psg.Input(default_text = teams[curr]["numVivos"], key = "number", size = 5, enable_events = True) ]
+        [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])),
+            psg.Button("Load", key = "load") ]
     ]
     for i in range(teams[curr]["numVivos"]):
         row = [ # yes, I know this is formatted as a column ulol
             psg.Text("Vivosaur:"),
             psg.DropDown(vNames, key = "vivo", default_value = vNames[teams[curr]["vivos"][i]["vivoNum"]]),
             psg.Text("Level:"),
-            psg.Input(default_text = teams[curr]["vivos"][i]["level"], key = "level", size = 5, enable_events = True)
+            psg.Input(default_text = teams[curr]["vivos"][i]["level"], key = "level", size = 5, enable_events = True),
+            psg.Text("Fossils:"),
+            psg.DropDown(["1", "2", "3", "4"], key = "fossil", default_value = str(teams[curr]["vivos"][i]["fossils"]))
         ]
         if (rom == "ffc"):
             row = row + [
@@ -133,7 +136,7 @@ def makeLayout():
         else:
             row = row + [
                 psg.Text("AI Set:"),
-                psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu", size = 10, enable_events = True)
+                psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu", size = 7, enable_events = True)
             ]
         layout = layout + [row]
     layout = layout + [[ psg.Button("Save File", key = "save"), psg.Button("Rebuild ROM", key = "rebuild") ]]
