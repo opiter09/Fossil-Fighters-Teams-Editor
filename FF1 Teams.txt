@@ -1,0 +1,2756 @@
+
+0001:
+Name: 【debug】敵のサンプル名 (3363)
+Guera: Level = 12, Moves = 4, AI = 1
+Styraco: Level = 12, Moves = 4, AI = 1
+Angato: Level = 12, Moves = 4, AI = 1
+
+0020:
+Name: 【unused】チュートル (3365)
+Jiango: Level = 1, Moves = 4, AI = 105
+Yango: Level = 1, Moves = 4, AI = 104
+Lexo: Level = 1, Moves = 4, AI = 110
+
+0021:
+Name: Tipper (3366)
+Jiango: Level = 1, Moves = 4, AI = 105
+Yango: Level = 1, Moves = 4, AI = 104
+Lexo: Level = 1, Moves = 4, AI = 110
+
+0022:
+Name: Holt (3367)
+Pachy: Level = 1, Moves = 4, AI = 137
+Stygi: Level = 1, Moves = 4, AI = 140
+Goyo: Level = 1, Moves = 4, AI = 142
+
+0023:
+Name: Capt. Travers (3368)
+Goyo: Level = 1, Moves = 1, AI = 51
+
+0050:
+Name: test (3364)
+Shanshan: Level = 1, Moves = 4, AI = 17
+Compso: Level = 1, Moves = 4, AI = 44
+Sopteryx: Level = 1, Moves = 4, AI = 46
+
+0051:
+Name: P.B. Jay (3369)
+V-Raptor: Level = 1, Moves = 1, AI = 375
+Spinax: Level = 1, Moves = 1, AI = 74
+
+0052:
+Name: Medal-Dealer Joe (3370)
+Goyo: Level = 1, Moves = 1, AI = 39
+Metria: Level = 1, Moves = 1, AI = 373
+Shanshan: Level = 1, Moves = 1, AI = 374
+
+0053:
+Name: Wendy (3371)
+V-Raptor: Level = 2, Moves = 2, AI = 57
+Goyo: Level = 1, Moves = 1, AI = 382
+Shanshan: Level = 1, Moves = 1, AI = 383
+
+0054:
+Name: Eli (3372)
+Igua: Level = 1, Moves = 1, AI = 21
+
+0055:
+Name: Sally (3373)
+Spinax: Level = 2, Moves = 1, AI = 378
+Metria: Level = 2, Moves = 1, AI = 38
+
+0056:
+Name: Holt (3374)
+Tricera: Level = 1, Moves = 1, AI = 145
+Stego: Level = 1, Moves = 2, AI = 380
+Jiango: Level = 1, Moves = 3, AI = 381
+
+0057:
+Name: Fossil Fighter (3375)
+Igua: Level = 1, Moves = 1, AI = 37
+
+0058:
+Name: Fossil Fighter (3376)
+Metria: Level = 1, Moves = 1, AI = 73
+
+0059:
+Name: Fossil Fighter (3377)
+Goyle: Level = 1, Moves = 1, AI = 17
+
+0060:
+Name: Tony (3379)
+Tarbo: Level = 8, Moves = 4, AI = 384
+U-Raptor: Level = 1, Moves = 4, AI = 385
+F-Raptor: Level = 1, Moves = 4, AI = 385
+
+0061:
+Name: Nate (3382)
+Tricera: Level = 6, Moves = 4, AI = 387
+Styraco: Level = 1, Moves = 4, AI = 388
+Centro: Level = 1, Moves = 4, AI = 388
+
+0062:
+Name: Fossil Fighter (3384)
+Goyo: Level = 1, Moves = 1, AI = 358
+
+0063:
+Name: Fossil Fighter (3385)
+Shanshan: Level = 1, Moves = 1, AI = 361
+
+0064:
+Name: Fossil Fighter (3386)
+Spinax: Level = 1, Moves = 1, AI = 364
+
+0065:
+Name: Fossil Fighter (3387)
+V-Raptor: Level = 1, Moves = 1, AI = 367
+
+0066:
+Name: Fossil Fighter (3388)
+Goyo: Level = 1, Moves = 1, AI = 370
+
+0067:
+Name: Holt (3389)
+Igua: Level = 1, Moves = 1, AI = 762
+V-Raptor: Level = 1, Moves = 1, AI = 763
+
+0100:
+Name: Shady Guy (3390)
+Stygi: Level = 2, Moves = 2, AI = 137
+Goyo: Level = 1, Moves = 1, AI = 140
+
+0101:
+Name: ...Dog? (3391)
+Nodo: Level = 2, Moves = 2, AI = 111
+Megath: Level = 1, Moves = 1, AI = 285
+
+0102:
+Name: Long-Nosed Man (3392)
+Carchar: Level = 2, Moves = 2, AI = 33
+Goyle: Level = 1, Moves = 1, AI = 271
+
+0103:
+Name: Vivian (3393)
+Nychus: Level = 2, Moves = 2, AI = 411
+Lambeo: Level = 2, Moves = 2, AI = 110
+
+0104:
+Name: Staff (3394)
+Venator: Level = 2, Moves = 2, AI = 105
+Pachy: Level = 2, Moves = 2, AI = 415
+
+0105:
+Name: Staff (3395)
+Ourano: Level = 2, Moves = 2, AI = 412
+Spinax: Level = 2, Moves = 2, AI = 413
+
+0106:
+Name: Holt (3396)
+Tricera: Level = 2, Moves = 4, AI = 416
+Centro: Level = 2, Moves = 4, AI = 417
+Pachy: Level = 2, Moves = 4, AI = 138
+
+0107:
+Name: Nevada (3397)
+Lexo: Level = 3, Moves = 2, AI = 418
+U-Raptor: Level = 2, Moves = 2, AI = 268
+Nychus: Level = 2, Moves = 2, AI = 336
+
+0108:
+Name: Fossil Fighter (3398)
+Pachy: Level = 2, Moves = 2, AI = 11
+
+0109:
+Name: Fossil Fighter (3399)
+S-Raptor: Level = 2, Moves = 2, AI = 390
+
+0110:
+Name: Fossil Fighter (3400)
+Nychus: Level = 2, Moves = 2, AI = 391
+Spinax: Level = 1, Moves = 1, AI = 392
+
+0111:
+Name: Fossil Fighter (3401)
+Pachy: Level = 2, Moves = 2, AI = 394
+Igua: Level = 1, Moves = 1, AI = 395
+
+0112:
+Name: Fossil Fighter (3402)
+Lambeo: Level = 2, Moves = 2, AI = 397
+
+0113:
+Name: Fossil Fighter (3403)
+Venator: Level = 2, Moves = 2, AI = 400
+
+0114:
+Name: Fossil Fighter (3404)
+Goyle: Level = 2, Moves = 2, AI = 403
+Lexo: Level = 1, Moves = 1, AI = 404
+
+0115:
+Name: Fossil Fighter (3405)
+Ourano: Level = 2, Moves = 2, AI = 406
+V-Raptor: Level = 1, Moves = 1, AI = 407
+
+0116:
+Name: Steve (3407)
+Ptera: Level = 6, Moves = 4, AI = 422
+Jara: Level = 6, Moves = 4, AI = 423
+Dimorph: Level = 6, Moves = 4, AI = 422
+
+0117:
+Name: Tony (3379)
+Tarbo: Level = 1, Moves = 4, AI = 384
+U-Raptor: Level = 1, Moves = 4, AI = 385
+F-Raptor: Level = 1, Moves = 4, AI = 385
+
+0118:
+Name: Fossil Fighter (3410)
+Pachy: Level = 2, Moves = 2, AI = 11
+
+0119:
+Name: Fossil Fighter (3411)
+S-Raptor: Level = 2, Moves = 2, AI = 390
+
+0120:
+Name: Fossil Fighter (3412)
+Nychus: Level = 2, Moves = 2, AI = 391
+Spinax: Level = 1, Moves = 1, AI = 392
+
+0121:
+Name: Fossil Fighter (3413)
+Pachy: Level = 2, Moves = 2, AI = 394
+Igua: Level = 1, Moves = 1, AI = 395
+
+0122:
+Name: Fossil Fighter (3414)
+Lambeo: Level = 2, Moves = 2, AI = 397
+
+0123:
+Name: Fossil Fighter (3415)
+Venator: Level = 2, Moves = 2, AI = 400
+
+0124:
+Name: Fossil Fighter (3416)
+Goyle: Level = 2, Moves = 2, AI = 403
+Lexo: Level = 1, Moves = 1, AI = 404
+
+0125:
+Name: Fossil Fighter (3417)
+Ourano: Level = 2, Moves = 2, AI = 406
+V-Raptor: Level = 1, Moves = 1, AI = 407
+
+0126:
+Name: Attendant (3418)
+Venator: Level = 1, Moves = 1, AI = 764
+Alectro: Level = 1, Moves = 1, AI = 765
+
+0150:
+Name: Rex (3419)
+Nodo: Level = 3, Moves = 3, AI = 448
+Zino: Level = 1, Moves = 2, AI = 449
+
+0151:
+Name: Snivels (3420)
+Carchar: Level = 3, Moves = 3, AI = 451
+Cerato: Level = 1, Moves = 2, AI = 280
+
+0152:
+Name: 【unused】ジュンコ (3421)
+Hypsi: Level = 3, Moves = 3, AI = 452
+Coatlus: Level = 1, Moves = 2, AI = 12
+Pachy: Level = 1, Moves = 2, AI = 453
+
+0153:
+Name: Holt (3422)
+Tricera: Level = 3, Moves = 3, AI = 454
+Coatlus: Level = 2, Moves = 2, AI = 162
+Pachy: Level = 2, Moves = 2, AI = 455
+
+0154:
+Name: Holt (3423)
+Tricera: Level = 3, Moves = 4, AI = 456
+Centro: Level = 3, Moves = 4, AI = 457
+Stygi: Level = 3, Moves = 4, AI = 458
+
+0155:
+Name: McJunker (3424)
+Cerato: Level = 4, Moves = 3, AI = 75
+Kentro: Level = 3, Moves = 2, AI = 108
+Stygi: Level = 2, Moves = 2, AI = 184
+
+0156:
+Name: Fossil Fighter (3425)
+Lexo: Level = 3, Moves = 2, AI = 55
+
+0157:
+Name: Fossil Fighter (3426)
+Siamo: Level = 3, Moves = 3, AI = 13
+
+0158:
+Name: Fossil Fighter (3427)
+Alio: Level = 3, Moves = 3, AI = 125
+
+0159:
+Name: Nate (3382)
+Tricera: Level = 6, Moves = 4, AI = 387
+Styraco: Level = 1, Moves = 4, AI = 388
+Centro: Level = 1, Moves = 4, AI = 388
+
+0160:
+Name: Steve (3407)
+Ptera: Level = 6, Moves = 4, AI = 422
+Jara: Level = 6, Moves = 4, AI = 423
+Dimorph: Level = 6, Moves = 4, AI = 422
+
+0161:
+Name: Fossil Fighter (3430)
+Megalo: Level = 3, Moves = 2, AI = 433
+Nychus: Level = 1, Moves = 2, AI = 434
+
+0162:
+Name: Fossil Fighter (3431)
+Cerato: Level = 3, Moves = 2, AI = 436
+U-Raptor: Level = 1, Moves = 2, AI = 437
+
+0163:
+Name: Fossil Fighter (3432)
+Alectro: Level = 3, Moves = 3, AI = 439
+Metria: Level = 2, Moves = 2, AI = 440
+
+0164:
+Name: Fossil Fighter (3433)
+Lexo: Level = 3, Moves = 3, AI = 442
+Coatlus: Level = 2, Moves = 2, AI = 443
+
+0165:
+Name: Fossil Fighter (3434)
+Nasaur: Level = 3, Moves = 3, AI = 445
+Stygi: Level = 1, Moves = 2, AI = 446
+Pachy: Level = 1, Moves = 2, AI = 447
+
+0166:
+Name: Fossil Fighter (3425)
+Lexo: Level = 3, Moves = 2, AI = 55
+
+0167:
+Name: Fossil Fighter (3426)
+Siamo: Level = 3, Moves = 3, AI = 13
+
+0168:
+Name: Fossil Fighter (3427)
+Alio: Level = 3, Moves = 3, AI = 125
+
+0169:
+Name: Fossil Fighter (3430)
+Megalo: Level = 3, Moves = 2, AI = 433
+Nychus: Level = 1, Moves = 2, AI = 434
+
+0170:
+Name: Fossil Fighter (3431)
+Cerato: Level = 3, Moves = 2, AI = 436
+U-Raptor: Level = 1, Moves = 2, AI = 437
+
+0171:
+Name: Fossil Fighter (3432)
+Alectro: Level = 3, Moves = 3, AI = 439
+Metria: Level = 2, Moves = 2, AI = 440
+
+0172:
+Name: Fossil Fighter (3433)
+Lexo: Level = 3, Moves = 3, AI = 442
+Coatlus: Level = 2, Moves = 2, AI = 443
+
+0173:
+Name: Fossil Fighter (3434)
+Nasaur: Level = 3, Moves = 3, AI = 445
+Stygi: Level = 1, Moves = 2, AI = 446
+Pachy: Level = 1, Moves = 2, AI = 447
+
+0174:
+Name: BB Soldier (3443)
+Pachy: Level = 3, Moves = 3, AI = 768
+Stygi: Level = 1, Moves = 2, AI = 769
+
+0175:
+Name: BB Soldier (3444)
+Stygi: Level = 3, Moves = 3, AI = 770
+Pachy: Level = 1, Moves = 2, AI = 771
+
+0176:
+Name: Holt (3445)
+Tricera: Level = 2, Moves = 2, AI = 766
+Elasmoth: Level = 2, Moves = 2, AI = 767
+
+0250:
+Name: Rex (3446)
+Nodo: Level = 4, Moves = 3, AI = 510
+Zino: Level = 2, Moves = 3, AI = 511
+Megath: Level = 2, Moves = 3, AI = 512
+
+0251:
+Name: Snivels (3447)
+Carchar: Level = 4, Moves = 3, AI = 513
+Lambeo: Level = 2, Moves = 3, AI = 269
+Futabi: Level = 2, Moves = 3, AI = 328
+
+0252:
+Name: Vivian (3448)
+Elasmo: Level = 4, Moves = 3, AI = 173
+Pachrino: Level = 3, Moves = 3, AI = 156
+Lexo: Level = 3, Moves = 3, AI = 514
+
+0253:
+Name: Woolbeard (3449)
+Krona: Level = 4, Moves = 3, AI = 169
+Elasmo: Level = 4, Moves = 3, AI = 329
+Plesio: Level = 4, Moves = 3, AI = 330
+
+0254:
+Name: Eli (3372)
+Jiango: Level = 4, Moves = 3, AI = 761
+Onyx: Level = 3, Moves = 1, AI = 178
+Coatlus: Level = 3, Moves = 1, AI = 236
+
+0255:
+Name: Sally (3373)
+Cerato: Level = 4, Moves = 3, AI = 65
+Goyo: Level = 4, Moves = 2, AI = 515
+U-Raptor: Level = 4, Moves = 2, AI = 516
+
+0256:
+Name: Holt (3452)
+Tricera: Level = 4, Moves = 4, AI = 517
+Elasmoth: Level = 4, Moves = 4, AI = 518
+Stygi: Level = 4, Moves = 4, AI = 519
+
+0257:
+Name: Nick Nack (3453)
+Elasmoth: Level = 5, Moves = 3, AI = 23
+Styraco: Level = 3, Moves = 3, AI = 520
+M-Raptor: Level = 3, Moves = 3, AI = 200
+
+0258:
+Name: Fossil Fighter (3454)
+Futabi: Level = 4, Moves = 3, AI = 465
+
+0259:
+Name: Fossil Fighter (3455)
+Jiango: Level = 4, Moves = 3, AI = 467
+
+0260:
+Name: Fossil Fighter (3456)
+Ourano: Level = 3, Moves = 3, AI = 177
+Elasmo: Level = 3, Moves = 3, AI = 470
+
+0261:
+Name: Tony (3379)
+Tarbo: Level = 1, Moves = 4, AI = 384
+U-Raptor: Level = 1, Moves = 4, AI = 385
+F-Raptor: Level = 1, Moves = 4, AI = 385
+
+0262:
+Name: Nate (3382)
+Tricera: Level = 6, Moves = 4, AI = 387
+Styraco: Level = 1, Moves = 4, AI = 388
+Centro: Level = 1, Moves = 4, AI = 388
+
+0263:
+Name: Fossil Fighter (3459)
+Cerato: Level = 4, Moves = 3, AI = 471
+Lambeo: Level = 2, Moves = 2, AI = 472
+
+0264:
+Name: Fossil Fighter (3460)
+Onyx: Level = 3, Moves = 3, AI = 474
+U-Raptor: Level = 3, Moves = 2, AI = 475
+
+0265:
+Name: Fossil Fighter (3461)
+Megalo: Level = 4, Moves = 3, AI = 477
+M-Raptor: Level = 3, Moves = 3, AI = 478
+
+0266:
+Name: Fossil Fighter (3462)
+Alectro: Level = 4, Moves = 3, AI = 480
+Alio: Level = 3, Moves = 3, AI = 481
+Plesio: Level = 2, Moves = 2, AI = 482
+
+0267:
+Name: Fossil Fighter (3463)
+Shoni: Level = 4, Moves = 3, AI = 483
+Elasmo: Level = 2, Moves = 3, AI = 484
+Stygi: Level = 2, Moves = 2, AI = 485
+
+0268:
+Name: Fossil Fighter (3464)
+Futabi: Level = 4, Moves = 3, AI = 486
+
+0269:
+Name: Fossil Fighter (3465)
+Jiango: Level = 4, Moves = 3, AI = 489
+
+0270:
+Name: Fossil Fighter (3466)
+Ourano: Level = 3, Moves = 3, AI = 492
+Elasmo: Level = 3, Moves = 3, AI = 493
+
+0271:
+Name: Fossil Fighter (3467)
+Cerato: Level = 4, Moves = 3, AI = 495
+Lambeo: Level = 2, Moves = 2, AI = 496
+
+0272:
+Name: Fossil Fighter (3468)
+Onyx: Level = 3, Moves = 3, AI = 498
+U-Raptor: Level = 3, Moves = 2, AI = 499
+
+0273:
+Name: Fossil Fighter (3469)
+Megalo: Level = 4, Moves = 3, AI = 501
+M-Raptor: Level = 3, Moves = 3, AI = 502
+
+0274:
+Name: Fossil Fighter (3470)
+Alectro: Level = 4, Moves = 3, AI = 504
+Alio: Level = 3, Moves = 3, AI = 505
+Plesio: Level = 2, Moves = 2, AI = 506
+
+0275:
+Name: Fossil Fighter (3471)
+Shoni: Level = 4, Moves = 3, AI = 507
+Elasmo: Level = 2, Moves = 3, AI = 508
+Stygi: Level = 2, Moves = 2, AI = 509
+
+0300:
+Name: BB Soldier (3472)
+Amargo: Level = 5, Moves = 3, AI = 550
+Nychus: Level = 3, Moves = 3, AI = 551
+Stygi: Level = 3, Moves = 3, AI = 552
+
+0301:
+Name: Rex (3473)
+Megath: Level = 5, Moves = 3, AI = 553
+Zino: Level = 4, Moves = 3, AI = 554
+Nodo: Level = 3, Moves = 3, AI = 555
+
+0302:
+Name: Snivels (3474)
+Carchar: Level = 5, Moves = 3, AI = 556
+Acro: Level = 4, Moves = 3, AI = 294
+Ourano: Level = 3, Moves = 3, AI = 557
+
+0303:
+Name: Vivian (3475)
+Styraco: Level = 5, Moves = 3, AI = 119
+Hypsi: Level = 4, Moves = 3, AI = 104
+Dilopho: Level = 4, Moves = 3, AI = 66
+
+0304:
+Name: BB Boss (3476)
+Amargo: Level = 6, Moves = 3, AI = 99
+Salto: Level = 5, Moves = 3, AI = 90
+Shuno: Level = 4, Moves = 3, AI = 92
+
+0305:
+Name: Dr. Diggins (3477)
+Shuno: Level = 5, Moves = 3, AI = 91
+Stego: Level = 4, Moves = 3, AI = 160
+Dilopho: Level = 4, Moves = 3, AI = 563
+
+0306:
+Name: Jane (3478)
+Shanshan: Level = 5, Moves = 3, AI = 151
+Nychus: Level = 3, Moves = 3, AI = 316
+V-Raptor: Level = 3, Moves = 3, AI = 558
+
+0307:
+Name: Mrs. Riggle (3479)
+Alectro: Level = 5, Moves = 3, AI = 559
+Futabi: Level = 4, Moves = 3, AI = 172
+Coatlus: Level = 3, Moves = 3, AI = 560
+
+0308:
+Name: Holt (3480)
+Tricera: Level = 5, Moves = 4, AI = 561
+Styraco: Level = 5, Moves = 4, AI = 148
+Stygi: Level = 5, Moves = 4, AI = 562
+
+0309:
+Name: Fossil Fighter (3481)
+Salto: Level = 5, Moves = 3, AI = 199
+
+0310:
+Name: Fossil Fighter (3482)
+Kentro: Level = 5, Moves = 3, AI = 530
+
+0311:
+Name: Fossil Fighter (3483)
+Pelto: Level = 5, Moves = 3, AI = 532
+Lexo: Level = 4, Moves = 3, AI = 533
+
+0312:
+Name: Steve (3407)
+Ptera: Level = 6, Moves = 4, AI = 422
+Jara: Level = 6, Moves = 4, AI = 423
+Dimorph: Level = 6, Moves = 4, AI = 422
+
+0313:
+Name: Fossil Fighter (3622)
+Alectro: Level = 6, Moves = 3, AI = 1097
+Penta: Level = 5, Moves = 3, AI = 1098
+V-Raptor: Level = 4, Moves = 3, AI = 1099
+
+0314:
+Name: Fossil Fighter (3486)
+Siamo: Level = 5, Moves = 3, AI = 535
+Dilopho: Level = 4, Moves = 3, AI = 536
+
+0315:
+Name: Fossil Fighter (3487)
+Styraco: Level = 5, Moves = 3, AI = 538
+Elasmoth: Level = 3, Moves = 3, AI = 539
+V-Raptor: Level = 3, Moves = 3, AI = 540
+
+0316:
+Name: Fossil Fighter (3488)
+Shoni: Level = 5, Moves = 3, AI = 541
+Delta: Level = 3, Moves = 3, AI = 542
+Alectro: Level = 3, Moves = 3, AI = 543
+
+0317:
+Name: Fossil Fighter (3489)
+Nychus: Level = 5, Moves = 3, AI = 544
+Goyo: Level = 4, Moves = 3, AI = 545
+Coelo: Level = 4, Moves = 3, AI = 546
+
+0318:
+Name: Fossil Fighter (3490)
+Salto: Level = 5, Moves = 3, AI = 547
+S-Raptor: Level = 4, Moves = 3, AI = 548
+Stygi: Level = 4, Moves = 3, AI = 549
+
+0319:
+Name: BB Soldier (3491)
+Yango: Level = 5, Moves = 3, AI = 550
+
+0320:
+Name: BB Soldier (3492)
+Spinax: Level = 5, Moves = 3, AI = 773
+
+0321:
+Name: BB Soldier (3493)
+Yango: Level = 5, Moves = 3, AI = 774
+Spinax: Level = 3, Moves = 3, AI = 775
+
+0322:
+Name: BB Soldier (3494)
+Spinax: Level = 5, Moves = 3, AI = 776
+Jiango: Level = 3, Moves = 3, AI = 777
+
+0323:
+Name: BB Soldier (3495)
+Yango: Level = 5, Moves = 3, AI = 778
+Spinax: Level = 3, Moves = 3, AI = 779
+Jiango: Level = 3, Moves = 3, AI = 780
+
+0324:
+Name: BB Soldier (3496)
+Einio: Level = 5, Moves = 3, AI = 781
+
+0325:
+Name: BB Soldier (3497)
+Alio: Level = 5, Moves = 3, AI = 782
+Lambeo: Level = 3, Moves = 3, AI = 783
+
+0326:
+Name: BB Soldier (3498)
+Einio: Level = 5, Moves = 3, AI = 784
+Alio: Level = 3, Moves = 3, AI = 785
+
+0327:
+Name: BB Soldier (3499)
+Einio: Level = 5, Moves = 3, AI = 786
+Alio: Level = 3, Moves = 3, AI = 787
+Lambeo: Level = 3, Moves = 3, AI = 788
+
+0400:
+Name: Duna (3500)
+Duna: Level = 6, Moves = 3, AI = 203
+Dinomaton: Level = 5, Moves = 3, AI = 202
+Dinomaton: Level = 5, Moves = 3, AI = 590
+
+0401:
+Name: Bullwort (3501)
+Frigi [OP]: Level = 12, Moves = 4, AI = 229
+
+0402:
+Name:  (0)
+Igno [OP]: Level = 12, Moves = 4, AI = 615
+
+0403:
+Name: Bullwort (3503)
+Frigi: Level = 12, Moves = 4, AI = 87
+Salto: Level = 5, Moves = 3, AI = 94
+Shuno: Level = 5, Moves = 3, AI = 616
+
+0404:
+Name: Westley (3504)
+Krona: Level = 6, Moves = 3, AI = 49
+Kentro: Level = 4, Moves = 3, AI = 134
+Delta: Level = 4, Moves = 3, AI = 617
+
+0405:
+Name: Mr. Ozzlewit (3505)
+Amargo: Level = 6, Moves = 3, AI = 141
+Stygi: Level = 5, Moves = 3, AI = 618
+Lambeo: Level = 4, Moves = 3, AI = 240
+
+0406:
+Name: Holt (3506)
+Tricera: Level = 6, Moves = 4, AI = 619
+Styraco: Level = 6, Moves = 4, AI = 620
+Penta: Level = 6, Moves = 4, AI = 154
+
+0407:
+Name: Saurhead (3507)
+Pelto: Level = 6, Moves = 3, AI = 621
+Guan: Level = 5, Moves = 4, AI = 16
+Pachrino: Level = 5, Moves = 3, AI = 622
+
+0408:
+Name: Fossil Fighter (3508)
+Yango: Level = 6, Moves = 3, AI = 103
+Hypsi: Level = 4, Moves = 3, AI = 570
+
+0409:
+Name: Fossil Fighter (3509)
+Penta: Level = 6, Moves = 3, AI = 89
+Coatlus: Level = 5, Moves = 3, AI = 571
+
+0410:
+Name: Fossil Fighter (3510)
+Elasmoth: Level = 6, Moves = 3, AI = 573
+Shuno: Level = 5, Moves = 3, AI = 56
+
+0411:
+Name: Westley (3511)
+Tro: Level = 6, Moves = 4, AI = 623
+Anato: Level = 6, Moves = 4, AI = 624
+Ptera: Level = 6, Moves = 4, AI = 625
+
+0412:
+Name: 【unused】タケダのじいさん (3512)
+Goyo: Level = 6, Moves = 4, AI = 626
+Pachy: Level = 6, Moves = 4, AI = 627
+Stygi: Level = 6, Moves = 4, AI = 628
+
+0413:
+Name: BB Soldier (3513)
+Venator: Level = 6, Moves = 3, AI = 591
+Andrarch: Level = 4, Moves = 3, AI = 592
+Pachy: Level = 4, Moves = 3, AI = 593
+
+0414:
+Name: BB Soldier (3514)
+Neo: Level = 6, Moves = 3, AI = 594
+Plesio: Level = 4, Moves = 3, AI = 595
+Jara: Level = 4, Moves = 3, AI = 596
+
+0415:
+Name: BB Soldier (3515)
+Salto: Level = 6, Moves = 3, AI = 597
+Metria: Level = 4, Moves = 3, AI = 598
+Alectro: Level = 4, Moves = 3, AI = 599
+
+0416:
+Name: BB Soldier (3516)
+Angato: Level = 6, Moves = 3, AI = 600
+Dilopho: Level = 4, Moves = 3, AI = 601
+Shanshan: Level = 4, Moves = 3, AI = 602
+
+0417:
+Name: BB Soldier (3517)
+Carchar: Level = 6, Moves = 3, AI = 603
+Coelo: Level = 4, Moves = 3, AI = 604
+Coatlus: Level = 4, Moves = 3, AI = 605
+
+0418:
+Name: BB Soldier (3518)
+Spinax: Level = 6, Moves = 3, AI = 606
+Dilopho: Level = 4, Moves = 3, AI = 607
+Andrarch: Level = 4, Moves = 3, AI = 608
+
+0419:
+Name: BB Soldier (3513)
+Venator: Level = 6, Moves = 3, AI = 591
+Andrarch: Level = 4, Moves = 3, AI = 592
+Pachy: Level = 4, Moves = 3, AI = 593
+
+0420:
+Name: BB Soldier (3514)
+Neo: Level = 6, Moves = 3, AI = 594
+Plesio: Level = 4, Moves = 3, AI = 595
+Jara: Level = 4, Moves = 3, AI = 596
+
+0421:
+Name: Fossil Fighter (3521)
+Daspleto: Level = 6, Moves = 3, AI = 575
+Carchar: Level = 5, Moves = 3, AI = 576
+Acro: Level = 5, Moves = 3, AI = 577
+
+0422:
+Name: Fossil Fighter (3522)
+Siamo: Level = 6, Moves = 3, AI = 578
+Einio: Level = 5, Moves = 3, AI = 579
+S-Raptor: Level = 5, Moves = 3, AI = 580
+
+0423:
+Name: Fossil Fighter (3523)
+Cerato: Level = 6, Moves = 3, AI = 581
+Jara: Level = 5, Moves = 3, AI = 582
+Nychus: Level = 5, Moves = 3, AI = 583
+
+0424:
+Name: Fossil Fighter (3524)
+Megalo: Level = 6, Moves = 3, AI = 584
+Tro: Level = 5, Moves = 3, AI = 585
+M-Raptor: Level = 5, Moves = 3, AI = 586
+
+0425:
+Name: Fossil Fighter (3525)
+Kentro: Level = 6, Moves = 3, AI = 587
+Jiango: Level = 5, Moves = 3, AI = 588
+Saichan: Level = 5, Moves = 3, AI = 589
+
+0450:
+Name: [Saurhead] 1st (3526)
+Neo: Level = 7, Moves = 4, AI = 19
+Brachio: Level = 5, Moves = 4, AI = 72
+Jara: Level = 4, Moves = 4, AI = 631
+
+0451:
+Name: [Saurhead] 2nd (3527)
+Cryo: Level = 7, Moves = 4, AI = 632
+Angato: Level = 5, Moves = 4, AI = 633
+Ankylo: Level = 4, Moves = 4, AI = 634
+
+0452:
+Name: [Saurhead] 3rd (3528)
+Carchar: Level = 7, Moves = 4, AI = 635
+Acro: Level = 5, Moves = 4, AI = 36
+Pachy: Level = 4, Moves = 4, AI = 238
+
+0453:
+Name: [Saurhead] 4th (3529)
+Kentro: Level = 7, Moves = 4, AI = 59
+Styraco: Level = 5, Moves = 4, AI = 636
+Paraloph: Level = 4, Moves = 4, AI = 637
+
+0454:
+Name: 【unused】サドンデス五戦目 (3530)
+Elasmo: Level = 9, Moves = 4, AI = 173
+Futabi: Level = 9, Moves = 4, AI = 172
+Plesio: Level = 9, Moves = 4, AI = 176
+
+0455:
+Name: 【unused】サドンデス六戦目 (3531)
+Elasmo: Level = 9, Moves = 4, AI = 173
+Futabi: Level = 9, Moves = 4, AI = 172
+Plesio: Level = 9, Moves = 4, AI = 176
+
+0456:
+Name: 【unused】サドンデス七戦目 (3532)
+Elasmo: Level = 9, Moves = 4, AI = 173
+Futabi: Level = 9, Moves = 4, AI = 172
+Plesio: Level = 9, Moves = 4, AI = 176
+
+0457:
+Name: 【unused】サドンデス八戦目 (3533)
+Elasmo: Level = 9, Moves = 4, AI = 173
+Futabi: Level = 9, Moves = 4, AI = 172
+Plesio: Level = 9, Moves = 4, AI = 176
+
+0458:
+Name: 【unused】サドンデス九戦目 (3534)
+Elasmo: Level = 9, Moves = 4, AI = 173
+Futabi: Level = 9, Moves = 4, AI = 172
+Plesio: Level = 9, Moves = 4, AI = 176
+
+0459:
+Name: Saurhead (3535)
+T-Rex: Level = 7, Moves = 4, AI = 1
+Gorgo: Level = 5, Moves = 4, AI = 245
+Tarbo: Level = 4, Moves = 4, AI = 246
+
+0460:
+Name: Dinaurian (3536)
+Dinomaton: Level = 6, Moves = 4, AI = 201
+Dinomaton: Level = 6, Moves = 4, AI = 629
+Dinomaton: Level = 6, Moves = 4, AI = 630
+
+0461:
+Name: Sally (3537)
+Spinax: Level = 6, Moves = 4, AI = 641
+F-Raptor: Level = 6, Moves = 4, AI = 642
+Hoplo: Level = 6, Moves = 4, AI = 186
+
+0462:
+Name: 【unused】フランク (3538)
+Centro: Level = 6, Moves = 4, AI = 643
+Einio: Level = 6, Moves = 4, AI = 317
+Styraco: Level = 6, Moves = 4, AI = 644
+
+0500:
+Name: Raptin (3540)
+Raptin: Level = 8, Moves = 4, AI = 205
+Dinomaton: Level = 7, Moves = 4, AI = 665
+Dinomaton: Level = 7, Moves = 4, AI = 666
+
+0501:
+Name: Dinaurian (3541)
+Dinomaton: Level = 7, Moves = 4, AI = 667
+Dinomaton: Level = 7, Moves = 4, AI = 668
+Dinomaton: Level = 7, Moves = 4, AI = 669
+
+0502:
+Name: Dinaurian (3542)
+Dinomaton: Level = 7, Moves = 4, AI = 670
+
+0503:
+Name: Dinaurian (3543)
+Dinomaton: Level = 7, Moves = 4, AI = 673
+Dinomaton: Level = 7, Moves = 4, AI = 674
+
+0504:
+Name: Dinaurian (3544)
+Dinomaton: Level = 7, Moves = 4, AI = 676
+Dinomaton: Level = 7, Moves = 4, AI = 677
+Dinomaton: Level = 7, Moves = 4, AI = 678
+
+0505:
+Name: Dynal (3545)
+Dynal: Level = 8, Moves = 4, AI = 207
+Dinomaton: Level = 7, Moves = 4, AI = 679
+Dinomaton: Level = 7, Moves = 4, AI = 680
+
+0506:
+Name: Guhnash (3546)
+Guhvorn: Level = 8, Moves = 4, AI = 225
+Guhlith: Level = 8, Moves = 4, AI = 356
+Guhweep: Level = 8, Moves = 4, AI = 354
+
+0507:
+Name: Fossil Fighter (3547)
+Seismo: Level = 8, Moves = 4, AI = 645
+Saichan: Level = 6, Moves = 4, AI = 82
+Igua: Level = 5, Moves = 4, AI = 116
+
+0508:
+Name: Fossil Fighter (3548)
+Anato: Level = 8, Moves = 4, AI = 646
+Pelto: Level = 6, Moves = 4, AI = 96
+Penta: Level = 6, Moves = 4, AI = 647
+
+0509:
+Name: Fossil Fighter (3549)
+Spinax: Level = 8, Moves = 4, AI = 648
+Sopteryx: Level = 7, Moves = 4, AI = 295
+Yango: Level = 6, Moves = 4, AI = 649
+
+0510:
+Name: 【unused】タケダのじいさん (3550)
+Goyo: Level = 8, Moves = 4, AI = 681
+Pachy: Level = 8, Moves = 4, AI = 682
+Stygi: Level = 8, Moves = 4, AI = 683
+
+0511:
+Name: 【unused】サツキ (3551)
+Dilopho: Level = 8, Moves = 4, AI = 684
+Shuno: Level = 8, Moves = 4, AI = 685
+Pachrino: Level = 8, Moves = 4, AI = 686
+
+0512:
+Name: Fossil Fighter (3552)
+Siamo: Level = 8, Moves = 4, AI = 650
+O-Raptor: Level = 7, Moves = 4, AI = 651
+Tro: Level = 7, Moves = 4, AI = 652
+
+0513:
+Name: Fossil Fighter (3553)
+Krona: Level = 8, Moves = 4, AI = 653
+Proto: Level = 7, Moves = 4, AI = 654
+Jiango: Level = 7, Moves = 4, AI = 655
+
+0514:
+Name: Fossil Fighter (3554)
+Shuno: Level = 8, Moves = 4, AI = 656
+Hoplo: Level = 7, Moves = 4, AI = 657
+Pachy: Level = 7, Moves = 4, AI = 658
+
+0515:
+Name: Fossil Fighter (3555)
+Shoni: Level = 8, Moves = 4, AI = 659
+Breme: Level = 7, Moves = 4, AI = 660
+Nasaur: Level = 7, Moves = 4, AI = 661
+
+0516:
+Name: Fossil Fighter (3556)
+Zino: Level = 8, Moves = 4, AI = 662
+Lexo: Level = 7, Moves = 4, AI = 663
+Cheirus: Level = 7, Moves = 4, AI = 664
+
+0517:
+Name: Fossil Fighter (3557)
+Seismo: Level = 8, Moves = 4, AI = 645
+Saichan: Level = 6, Moves = 4, AI = 82
+Igua: Level = 5, Moves = 4, AI = 116
+
+0518:
+Name: Fossil Fighter (3558)
+Anato: Level = 8, Moves = 4, AI = 646
+Pelto: Level = 6, Moves = 4, AI = 96
+Penta: Level = 6, Moves = 4, AI = 647
+
+0519:
+Name: Fossil Fighter (3559)
+Spinax: Level = 8, Moves = 4, AI = 648
+Sopteryx: Level = 7, Moves = 4, AI = 295
+Yango: Level = 6, Moves = 4, AI = 649
+
+0520:
+Name: Fossil Fighter (3560)
+Siamo: Level = 8, Moves = 4, AI = 650
+O-Raptor: Level = 7, Moves = 4, AI = 651
+Tro: Level = 7, Moves = 4, AI = 652
+
+0521:
+Name: Fossil Fighter (3561)
+Krona: Level = 8, Moves = 4, AI = 653
+Proto: Level = 7, Moves = 4, AI = 654
+Jiango: Level = 7, Moves = 4, AI = 655
+
+0522:
+Name: Fossil Fighter (3562)
+Shuno: Level = 8, Moves = 4, AI = 656
+Hoplo: Level = 7, Moves = 4, AI = 657
+Pachy: Level = 7, Moves = 4, AI = 658
+
+0523:
+Name: Fossil Fighter (3563)
+Shoni: Level = 8, Moves = 4, AI = 659
+Breme: Level = 7, Moves = 4, AI = 660
+Nasaur: Level = 7, Moves = 4, AI = 661
+
+0524:
+Name: Fossil Fighter (3564)
+Zino: Level = 8, Moves = 4, AI = 662
+Lexo: Level = 7, Moves = 4, AI = 663
+Cheirus: Level = 7, Moves = 4, AI = 664
+
+0550:
+Name: Chip (3565)
+Alectro: Level = 1, Moves = 1, AI = 197
+Andrarch: Level = 1, Moves = 1, AI = 687
+Paki: Level = 1, Moves = 1, AI = 190
+
+0551:
+Name: Dr. Diggins (3566)
+Allo: Level = 12, Moves = 4, AI = 737
+Stego: Level = 12, Moves = 4, AI = 738
+Sopteryx: Level = 12, Moves = 4, AI = 46
+
+0552:
+Name: Fossil Fighter (3567)
+Amargo: Level = 10, Moves = 4, AI = 195
+Ourano: Level = 8, Moves = 4, AI = 292
+Aopteryx: Level = 8, Moves = 4, AI = 325
+
+0553:
+Name: Fossil Fighter (3568)
+Mihu: Level = 10, Moves = 4, AI = 710
+Goyo: Level = 8, Moves = 4, AI = 711
+Einio: Level = 8, Moves = 4, AI = 712
+
+0554:
+Name: Fossil Fighter (3569)
+Venator: Level = 10, Moves = 4, AI = 135
+Arsith: Level = 8, Moves = 4, AI = 126
+Coelo: Level = 8, Moves = 4, AI = 713
+
+0555:
+Name: Fossil Fighter (3570)
+Cryo: Level = 10, Moves = 4, AI = 71
+Shuno: Level = 8, Moves = 4, AI = 309
+M-Raptor: Level = 8, Moves = 4, AI = 310
+
+0556:
+Name: Fossil Fighter (3571)
+Alectro: Level = 10, Moves = 4, AI = 113
+Metria: Level = 8, Moves = 4, AI = 26
+Apato: Level = 8, Moves = 4, AI = 166
+
+0557:
+Name: Fossil Fighter (3572)
+Angato: Level = 10, Moves = 4, AI = 688
+V-Raptor: Level = 8, Moves = 4, AI = 32
+Ankylo: Level = 8, Moves = 4, AI = 182
+
+0558:
+Name: Rosie (3573)
+Siamo: Level = 12, Moves = 4, AI = 735
+Maia: Level = 12, Moves = 4, AI = 308
+Nychus: Level = 12, Moves = 4, AI = 736
+
+0559:
+Name: McJunker (3574)
+Daspleto: Level = 12, Moves = 4, AI = 3
+Salto: Level = 12, Moves = 4, AI = 739
+Saichan: Level = 12, Moves = 4, AI = 740
+
+0560:
+Name: Vivian (3575)
+Angato: Level = 12, Moves = 4, AI = 69
+Dimorph: Level = 12, Moves = 4, AI = 747
+Guera: Level = 12, Moves = 4, AI = 168
+
+0561:
+Name: Snivels (3576)
+Carchar: Level = 12, Moves = 4, AI = 744
+Yango: Level = 12, Moves = 4, AI = 745
+Cerato: Level = 12, Moves = 4, AI = 746
+
+0562:
+Name: Rex (3577)
+Nodo: Level = 12, Moves = 4, AI = 741
+Zino: Level = 12, Moves = 4, AI = 742
+Megath: Level = 12, Moves = 4, AI = 743
+
+0563:
+Name: Woolbeard (3578)
+Krona: Level = 12, Moves = 4, AI = 748
+Elasmo: Level = 12, Moves = 4, AI = 749
+Plesio: Level = 12, Moves = 4, AI = 750
+
+0564:
+Name: Nevada (3579)
+Brachio: Level = 12, Moves = 4, AI = 751
+Breme: Level = 12, Moves = 4, AI = 60
+O-Raptor: Level = 12, Moves = 4, AI = 84
+
+0565:
+Name: Nick Nack (3580)
+Arsith: Level = 12, Moves = 4, AI = 179
+Brontoth: Level = 12, Moves = 4, AI = 752
+Elasmoth: Level = 12, Moves = 4, AI = 753
+
+0566:
+Name: Holt (3581)
+Tricera: Level = 12, Moves = 4, AI = 754
+Proto: Level = 12, Moves = 4, AI = 144
+Penta: Level = 12, Moves = 4, AI = 755
+
+0567:
+Name: Samurai (3582)
+F-Raptor: Level = 12, Moves = 4, AI = 756
+Futabi: Level = 12, Moves = 4, AI = 757
+Mihu: Level = 12, Moves = 4, AI = 758
+
+0568:
+Name: Saurhead (3583)
+Dimorph: Level = 10, Moves = 4, AI = 759
+Shanshan: Level = 10, Moves = 4, AI = 760
+Venator: Level = 10, Moves = 4, AI = 250
+
+0569:
+Name: Samurai (3584)
+F-Raptor: Level = 7, Moves = 4, AI = 233
+Mihu: Level = 7, Moves = 4, AI = 158
+Futabi: Level = 7, Moves = 4, AI = 242
+
+0570:
+Name: Blambeau (3585)
+Venator: Level = 2, Moves = 2, AI = 419
+Ourano: Level = 2, Moves = 2, AI = 420
+Lambeo: Level = 2, Moves = 2, AI = 421
+
+0571:
+Name: Blambeau (3586)
+Onyx: Level = 4, Moves = 3, AI = 521
+Ourano: Level = 4, Moves = 3, AI = 522
+Siamo: Level = 4, Moves = 3, AI = 523
+
+0572:
+Name: Blambeau (3587)
+Onyx: Level = 7, Moves = 4, AI = 638
+Ourano: Level = 6, Moves = 4, AI = 639
+Lambeo: Level = 6, Moves = 4, AI = 640
+
+0573:
+Name: Fossil Fighter (3588)
+S-Raptor: Level = 10, Moves = 4, AI = 714
+Salto: Level = 9, Moves = 4, AI = 715
+Smilo: Level = 8, Moves = 4, AI = 716
+
+0574:
+Name: Fossil Fighter (3589)
+S-Raptor: Level = 8, Moves = 4, AI = 717
+Cryo: Level = 8, Moves = 4, AI = 718
+Yango: Level = 8, Moves = 4, AI = 719
+
+0575:
+Name: Fossil Fighter (3590)
+Megalo: Level = 10, Moves = 4, AI = 720
+Saichan: Level = 9, Moves = 4, AI = 721
+Tryma: Level = 9, Moves = 4, AI = 722
+
+0576:
+Name: Fossil Fighter (3591)
+Gorgo: Level = 10, Moves = 4, AI = 723
+Pelto: Level = 9, Moves = 4, AI = 724
+Goyle: Level = 9, Moves = 4, AI = 725
+
+0577:
+Name: Fossil Fighter (3592)
+Giganto: Level = 10, Moves = 4, AI = 726
+Jara: Level = 9, Moves = 4, AI = 727
+Hoplo: Level = 9, Moves = 4, AI = 728
+
+0578:
+Name: Fossil Fighter (3593)
+Spinax: Level = 10, Moves = 4, AI = 729
+Hypsi: Level = 9, Moves = 4, AI = 730
+Perso: Level = 9, Moves = 4, AI = 731
+
+0579:
+Name: Fossil Fighter (3594)
+Tryma: Level = 8, Moves = 4, AI = 732
+Amargo: Level = 8, Moves = 4, AI = 733
+Dimorph: Level = 8, Moves = 4, AI = 734
+
+0580:
+Name: Fossil Fighter (3595)
+Styraco: Level = 10, Moves = 4, AI = 689
+Guera: Level = 9, Moves = 4, AI = 690
+Goyle: Level = 8, Moves = 4, AI = 691
+
+0581:
+Name: Fossil Fighter (3596)
+Ankylo: Level = 8, Moves = 4, AI = 692
+Venator: Level = 8, Moves = 4, AI = 693
+Dimorph: Level = 8, Moves = 4, AI = 694
+
+0582:
+Name: Fossil Fighter (3597)
+Elasmoth: Level = 10, Moves = 4, AI = 695
+Arsith: Level = 9, Moves = 4, AI = 696
+Brontoth: Level = 9, Moves = 4, AI = 697
+
+0583:
+Name: Fossil Fighter (3598)
+Ankylo: Level = 10, Moves = 4, AI = 698
+Paki: Level = 9, Moves = 4, AI = 699
+Krona: Level = 9, Moves = 4, AI = 700
+
+0584:
+Name: Fossil Fighter (3599)
+Spino: Level = 10, Moves = 4, AI = 701
+Sucho: Level = 9, Moves = 4, AI = 702
+Angato: Level = 9, Moves = 4, AI = 703
+
+0585:
+Name: Fossil Fighter (3600)
+Mammoth: Level = 10, Moves = 4, AI = 704
+Kentro: Level = 9, Moves = 4, AI = 705
+Orno: Level = 9, Moves = 4, AI = 706
+
+0586:
+Name: Fossil Fighter (3601)
+Sucho: Level = 8, Moves = 4, AI = 707
+Anato: Level = 8, Moves = 4, AI = 708
+Paraloph: Level = 8, Moves = 4, AI = 709
+
+0587:
+Name:  (0)
+Spinax: Level = 1, Moves = 0, AI = 2048
+
+0588:
+Name:  (0)
+Spinax: Level = 2, Moves = 0, AI = 2048
+Shanshan: Level = 2, Moves = 0, AI = 2048
+
+0589:
+Name: Holt (3367)
+Stygi: Level = 3, Moves = 4, AI = 139
+Ourano: Level = 2, Moves = 4, AI = 128
+Jiango: Level = 1, Moves = 4, AI = 106
+
+0590:
+Name: Petey (3605)
+Shanshan: Level = 4, Moves = 3, AI = 1595
+Metria: Level = 4, Moves = 3, AI = 1596
+Alectro: Level = 4, Moves = 3, AI = 1597
+
+0591:
+Name: Petey (3606)
+Salto: Level = 8, Moves = 4, AI = 1598
+O-Raptor: Level = 7, Moves = 4, AI = 1599
+Ankylo: Level = 7, Moves = 4, AI = 1600
+
+0600:
+Name: [Saurhead] 1st (3607)
+Brontoth: Level = 12, Moves = 4, AI = 1550
+M-Raptor: Level = 12, Moves = 4, AI = 1551
+Coelo: Level = 12, Moves = 4, AI = 1552
+
+0601:
+Name: [Saurhead] 2nd (3608)
+Perso: Level = 12, Moves = 4, AI = 1553
+Salto: Level = 12, Moves = 4, AI = 1554
+Apato: Level = 12, Moves = 4, AI = 1555
+
+0602:
+Name: [Saurhead] 3rd (3609)
+T-Rex: Level = 12, Moves = 4, AI = 1556
+Gorgo: Level = 12, Moves = 4, AI = 1557
+Guan: Level = 12, Moves = 4, AI = 1558
+
+0603:
+Name: Dynal (3610)
+Dynal: Level = 12, Moves = 4, AI = 1559
+Raptin: Level = 12, Moves = 4, AI = 1560
+Duna: Level = 12, Moves = 4, AI = 1561
+
+0604:
+Name: Guhnash (3611)
+Guhvorn: Level = 8, Moves = 4, AI = 1562
+Guhlith: Level = 8, Moves = 4, AI = 1563
+Guhweep: Level = 8, Moves = 4, AI = 1564
+
+0605:
+Name: Guhnash (3612)
+Guhvorn: Level = 11, Moves = 4, AI = 1565
+Guhlith: Level = 11, Moves = 4, AI = 1566
+Guhweep: Level = 11, Moves = 4, AI = 1567
+
+0606:
+Name: Nevada (3613)
+Brachio: Level = 10, Moves = 4, AI = 1568
+Breme: Level = 10, Moves = 4, AI = 1569
+O-Raptor: Level = 10, Moves = 4, AI = 1570
+
+0607:
+Name: Woolbeard (3614)
+Krona: Level = 10, Moves = 4, AI = 1571
+Elasmo: Level = 10, Moves = 4, AI = 1572
+Plesio: Level = 10, Moves = 4, AI = 1573
+
+0608:
+Name: Dynal (3615)
+Dynal: Level = 10, Moves = 4, AI = 1574
+Compso: Level = 10, Moves = 4, AI = 1575
+Penta: Level = 10, Moves = 4, AI = 1576
+
+0609:
+Name: Rex (3616)
+Nodo: Level = 12, Moves = 4, AI = 1577
+Zino: Level = 12, Moves = 4, AI = 1578
+Megath: Level = 12, Moves = 4, AI = 1579
+
+0610:
+Name: Snivels (3617)
+Carchar: Level = 12, Moves = 4, AI = 1580
+Yango: Level = 12, Moves = 4, AI = 1581
+Cerato: Level = 12, Moves = 4, AI = 1582
+
+0611:
+Name: Vivian (3618)
+Angato: Level = 12, Moves = 4, AI = 1583
+Dimorph: Level = 12, Moves = 4, AI = 1584
+Guera: Level = 12, Moves = 4, AI = 1585
+
+0612:
+Name: Saurhead (3619)
+Brontoth: Level = 12, Moves = 4, AI = 1586
+M-Raptor: Level = 12, Moves = 4, AI = 1587
+Coelo: Level = 12, Moves = 4, AI = 1588
+
+0613:
+Name: Saurhead (3620)
+Perso: Level = 12, Moves = 4, AI = 1589
+Salto: Level = 12, Moves = 4, AI = 1590
+Apato: Level = 12, Moves = 4, AI = 1591
+
+0614:
+Name: Saurhead (3621)
+T-Rex: Level = 12, Moves = 4, AI = 1592
+Gorgo: Level = 12, Moves = 4, AI = 1593
+Guan: Level = 12, Moves = 4, AI = 1594
+
+0700:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 1, Moves = 1, AI = 800
+
+0701:
+Name: Fossil Fighter (3622)
+Spinax: Level = 1, Moves = 1, AI = 803
+
+0702:
+Name: Fossil Fighter (3622)
+V-Raptor: Level = 1, Moves = 1, AI = 806
+
+0703:
+Name: Fossil Fighter (3622)
+Goyle: Level = 1, Moves = 1, AI = 809
+
+0704:
+Name: Fossil Fighter (3622)
+Igua: Level = 1, Moves = 1, AI = 812
+
+0705:
+Name: Fossil Fighter (3622)
+Goyo: Level = 1, Moves = 1, AI = 815
+
+0706:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 2, Moves = 2, AI = 818
+
+0707:
+Name: Fossil Fighter (3622)
+Igua: Level = 2, Moves = 2, AI = 821
+
+0708:
+Name: Fossil Fighter (3622)
+Metria: Level = 2, Moves = 2, AI = 824
+
+0709:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 2, Moves = 2, AI = 827
+Igua: Level = 2, Moves = 1, AI = 828
+
+0710:
+Name: Fossil Fighter (3622)
+Goyle: Level = 2, Moves = 2, AI = 830
+V-Raptor: Level = 2, Moves = 1, AI = 831
+
+0711:
+Name: Fossil Fighter (3622)
+Spinax: Level = 2, Moves = 2, AI = 833
+Goyo: Level = 2, Moves = 1, AI = 834
+
+0712:
+Name: Fossil Fighter (3622)
+Pachy: Level = 2, Moves = 1, AI = 836
+
+0713:
+Name: Fossil Fighter (3622)
+Lexo: Level = 2, Moves = 1, AI = 839
+
+0714:
+Name: Fossil Fighter (3622)
+S-Raptor: Level = 2, Moves = 1, AI = 842
+
+0715:
+Name: Fossil Fighter (3622)
+Ourano: Level = 2, Moves = 2, AI = 845
+Goyo: Level = 2, Moves = 1, AI = 846
+
+0716:
+Name: Fossil Fighter (3622)
+Pachy: Level = 2, Moves = 2, AI = 848
+V-Raptor: Level = 2, Moves = 1, AI = 849
+
+0717:
+Name: Fossil Fighter (3622)
+Venator: Level = 2, Moves = 2, AI = 851
+Metria: Level = 2, Moves = 1, AI = 852
+
+0718:
+Name: Fossil Fighter (3622)
+Spinax: Level = 3, Moves = 2, AI = 854
+
+0719:
+Name: Fossil Fighter (3622)
+Goyle: Level = 3, Moves = 3, AI = 857
+
+0720:
+Name: Fossil Fighter (3622)
+V-Raptor: Level = 3, Moves = 3, AI = 860
+Alio: Level = 1, Moves = 2, AI = 861
+
+0721:
+Name: Fossil Fighter (3622)
+Metria: Level = 3, Moves = 3, AI = 863
+Nychus: Level = 1, Moves = 2, AI = 864
+
+0722:
+Name: Fossil Fighter (3622)
+Igua: Level = 3, Moves = 3, AI = 866
+Shanshan: Level = 2, Moves = 2, AI = 867
+
+0723:
+Name: Fossil Fighter (3622)
+Goyle: Level = 3, Moves = 3, AI = 869
+S-Raptor: Level = 2, Moves = 2, AI = 870
+Coatlus: Level = 1, Moves = 2, AI = 871
+
+0724:
+Name: Fossil Fighter (3622)
+Ourano: Level = 3, Moves = 2, AI = 872
+
+0725:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 3, Moves = 3, AI = 875
+
+0726:
+Name: Fossil Fighter (3622)
+Venator: Level = 3, Moves = 2, AI = 878
+Spinax: Level = 1, Moves = 2, AI = 879
+
+0727:
+Name: Fossil Fighter (3622)
+Lexo: Level = 3, Moves = 2, AI = 881
+U-Raptor: Level = 1, Moves = 2, AI = 882
+
+0728:
+Name: Fossil Fighter (3622)
+Siamo: Level = 3, Moves = 3, AI = 884
+Alio: Level = 2, Moves = 2, AI = 885
+
+0729:
+Name: Fossil Fighter (3622)
+Lexo: Level = 3, Moves = 3, AI = 887
+V-Raptor: Level = 2, Moves = 2, AI = 888
+Stygi: Level = 1, Moves = 2, AI = 889
+
+0730:
+Name: Fossil Fighter (3622)
+Stygi: Level = 3, Moves = 2, AI = 890
+
+0731:
+Name: Fossil Fighter (3622)
+Elasmoth: Level = 3, Moves = 3, AI = 893
+
+0732:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 3, Moves = 2, AI = 896
+Alectro: Level = 1, Moves = 2, AI = 897
+
+0733:
+Name: Fossil Fighter (3622)
+Cerato: Level = 3, Moves = 3, AI = 899
+Ourano: Level = 1, Moves = 2, AI = 900
+
+0734:
+Name: Fossil Fighter (3622)
+Megalo: Level = 3, Moves = 3, AI = 902
+Coatlus: Level = 2, Moves = 2, AI = 903
+
+0735:
+Name: Fossil Fighter (3622)
+Elasmoth: Level = 3, Moves = 3, AI = 905
+Goyle: Level = 2, Moves = 2, AI = 906
+Pachy: Level = 1, Moves = 2, AI = 907
+
+0736:
+Name: Fossil Fighter (3622)
+Spinax: Level = 4, Moves = 3, AI = 908
+
+0737:
+Name: Fossil Fighter (3622)
+Goyle: Level = 3, Moves = 3, AI = 911
+Goyo: Level = 3, Moves = 3, AI = 912
+
+0738:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 4, Moves = 3, AI = 917
+Cerato: Level = 3, Moves = 3, AI = 918
+
+0739:
+Name: Fossil Fighter (3622)
+Metria: Level = 4, Moves = 3, AI = 914
+Elasmo: Level = 3, Moves = 3, AI = 915
+
+0740:
+Name: Fossil Fighter (3622)
+S-Raptor: Level = 4, Moves = 3, AI = 920
+V-Raptor: Level = 2, Moves = 3, AI = 921
+Spinax: Level = 2, Moves = 3, AI = 922
+
+0741:
+Name: Fossil Fighter (3622)
+Elasmoth: Level = 4, Moves = 3, AI = 923
+Goyo: Level = 3, Moves = 3, AI = 924
+Futabi: Level = 2, Moves = 3, AI = 925
+
+0742:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 4, Moves = 3, AI = 926
+
+0743:
+Name: Fossil Fighter (3622)
+Onyx: Level = 3, Moves = 3, AI = 929
+U-Raptor: Level = 3, Moves = 3, AI = 930
+
+0744:
+Name: Fossil Fighter (3622)
+Venator: Level = 4, Moves = 3, AI = 932
+Pachy: Level = 3, Moves = 3, AI = 933
+
+0745:
+Name: Fossil Fighter (3622)
+Nychus: Level = 4, Moves = 3, AI = 935
+Shoni: Level = 3, Moves = 3, AI = 936
+
+0746:
+Name: Fossil Fighter (3622)
+S-Raptor: Level = 4, Moves = 3, AI = 938
+Igua: Level = 2, Moves = 3, AI = 939
+Alio: Level = 2, Moves = 3, AI = 940
+
+0747:
+Name: Fossil Fighter (3622)
+Lexo: Level = 4, Moves = 3, AI = 941
+Futabi: Level = 3, Moves = 3, AI = 942
+Coatlus: Level = 2, Moves = 3, AI = 943
+
+0748:
+Name: Fossil Fighter (3622)
+Alectro: Level = 4, Moves = 3, AI = 944
+
+0749:
+Name: Fossil Fighter (3622)
+Megalo: Level = 3, Moves = 3, AI = 947
+Goyo: Level = 3, Moves = 3, AI = 948
+
+0750:
+Name: Fossil Fighter (3622)
+Cerato: Level = 4, Moves = 3, AI = 950
+Pachy: Level = 3, Moves = 3, AI = 951
+
+0751:
+Name: Fossil Fighter (3622)
+Elasmoth: Level = 4, Moves = 3, AI = 953
+Nychus: Level = 3, Moves = 3, AI = 954
+
+0752:
+Name: Fossil Fighter (3622)
+Alio: Level = 4, Moves = 3, AI = 956
+Lexo: Level = 2, Moves = 3, AI = 957
+Stygi: Level = 2, Moves = 3, AI = 958
+
+0753:
+Name: Fossil Fighter (3622)
+Shoni: Level = 4, Moves = 3, AI = 959
+Coatlus: Level = 3, Moves = 3, AI = 960
+M-Raptor: Level = 2, Moves = 3, AI = 961
+
+0754:
+Name: Fossil Fighter (3622)
+Shoni: Level = 4, Moves = 3, AI = 962
+
+0755:
+Name: Fossil Fighter (3622)
+Futabi: Level = 3, Moves = 3, AI = 965
+
+0756:
+Name: Fossil Fighter (3622)
+Onyx: Level = 4, Moves = 3, AI = 968
+Elasmo: Level = 3, Moves = 3, AI = 969
+
+0757:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 4, Moves = 3, AI = 971
+Krona: Level = 3, Moves = 3, AI = 972
+
+0758:
+Name: Fossil Fighter (3622)
+Alectro: Level = 4, Moves = 3, AI = 974
+Plesio: Level = 3, Moves = 3, AI = 975
+Alio: Level = 2, Moves = 2, AI = 976
+
+0759:
+Name: Fossil Fighter (3622)
+Shoni: Level = 4, Moves = 3, AI = 977
+Plesio: Level = 3, Moves = 3, AI = 978
+Stygi: Level = 2, Moves = 3, AI = 979
+
+0760:
+Name: Fossil Fighter (3622)
+Spinax: Level = 5, Moves = 3, AI = 989
+Plesio: Level = 4, Moves = 3, AI = 990
+Delta: Level = 3, Moves = 3, AI = 991
+
+0761:
+Name: Fossil Fighter (3622)
+Igua: Level = 5, Moves = 3, AI = 983
+Goyle: Level = 4, Moves = 3, AI = 984
+
+0762:
+Name: Fossil Fighter (3622)
+V-Raptor: Level = 5, Moves = 3, AI = 986
+Pelto: Level = 4, Moves = 3, AI = 987
+
+0763:
+Name: Fossil Fighter (3622)
+Spinax: Level = 5, Moves = 3, AI = 980
+U-Raptor: Level = 3, Moves = 3, AI = 981
+
+0764:
+Name: Fossil Fighter (3622)
+Metria: Level = 5, Moves = 3, AI = 992
+Alectro: Level = 4, Moves = 3, AI = 993
+S-Raptor: Level = 4, Moves = 3, AI = 994
+
+0765:
+Name: Fossil Fighter (3622)
+Igua: Level = 5, Moves = 3, AI = 995
+Kentro: Level = 4, Moves = 3, AI = 996
+Jiango: Level = 4, Moves = 3, AI = 997
+
+0766:
+Name: Fossil Fighter (3622)
+Jiango: Level = 5, Moves = 3, AI = 1013
+Futabi: Level = 4, Moves = 3, AI = 1014
+Elasmo: Level = 4, Moves = 3, AI = 1015
+
+0767:
+Name: Fossil Fighter (3622)
+Venator: Level = 5, Moves = 3, AI = 1001
+Stygi: Level = 4, Moves = 3, AI = 1002
+
+0768:
+Name: Fossil Fighter (3622)
+Siamo: Level = 5, Moves = 3, AI = 1004
+Salto: Level = 4, Moves = 3, AI = 1005
+
+0769:
+Name: Fossil Fighter (3622)
+S-Raptor: Level = 5, Moves = 3, AI = 1007
+Daspleto: Level = 4, Moves = 3, AI = 1008
+Hypsi: Level = 3, Moves = 3, AI = 1009
+
+0770:
+Name: Fossil Fighter (3622)
+Ourano: Level = 5, Moves = 3, AI = 1010
+Lambeo: Level = 4, Moves = 3, AI = 1011
+Igua: Level = 4, Moves = 3, AI = 1012
+
+0771:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 5, Moves = 3, AI = 998
+Coelo: Level = 3, Moves = 3, AI = 999
+
+0772:
+Name: Fossil Fighter (3622)
+Salto: Level = 5, Moves = 3, AI = 1016
+Coatlus: Level = 3, Moves = 3, AI = 1017
+
+0773:
+Name: Fossil Fighter (3622)
+Daspleto: Level = 5, Moves = 3, AI = 1019
+Goyle: Level = 4, Moves = 3, AI = 1020
+
+0774:
+Name: Fossil Fighter (3622)
+Kentro: Level = 5, Moves = 3, AI = 1022
+Krona: Level = 4, Moves = 3, AI = 1023
+
+0775:
+Name: Fossil Fighter (3622)
+Delta: Level = 5, Moves = 3, AI = 1025
+Elasmoth: Level = 4, Moves = 3, AI = 1026
+Nychus: Level = 3, Moves = 3, AI = 1027
+
+0776:
+Name: Fossil Fighter (3622)
+Megalo: Level = 5, Moves = 3, AI = 1028
+Pelto: Level = 4, Moves = 3, AI = 1029
+Dilopho: Level = 4, Moves = 3, AI = 1030
+
+0777:
+Name: Fossil Fighter (3622)
+Styraco: Level = 5, Moves = 3, AI = 1031
+Shanshan: Level = 4, Moves = 3, AI = 1032
+Coelo: Level = 4, Moves = 3, AI = 1033
+
+0778:
+Name: Fossil Fighter (3622)
+Jiango: Level = 5, Moves = 3, AI = 1034
+Goyo: Level = 3, Moves = 3, AI = 1035
+
+0779:
+Name: Fossil Fighter (3622)
+Plesio: Level = 5, Moves = 3, AI = 1046
+Onyx: Level = 4, Moves = 3, AI = 1047
+Delta: Level = 4, Moves = 3, AI = 1048
+
+0780:
+Name: Fossil Fighter (3622)
+Futabi: Level = 5, Moves = 3, AI = 1040
+V-Raptor: Level = 4, Moves = 3, AI = 1041
+
+0781:
+Name: Fossil Fighter (3622)
+Siamo: Level = 5, Moves = 3, AI = 1043
+Plesio: Level = 4, Moves = 3, AI = 1044
+U-Raptor: Level = 3, Moves = 3, AI = 1045
+
+0782:
+Name: Fossil Fighter (3622)
+Shoni: Level = 5, Moves = 3, AI = 1037
+Dilopho: Level = 4, Moves = 3, AI = 1038
+
+0783:
+Name: Fossil Fighter (3622)
+Shoni: Level = 5, Moves = 3, AI = 1049
+Lexo: Level = 4, Moves = 3, AI = 1050
+Nasaur: Level = 4, Moves = 3, AI = 1051
+
+0784:
+Name: Fossil Fighter (3622)
+Metria: Level = 6, Moves = 3, AI = 1058
+V-Raptor: Level = 4, Moves = 3, AI = 1059
+Pelto: Level = 4, Moves = 3, AI = 1060
+
+0785:
+Name: Fossil Fighter (3622)
+Igua: Level = 6, Moves = 3, AI = 1055
+Goyle: Level = 5, Moves = 3, AI = 1056
+
+0786:
+Name: Fossil Fighter (3622)
+Spinax: Level = 6, Moves = 3, AI = 1052
+Yango: Level = 4, Moves = 3, AI = 1053
+
+0787:
+Name: Fossil Fighter (3622)
+Spinax: Level = 6, Moves = 3, AI = 1061
+Lambeo: Level = 5, Moves = 3, AI = 1062
+Amargo: Level = 4, Moves = 3, AI = 1063
+
+0788:
+Name: Fossil Fighter (3622)
+Metria: Level = 6, Moves = 3, AI = 1064
+Plesio: Level = 5, Moves = 3, AI = 1065
+Goyle: Level = 5, Moves = 3, AI = 1066
+
+0789:
+Name: Fossil Fighter (3622)
+Igua: Level = 6, Moves = 3, AI = 1067
+Tro: Level = 5, Moves = 3, AI = 1068
+Coelo: Level = 5, Moves = 3, AI = 1069
+
+0790:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 6, Moves = 3, AI = 1070
+Jara: Level = 4, Moves = 3, AI = 1071
+
+0791:
+Name: Fossil Fighter (3622)
+Siamo: Level = 6, Moves = 3, AI = 1076
+Coatlus: Level = 4, Moves = 3, AI = 1077
+Saichan: Level = 4, Moves = 3, AI = 1078
+
+0792:
+Name: Fossil Fighter (3622)
+Venator: Level = 6, Moves = 3, AI = 1073
+Goyo: Level = 5, Moves = 3, AI = 1074
+
+0793:
+Name: Fossil Fighter (3622)
+Einio: Level = 6, Moves = 3, AI = 1079
+S-Raptor: Level = 5, Moves = 3, AI = 1080
+Stygi: Level = 4, Moves = 3, AI = 1081
+
+0794:
+Name: Fossil Fighter (3622)
+Ourano: Level = 6, Moves = 3, AI = 1082
+Lambeo: Level = 5, Moves = 3, AI = 1083
+Igua: Level = 5, Moves = 3, AI = 1084
+
+0795:
+Name: Fossil Fighter (3622)
+Lexo: Level = 6, Moves = 3, AI = 1085
+Salto: Level = 5, Moves = 3, AI = 1086
+Tro: Level = 5, Moves = 3, AI = 1087
+
+0796:
+Name: Fossil Fighter (3622)
+Krona: Level = 6, Moves = 3, AI = 1094
+Nasaur: Level = 4, Moves = 3, AI = 1095
+Alio: Level = 4, Moves = 3, AI = 1096
+
+0797:
+Name: Fossil Fighter (3622)
+Alectro: Level = 6, Moves = 3, AI = 1091
+Nychus: Level = 5, Moves = 3, AI = 1092
+
+0798:
+Name: Fossil Fighter (3622)
+Megalo: Level = 6, Moves = 3, AI = 1088
+Shuno: Level = 4, Moves = 3, AI = 1089
+
+0799:
+Name: Fossil Fighter (3622)
+Alectro: Level = 6, Moves = 3, AI = 1097
+Penta: Level = 5, Moves = 3, AI = 1098
+V-Raptor: Level = 4, Moves = 3, AI = 1099
+
+0800:
+Name: Fossil Fighter (3622)
+Megalo: Level = 6, Moves = 3, AI = 1100
+Pelto: Level = 5, Moves = 3, AI = 1101
+Dilopho: Level = 5, Moves = 3, AI = 1102
+
+0801:
+Name: Fossil Fighter (3622)
+Styraco: Level = 6, Moves = 3, AI = 1103
+Shanshan: Level = 5, Moves = 3, AI = 1104
+Coelo: Level = 5, Moves = 3, AI = 1105
+
+0802:
+Name: Fossil Fighter (3622)
+Jiango: Level = 6, Moves = 3, AI = 1106
+Saichan: Level = 4, Moves = 3, AI = 1107
+
+0803:
+Name: Fossil Fighter (3622)
+Krona: Level = 6, Moves = 3, AI = 1118
+Siamo: Level = 5, Moves = 3, AI = 1119
+Coelo: Level = 5, Moves = 3, AI = 1120
+
+0804:
+Name: Fossil Fighter (3622)
+Onyx: Level = 6, Moves = 3, AI = 1112
+Nychus: Level = 4, Moves = 3, AI = 1113
+Tro: Level = 4, Moves = 3, AI = 1114
+
+0805:
+Name: Fossil Fighter (3622)
+Elasmo: Level = 6, Moves = 3, AI = 1115
+Lambeo: Level = 5, Moves = 3, AI = 1116
+Coatlus: Level = 4, Moves = 3, AI = 1117
+
+0806:
+Name: Fossil Fighter (3622)
+Spinax: Level = 6, Moves = 3, AI = 1109
+M-Raptor: Level = 5, Moves = 3, AI = 1110
+
+0807:
+Name: Fossil Fighter (3622)
+Shoni: Level = 6, Moves = 3, AI = 1121
+Alio: Level = 5, Moves = 3, AI = 1122
+Nasaur: Level = 5, Moves = 3, AI = 1123
+
+0808:
+Name: Fossil Fighter (3622)
+Penta: Level = 6, Moves = 3, AI = 1124
+Styraco: Level = 4, Moves = 3, AI = 1125
+
+0809:
+Name: Fossil Fighter (3622)
+Amargo: Level = 6, Moves = 3, AI = 1127
+Shuno: Level = 5, Moves = 3, AI = 1128
+
+0810:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 6, Moves = 3, AI = 1133
+Pachy: Level = 5, Moves = 3, AI = 1134
+Guan: Level = 4, Moves = 3, AI = 1135
+
+0811:
+Name: Fossil Fighter (3622)
+Lexo: Level = 6, Moves = 3, AI = 1130
+Saichan: Level = 4, Moves = 3, AI = 1131
+Kentro: Level = 4, Moves = 3, AI = 1132
+
+0812:
+Name: Fossil Fighter (3622)
+Krona: Level = 6, Moves = 3, AI = 1136
+Delta: Level = 5, Moves = 3, AI = 1137
+Jara: Level = 5, Moves = 3, AI = 1138
+
+0813:
+Name: Fossil Fighter (3622)
+Shuno: Level = 6, Moves = 3, AI = 1139
+Amargo: Level = 5, Moves = 3, AI = 1140
+Salto: Level = 5, Moves = 3, AI = 1141
+
+0814:
+Name: Fossil Fighter (3622)
+Daspleto: Level = 6, Moves = 3, AI = 1142
+Einio: Level = 4, Moves = 3, AI = 1143
+
+0815:
+Name: Fossil Fighter (3622)
+Amargo: Level = 6, Moves = 3, AI = 1145
+Dilopho: Level = 5, Moves = 3, AI = 1146
+
+0816:
+Name: Fossil Fighter (3622)
+Ourano: Level = 6, Moves = 3, AI = 1148
+Pelto: Level = 4, Moves = 3, AI = 1149
+Salto: Level = 4, Moves = 3, AI = 1150
+
+0817:
+Name: Fossil Fighter (3622)
+Styraco: Level = 6, Moves = 3, AI = 1151
+Metria: Level = 5, Moves = 3, AI = 1152
+Goyo: Level = 4, Moves = 3, AI = 1153
+
+0818:
+Name: Fossil Fighter (3622)
+Amargo: Level = 6, Moves = 3, AI = 1154
+Delta: Level = 5, Moves = 3, AI = 1155
+Hypsi: Level = 5, Moves = 3, AI = 1156
+
+0819:
+Name: Fossil Fighter (3622)
+Kentro: Level = 6, Moves = 3, AI = 1157
+Shuno: Level = 5, Moves = 3, AI = 1158
+Guan: Level = 5, Moves = 3, AI = 1159
+
+0820:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 7, Moves = 3, AI = 1160
+Lexo: Level = 7, Moves = 3, AI = 1161
+
+0821:
+Name: Fossil Fighter (3622)
+Metria: Level = 7, Moves = 3, AI = 1163
+V-Raptor: Level = 5, Moves = 3, AI = 1164
+M-Raptor: Level = 4, Moves = 3, AI = 1165
+
+0822:
+Name: Fossil Fighter (3622)
+Spinax: Level = 7, Moves = 4, AI = 1166
+Shuno: Level = 5, Moves = 4, AI = 1167
+Dilopho: Level = 5, Moves = 4, AI = 1168
+
+0823:
+Name: Fossil Fighter (3622)
+Kentro: Level = 7, Moves = 3, AI = 1169
+V-Raptor: Level = 5, Moves = 4, AI = 1170
+Goyo: Level = 5, Moves = 4, AI = 1171
+
+0824:
+Name: Fossil Fighter (3622)
+Amargo: Level = 7, Moves = 4, AI = 1172
+Goyle: Level = 6, Moves = 3, AI = 1173
+Pelto: Level = 5, Moves = 4, AI = 1174
+
+0825:
+Name: Fossil Fighter (3622)
+Igua: Level = 7, Moves = 3, AI = 1175
+Coelo: Level = 6, Moves = 3, AI = 1176
+Hypsi: Level = 6, Moves = 4, AI = 1177
+
+0826:
+Name: Fossil Fighter (3622)
+U-Raptor: Level = 7, Moves = 4, AI = 1190
+M-Raptor: Level = 6, Moves = 3, AI = 1191
+Nychus: Level = 5, Moves = 4, AI = 1192
+
+0827:
+Name: Fossil Fighter (3622)
+Lexo: Level = 7, Moves = 4, AI = 1181
+Jiango: Level = 5, Moves = 4, AI = 1182
+Goyle: Level = 4, Moves = 4, AI = 1183
+
+0828:
+Name: Fossil Fighter (3622)
+Venator: Level = 7, Moves = 3, AI = 1184
+Metria: Level = 5, Moves = 4, AI = 1185
+S-Raptor: Level = 5, Moves = 4, AI = 1186
+
+0829:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 7, Moves = 4, AI = 1187
+Ourano: Level = 5, Moves = 4, AI = 1188
+Igua: Level = 5, Moves = 4, AI = 1189
+
+0830:
+Name: Fossil Fighter (3622)
+Siamo: Level = 7, Moves = 4, AI = 1178
+Alectro: Level = 7, Moves = 4, AI = 1179
+
+0831:
+Name: Fossil Fighter (3622)
+Stygi: Level = 7, Moves = 4, AI = 1193
+Goyo: Level = 7, Moves = 4, AI = 1194
+Pachy: Level = 7, Moves = 4, AI = 1195
+
+0832:
+Name: Fossil Fighter (3622)
+Cerato: Level = 7, Moves = 4, AI = 1196
+Megalo: Level = 7, Moves = 4, AI = 1197
+
+0833:
+Name: Fossil Fighter (3622)
+Alectro: Level = 7, Moves = 4, AI = 1199
+Metria: Level = 5, Moves = 4, AI = 1200
+Plesio: Level = 4, Moves = 3, AI = 1201
+
+0834:
+Name: Fossil Fighter (3622)
+Salto: Level = 7, Moves = 4, AI = 1202
+V-Raptor: Level = 5, Moves = 4, AI = 1203
+Stygi: Level = 5, Moves = 4, AI = 1204
+
+0835:
+Name: Fossil Fighter (3622)
+Einio: Level = 7, Moves = 4, AI = 1205
+Ourano: Level = 5, Moves = 4, AI = 1206
+Hypsi: Level = 5, Moves = 4, AI = 1207
+
+0836:
+Name: Fossil Fighter (3622)
+Amargo: Level = 7, Moves = 4, AI = 1208
+Yango: Level = 6, Moves = 3, AI = 1209
+Saichan: Level = 5, Moves = 4, AI = 1210
+
+0837:
+Name: Fossil Fighter (3622)
+Elasmoth: Level = 7, Moves = 3, AI = 1211
+Jiango: Level = 6, Moves = 4, AI = 1212
+Tro: Level = 6, Moves = 4, AI = 1213
+
+0838:
+Name: Fossil Fighter (3622)
+Shoni: Level = 7, Moves = 3, AI = 1214
+Lexo: Level = 7, Moves = 4, AI = 1215
+
+0839:
+Name: Fossil Fighter (3622)
+Krona: Level = 7, Moves = 4, AI = 1217
+Megalo: Level = 5, Moves = 4, AI = 1218
+Jara: Level = 4, Moves = 4, AI = 1219
+
+0840:
+Name: Fossil Fighter (3622)
+Venator: Level = 7, Moves = 4, AI = 1220
+Elasmo: Level = 5, Moves = 4, AI = 1221
+Pelto: Level = 5, Moves = 4, AI = 1222
+
+0841:
+Name: Fossil Fighter (3622)
+Onyx: Level = 7, Moves = 4, AI = 1223
+Styraco: Level = 5, Moves = 4, AI = 1224
+Hypsi: Level = 5, Moves = 4, AI = 1225
+
+0842:
+Name: Fossil Fighter (3622)
+Plesio: Level = 7, Moves = 4, AI = 1226
+Pachy: Level = 6, Moves = 4, AI = 1227
+Coatlus: Level = 5, Moves = 4, AI = 1228
+
+0843:
+Name: Fossil Fighter (3622)
+Penta: Level = 7, Moves = 4, AI = 1229
+M-Raptor: Level = 6, Moves = 3, AI = 1230
+Coelo: Level = 6, Moves = 3, AI = 1231
+
+0844:
+Name: Fossil Fighter (3622)
+Amargo: Level = 7, Moves = 3, AI = 1232
+Megalo: Level = 7, Moves = 4, AI = 1233
+
+0845:
+Name: Fossil Fighter (3622)
+Penta: Level = 7, Moves = 3, AI = 1235
+Futabi: Level = 5, Moves = 3, AI = 1236
+Nasaur: Level = 4, Moves = 4, AI = 1237
+
+0846:
+Name: Fossil Fighter (3622)
+Goyle: Level = 7, Moves = 3, AI = 1241
+Saichan: Level = 5, Moves = 4, AI = 1242
+M-Raptor: Level = 5, Moves = 3, AI = 1243
+
+0847:
+Name: Fossil Fighter (3622)
+Yango: Level = 7, Moves = 3, AI = 1238
+S-Raptor: Level = 5, Moves = 4, AI = 1239
+Lambeo: Level = 5, Moves = 4, AI = 1240
+
+0848:
+Name: Fossil Fighter (3622)
+Krona: Level = 7, Moves = 4, AI = 1244
+Spinax: Level = 6, Moves = 4, AI = 1245
+Tro: Level = 5, Moves = 4, AI = 1246
+
+0849:
+Name: Fossil Fighter (3622)
+Ourano: Level = 7, Moves = 4, AI = 1247
+Coatlus: Level = 6, Moves = 4, AI = 1248
+Jara: Level = 6, Moves = 4, AI = 1249
+
+0850:
+Name: Fossil Fighter (3622)
+Salto: Level = 7, Moves = 4, AI = 1250
+Nychus: Level = 7, Moves = 4, AI = 1251
+
+0851:
+Name: Fossil Fighter (3622)
+Styraco: Level = 7, Moves = 4, AI = 1253
+Kentro: Level = 5, Moves = 3, AI = 1254
+Elasmoth: Level = 4, Moves = 4, AI = 1255
+
+0852:
+Name: Fossil Fighter (3622)
+Daspleto: Level = 7, Moves = 4, AI = 1256
+Dilopho: Level = 5, Moves = 4, AI = 1257
+Goyle: Level = 5, Moves = 3, AI = 1258
+
+0853:
+Name: Fossil Fighter (3622)
+Pelto: Level = 7, Moves = 4, AI = 1259
+Hypsi: Level = 5, Moves = 3, AI = 1260
+Kentro: Level = 5, Moves = 3, AI = 1261
+
+0854:
+Name: Fossil Fighter (3622)
+Shoni: Level = 7, Moves = 4, AI = 1262
+Shuno: Level = 6, Moves = 4, AI = 1263
+Delta: Level = 5, Moves = 4, AI = 1264
+
+0855:
+Name: Fossil Fighter (3622)
+Penta: Level = 7, Moves = 3, AI = 1265
+Styraco: Level = 6, Moves = 4, AI = 1266
+Einio: Level = 6, Moves = 4, AI = 1267
+
+0856:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 8, Moves = 4, AI = 1268
+Lexo: Level = 6, Moves = 4, AI = 1269
+
+0857:
+Name: Fossil Fighter (3622)
+Metria: Level = 8, Moves = 4, AI = 1271
+V-Raptor: Level = 6, Moves = 4, AI = 1272
+M-Raptor: Level = 6, Moves = 4, AI = 1273
+
+0858:
+Name: Fossil Fighter (3622)
+Spinax: Level = 8, Moves = 4, AI = 1274
+Shuno: Level = 7, Moves = 4, AI = 1275
+Dilopho: Level = 6, Moves = 4, AI = 1276
+
+0859:
+Name: Fossil Fighter (3622)
+Kentro: Level = 8, Moves = 4, AI = 1277
+V-Raptor: Level = 7, Moves = 4, AI = 1278
+Goyo: Level = 7, Moves = 4, AI = 1279
+
+0860:
+Name: Fossil Fighter (3622)
+Amargo: Level = 8, Moves = 4, AI = 1280
+Goyle: Level = 7, Moves = 4, AI = 1281
+Pelto: Level = 7, Moves = 4, AI = 1282
+
+0861:
+Name: Fossil Fighter (3622)
+Igua: Level = 8, Moves = 4, AI = 1283
+Coelo: Level = 7, Moves = 4, AI = 1284
+Hypsi: Level = 7, Moves = 4, AI = 1285
+
+0862:
+Name: Fossil Fighter (3622)
+Lexo: Level = 8, Moves = 4, AI = 1289
+Jiango: Level = 6, Moves = 4, AI = 1290
+Goyle: Level = 6, Moves = 4, AI = 1291
+
+0863:
+Name: Fossil Fighter (3622)
+Siamo: Level = 8, Moves = 4, AI = 1286
+Alectro: Level = 6, Moves = 4, AI = 1287
+
+0864:
+Name: Fossil Fighter (3622)
+Venator: Level = 8, Moves = 4, AI = 1292
+Metria: Level = 7, Moves = 4, AI = 1293
+S-Raptor: Level = 6, Moves = 4, AI = 1294
+
+0865:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 8, Moves = 4, AI = 1295
+Ourano: Level = 7, Moves = 4, AI = 1296
+Igua: Level = 7, Moves = 4, AI = 1297
+
+0866:
+Name: Fossil Fighter (3622)
+U-Raptor: Level = 8, Moves = 4, AI = 1298
+M-Raptor: Level = 7, Moves = 4, AI = 1299
+Nychus: Level = 7, Moves = 4, AI = 1300
+
+0867:
+Name: Fossil Fighter (3622)
+Stygi: Level = 8, Moves = 4, AI = 1301
+Goyo: Level = 7, Moves = 4, AI = 1302
+Pachy: Level = 7, Moves = 4, AI = 1303
+
+0868:
+Name: Fossil Fighter (3622)
+Salto: Level = 8, Moves = 4, AI = 1310
+V-Raptor: Level = 7, Moves = 4, AI = 1311
+Stygi: Level = 6, Moves = 4, AI = 1312
+
+0869:
+Name: Fossil Fighter (3622)
+Alectro: Level = 8, Moves = 4, AI = 1307
+Metria: Level = 6, Moves = 4, AI = 1308
+Plesio: Level = 6, Moves = 4, AI = 1309
+
+0870:
+Name: Fossil Fighter (3622)
+Cerato: Level = 8, Moves = 4, AI = 1304
+Megalo: Level = 6, Moves = 4, AI = 1305
+
+0871:
+Name: Fossil Fighter (3622)
+Einio: Level = 8, Moves = 4, AI = 1313
+Ourano: Level = 7, Moves = 4, AI = 1314
+Hypsi: Level = 7, Moves = 4, AI = 1315
+
+0872:
+Name: Fossil Fighter (3622)
+Amargo: Level = 8, Moves = 4, AI = 1316
+Yango: Level = 7, Moves = 4, AI = 1317
+Saichan: Level = 7, Moves = 4, AI = 1318
+
+0873:
+Name: Fossil Fighter (3622)
+Elasmoth: Level = 8, Moves = 4, AI = 1319
+Jiango: Level = 7, Moves = 4, AI = 1320
+Tro: Level = 7, Moves = 4, AI = 1321
+
+0874:
+Name: Fossil Fighter (3622)
+Venator: Level = 8, Moves = 4, AI = 1328
+Elasmo: Level = 7, Moves = 4, AI = 1329
+Pelto: Level = 6, Moves = 4, AI = 1330
+
+0875:
+Name: Fossil Fighter (3622)
+Krona: Level = 8, Moves = 4, AI = 1325
+Megalo: Level = 6, Moves = 4, AI = 1326
+Jara: Level = 6, Moves = 4, AI = 1327
+
+0876:
+Name: Fossil Fighter (3622)
+Shoni: Level = 8, Moves = 4, AI = 1322
+Lexo: Level = 6, Moves = 4, AI = 1323
+
+0877:
+Name: Fossil Fighter (3622)
+Onyx: Level = 8, Moves = 4, AI = 1331
+Styraco: Level = 7, Moves = 4, AI = 1332
+Hypsi: Level = 7, Moves = 4, AI = 1333
+
+0878:
+Name: Fossil Fighter (3622)
+Plesio: Level = 8, Moves = 4, AI = 1334
+Pachy: Level = 7, Moves = 4, AI = 1335
+Coatlus: Level = 7, Moves = 4, AI = 1336
+
+0879:
+Name: Fossil Fighter (3622)
+Penta: Level = 8, Moves = 4, AI = 1337
+M-Raptor: Level = 7, Moves = 4, AI = 1338
+Coelo: Level = 7, Moves = 4, AI = 1339
+
+0880:
+Name: Fossil Fighter (3622)
+Amargo: Level = 8, Moves = 4, AI = 1340
+Megalo: Level = 6, Moves = 4, AI = 1341
+
+0881:
+Name: Fossil Fighter (3622)
+Penta: Level = 8, Moves = 4, AI = 1343
+Futabi: Level = 6, Moves = 4, AI = 1344
+Nasaur: Level = 6, Moves = 4, AI = 1345
+
+0882:
+Name: Fossil Fighter (3622)
+Yango: Level = 8, Moves = 4, AI = 1346
+Onyx: Level = 7, Moves = 4, AI = 1347
+Lexo: Level = 6, Moves = 4, AI = 1348
+
+0883:
+Name: Fossil Fighter (3622)
+Goyle: Level = 8, Moves = 4, AI = 1349
+Saichan: Level = 7, Moves = 4, AI = 1350
+M-Raptor: Level = 7, Moves = 4, AI = 1351
+
+0884:
+Name: Fossil Fighter (3622)
+Krona: Level = 8, Moves = 4, AI = 1352
+Spinax: Level = 7, Moves = 4, AI = 1353
+Tro: Level = 7, Moves = 4, AI = 1354
+
+0885:
+Name: Fossil Fighter (3622)
+Ourano: Level = 8, Moves = 4, AI = 1355
+Coatlus: Level = 7, Moves = 4, AI = 1356
+Jara: Level = 7, Moves = 4, AI = 1357
+
+0886:
+Name: Fossil Fighter (3622)
+Daspleto: Level = 8, Moves = 4, AI = 1364
+Dilopho: Level = 7, Moves = 4, AI = 1365
+Goyle: Level = 6, Moves = 4, AI = 1366
+
+0887:
+Name: Fossil Fighter (3622)
+Styraco: Level = 8, Moves = 4, AI = 1361
+Kentro: Level = 6, Moves = 4, AI = 1362
+Elasmoth: Level = 6, Moves = 4, AI = 1363
+
+0888:
+Name: Fossil Fighter (3622)
+Salto: Level = 8, Moves = 4, AI = 1358
+Nychus: Level = 6, Moves = 4, AI = 1359
+
+0889:
+Name: Fossil Fighter (3622)
+Pelto: Level = 8, Moves = 4, AI = 1367
+Hypsi: Level = 7, Moves = 4, AI = 1368
+Kentro: Level = 7, Moves = 4, AI = 1369
+
+0890:
+Name: Fossil Fighter (3622)
+Shoni: Level = 8, Moves = 4, AI = 1370
+Shuno: Level = 7, Moves = 4, AI = 1371
+Delta: Level = 7, Moves = 4, AI = 1372
+
+0891:
+Name: Fossil Fighter (3622)
+Penta: Level = 8, Moves = 4, AI = 1373
+Styraco: Level = 7, Moves = 4, AI = 1374
+Einio: Level = 7, Moves = 4, AI = 1375
+
+0892:
+Name: Fossil Fighter (3622)
+Shanshan: Level = 10, Moves = 4, AI = 1376
+Lexo: Level = 8, Moves = 4, AI = 1377
+Tro: Level = 8, Moves = 4, AI = 1378
+
+0893:
+Name: Fossil Fighter (3622)
+Metria: Level = 10, Moves = 4, AI = 1379
+M-Raptor: Level = 8, Moves = 4, AI = 1380
+V-Raptor: Level = 8, Moves = 4, AI = 1381
+
+0894:
+Name: Fossil Fighter (3622)
+V-Raptor: Level = 10, Moves = 4, AI = 1385
+Kentro: Level = 9, Moves = 4, AI = 1386
+Goyo: Level = 8, Moves = 4, AI = 1387
+
+0895:
+Name: Fossil Fighter (3622)
+Spinax: Level = 10, Moves = 4, AI = 1382
+Shuno: Level = 8, Moves = 4, AI = 1383
+Hoplo: Level = 8, Moves = 4, AI = 1384
+
+0896:
+Name: Fossil Fighter (3622)
+Amargo: Level = 10, Moves = 4, AI = 1388
+Goyle: Level = 9, Moves = 4, AI = 1389
+Pelto: Level = 9, Moves = 4, AI = 1390
+
+0897:
+Name: Fossil Fighter (3622)
+Igua: Level = 10, Moves = 4, AI = 1391
+Coelo: Level = 9, Moves = 4, AI = 1392
+Hypsi: Level = 9, Moves = 4, AI = 1393
+
+0898:
+Name: Fossil Fighter (3622)
+Lexo: Level = 10, Moves = 4, AI = 1397
+Goyle: Level = 8, Moves = 4, AI = 1398
+Yango: Level = 8, Moves = 4, AI = 1399
+
+0899:
+Name: Fossil Fighter (3622)
+Siamo: Level = 10, Moves = 4, AI = 1394
+Alectro: Level = 8, Moves = 4, AI = 1395
+Smilo: Level = 8, Moves = 4, AI = 1396
+
+0900:
+Name: Fossil Fighter (3622)
+Venator: Level = 10, Moves = 4, AI = 1400
+Shanshan: Level = 8, Moves = 4, AI = 1401
+S-Raptor: Level = 8, Moves = 4, AI = 1402
+
+0901:
+Name: Fossil Fighter (3622)
+Lambeo: Level = 10, Moves = 4, AI = 1403
+Ourano: Level = 9, Moves = 4, AI = 1404
+Igua: Level = 8, Moves = 4, AI = 1405
+
+0902:
+Name: Fossil Fighter (3622)
+U-Raptor: Level = 10, Moves = 4, AI = 1406
+M-Raptor: Level = 9, Moves = 4, AI = 1407
+Nychus: Level = 9, Moves = 4, AI = 1408
+
+0903:
+Name: Fossil Fighter (3622)
+Stygi: Level = 10, Moves = 4, AI = 1409
+Goyo: Level = 9, Moves = 4, AI = 1410
+Pachy: Level = 9, Moves = 4, AI = 1411
+
+0904:
+Name: Fossil Fighter (3622)
+Einio: Level = 10, Moves = 4, AI = 1421
+Ourano: Level = 9, Moves = 4, AI = 1422
+Hypsi: Level = 8, Moves = 4, AI = 1423
+
+0905:
+Name: Fossil Fighter (3622)
+Alectro: Level = 10, Moves = 4, AI = 1415
+Metria: Level = 8, Moves = 4, AI = 1416
+Plesio: Level = 8, Moves = 4, AI = 1417
+
+0906:
+Name: Fossil Fighter (3622)
+Salto: Level = 10, Moves = 4, AI = 1418
+V-Raptor: Level = 8, Moves = 4, AI = 1419
+Stygi: Level = 8, Moves = 4, AI = 1420
+
+0907:
+Name: Fossil Fighter (3622)
+Anato: Level = 10, Moves = 4, AI = 1412
+Megalo: Level = 8, Moves = 4, AI = 1413
+Alio: Level = 8, Moves = 4, AI = 1414
+
+0908:
+Name: Fossil Fighter (3622)
+Amargo: Level = 10, Moves = 4, AI = 1424
+Yango: Level = 9, Moves = 4, AI = 1425
+Saichan: Level = 9, Moves = 4, AI = 1426
+
+0909:
+Name: Fossil Fighter (3622)
+Elasmoth: Level = 10, Moves = 4, AI = 1427
+Jiango: Level = 9, Moves = 4, AI = 1428
+Tro: Level = 9, Moves = 4, AI = 1429
+
+0910:
+Name: Fossil Fighter (3622)
+Shoni: Level = 10, Moves = 4, AI = 1430
+Lexo: Level = 8, Moves = 4, AI = 1431
+Jara: Level = 8, Moves = 4, AI = 1432
+
+0911:
+Name: Fossil Fighter (3622)
+Krona: Level = 10, Moves = 4, AI = 1433
+Megalo: Level = 8, Moves = 4, AI = 1434
+Jara: Level = 8, Moves = 4, AI = 1435
+
+0912:
+Name: Fossil Fighter (3622)
+Venator: Level = 10, Moves = 4, AI = 1436
+Elasmo: Level = 8, Moves = 4, AI = 1437
+Pelto: Level = 8, Moves = 4, AI = 1438
+
+0913:
+Name: Fossil Fighter (3622)
+Onyx: Level = 10, Moves = 4, AI = 1439
+Styraco: Level = 9, Moves = 4, AI = 1440
+Hypsi: Level = 8, Moves = 4, AI = 1441
+
+0914:
+Name: Fossil Fighter (3622)
+Plesio: Level = 10, Moves = 4, AI = 1442
+Coatlus: Level = 9, Moves = 4, AI = 1443
+Pachy: Level = 9, Moves = 4, AI = 1444
+
+0915:
+Name: Fossil Fighter (3622)
+Penta: Level = 10, Moves = 4, AI = 1445
+M-Raptor: Level = 9, Moves = 4, AI = 1446
+Coelo: Level = 9, Moves = 4, AI = 1447
+
+0916:
+Name: Fossil Fighter (3622)
+Amargo: Level = 10, Moves = 4, AI = 1448
+Megalo: Level = 8, Moves = 4, AI = 1449
+Plesio: Level = 8, Moves = 4, AI = 1450
+
+0917:
+Name: Fossil Fighter (3622)
+Penta: Level = 10, Moves = 4, AI = 1451
+Futabi: Level = 8, Moves = 4, AI = 1452
+Nasaur: Level = 8, Moves = 4, AI = 1453
+
+0918:
+Name: Fossil Fighter (3622)
+Yango: Level = 10, Moves = 4, AI = 1454
+Onyx: Level = 8, Moves = 4, AI = 1455
+Lexo: Level = 8, Moves = 4, AI = 1456
+
+0919:
+Name: Fossil Fighter (3622)
+Goyle: Level = 10, Moves = 4, AI = 1457
+Saichan: Level = 9, Moves = 4, AI = 1458
+M-Raptor: Level = 8, Moves = 4, AI = 1459
+
+0920:
+Name: Fossil Fighter (3622)
+Krona: Level = 10, Moves = 4, AI = 1460
+Spinax: Level = 9, Moves = 4, AI = 1461
+Tro: Level = 9, Moves = 4, AI = 1462
+
+0921:
+Name: Fossil Fighter (3622)
+Ourano: Level = 10, Moves = 4, AI = 1463
+Coatlus: Level = 9, Moves = 4, AI = 1464
+Jara: Level = 9, Moves = 4, AI = 1465
+
+0922:
+Name: Fossil Fighter (3622)
+Salto: Level = 10, Moves = 4, AI = 1466
+Nychus: Level = 8, Moves = 4, AI = 1467
+Delta: Level = 8, Moves = 4, AI = 1468
+
+0923:
+Name: Fossil Fighter (3622)
+Kentro: Level = 10, Moves = 4, AI = 1469
+Styraco: Level = 8, Moves = 4, AI = 1470
+Elasmoth: Level = 8, Moves = 4, AI = 1471
+
+0924:
+Name: Fossil Fighter (3622)
+T-Rex: Level = 10, Moves = 4, AI = 1472
+Dilopho: Level = 8, Moves = 4, AI = 1473
+Goyle: Level = 8, Moves = 4, AI = 1474
+
+0925:
+Name: Fossil Fighter (3622)
+Pelto: Level = 10, Moves = 4, AI = 1475
+Hypsi: Level = 9, Moves = 4, AI = 1476
+Kentro: Level = 8, Moves = 4, AI = 1477
+
+0926:
+Name: Fossil Fighter (3622)
+Shoni: Level = 10, Moves = 4, AI = 1478
+Shuno: Level = 9, Moves = 4, AI = 1479
+Delta: Level = 9, Moves = 4, AI = 1480
+
+0927:
+Name: Fossil Fighter (3622)
+Penta: Level = 10, Moves = 4, AI = 1481
+Styraco: Level = 9, Moves = 4, AI = 1482
+Einio: Level = 9, Moves = 4, AI = 1483
+
+0928:
+Name: Fossil Fighter (3622)
+Igua: Level = 10, Moves = 4, AI = 1484
+Anato: Level = 8, Moves = 4, AI = 1485
+Goyle: Level = 8, Moves = 4, AI = 1486
+
+0929:
+Name: Fossil Fighter (3622)
+U-Raptor: Level = 10, Moves = 4, AI = 1487
+Breme: Level = 8, Moves = 4, AI = 1488
+Coelo: Level = 8, Moves = 4, AI = 1489
+
+0930:
+Name: Fossil Fighter (3622)
+Pelto: Level = 10, Moves = 4, AI = 1490
+Alectro: Level = 8, Moves = 4, AI = 1491
+Proto: Level = 8, Moves = 4, AI = 1492
+
+0931:
+Name: Fossil Fighter (3622)
+Seismo: Level = 10, Moves = 4, AI = 1493
+Salto: Level = 9, Moves = 4, AI = 1494
+Amargo: Level = 8, Moves = 4, AI = 1495
+
+0932:
+Name: Fossil Fighter (3622)
+Jara: Level = 10, Moves = 4, AI = 1496
+Sopteryx: Level = 9, Moves = 4, AI = 1497
+Delta: Level = 9, Moves = 4, AI = 1498
+
+0933:
+Name: Fossil Fighter (3622)
+Seismo: Level = 10, Moves = 4, AI = 1499
+Coatlus: Level = 9, Moves = 4, AI = 1500
+O-Raptor: Level = 9, Moves = 4, AI = 1501
+
+0934:
+Name: Fossil Fighter (3622)
+Perso: Level = 10, Moves = 4, AI = 1502
+Hoplo: Level = 8, Moves = 4, AI = 1503
+Coelo: Level = 8, Moves = 4, AI = 1504
+
+0935:
+Name: Fossil Fighter (3622)
+Andrarch: Level = 10, Moves = 4, AI = 1508
+Hoplo: Level = 8, Moves = 4, AI = 1509
+Smilo: Level = 8, Moves = 4, AI = 1510
+
+0936:
+Name: Fossil Fighter (3622)
+T-Rex: Level = 10, Moves = 4, AI = 1505
+M-Raptor: Level = 8, Moves = 4, AI = 1506
+Arsith: Level = 8, Moves = 4, AI = 1507
+
+0937:
+Name: Fossil Fighter (3622)
+Megath: Level = 10, Moves = 4, AI = 1511
+Tryma: Level = 9, Moves = 4, AI = 1512
+Chelon: Level = 8, Moves = 4, AI = 1513
+
+0938:
+Name: Fossil Fighter (3622)
+Allo: Level = 10, Moves = 4, AI = 1514
+Megalo: Level = 9, Moves = 4, AI = 1515
+Neo: Level = 9, Moves = 4, AI = 1516
+
+0939:
+Name: Fossil Fighter (3622)
+Giganto: Level = 10, Moves = 4, AI = 1517
+Paraloph: Level = 9, Moves = 4, AI = 1518
+Dimorph: Level = 9, Moves = 4, AI = 1519
+
+0940:
+Name: Fossil Fighter (3622)
+Mammoth: Level = 10, Moves = 4, AI = 1520
+Brontoth: Level = 8, Moves = 4, AI = 1521
+Elasmoth: Level = 8, Moves = 4, AI = 1522
+
+0941:
+Name: Fossil Fighter (3622)
+Spino: Level = 10, Moves = 4, AI = 1523
+Sucho: Level = 8, Moves = 4, AI = 1524
+Angato: Level = 8, Moves = 4, AI = 1525
+
+0942:
+Name: Fossil Fighter (3622)
+Zino: Level = 10, Moves = 4, AI = 1526
+Apato: Level = 8, Moves = 4, AI = 1527
+Orno: Level = 8, Moves = 4, AI = 1528
+
+0943:
+Name: Fossil Fighter (3622)
+Apato: Level = 10, Moves = 4, AI = 1529
+Saichan: Level = 9, Moves = 4, AI = 1530
+Proto: Level = 8, Moves = 4, AI = 1531
+
+0944:
+Name: Fossil Fighter (3622)
+Carno: Level = 10, Moves = 4, AI = 1532
+Dilopho: Level = 9, Moves = 4, AI = 1533
+Ankylo: Level = 9, Moves = 4, AI = 1534
+
+0945:
+Name: Fossil Fighter (3622)
+Brontoth: Level = 10, Moves = 4, AI = 1535
+Seismo: Level = 9, Moves = 4, AI = 1536
+Brachio: Level = 9, Moves = 4, AI = 1537
