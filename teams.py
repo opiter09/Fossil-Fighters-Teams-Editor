@@ -70,6 +70,7 @@ if (rom == "ff1"):
                         teams[teamN]["vivos"][i]["superName"] = "NONE"
                         teams[teamN]["vivos"][i]["superPoints"] = 0
                         teams[teamN]["vivos"][i]["cpu"] = int.from_bytes(r[(0x94 + (numVivos * 12) + (i * 4)):(0x94 + (numVivos * 12) + (i * 4) + 4)], "little")
+                        teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x94 + (numVivos * 16) + (i * 4)):(0x94 + (numVivos * 16) + (i * 4) + 4)], "little")
                         teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + (numVivos * 20) + (i * 4)):(0x94 + (numVivos * 20) + (i * 4) + 4)], "little")
 else:
     for root, dirs, files in os.walk("NDS_UNPACK/data/battle_param/bin"):
@@ -86,7 +87,7 @@ else:
                     teams[teamN]["numVivos"] = r[0x58 + shift]
                     numVivos = teams[teamN]["numVivos"]
                     teams[teamN]["points"] = int.from_bytes(r[0x30:0x32], "little")
-                    if (teams[teamN]["points"] == 0xFFFFFFFF):
+                    if (teams[teamN]["points"] == 0xFFFF):
                         teams[teamN]["points"] = 0
                     try:
                         teams[teamN]["name"] = eNames[int.from_bytes(r[(0x46 + shift):(0x48 + shift)], "little") - nameDiff]
@@ -94,52 +95,258 @@ else:
                         teams.pop(teamN)
                         continue
                     teams[teamN]["rank"] = r[0x48 + shift]
-                    teams[teamN]["vivos"] = []
+                    teams[teamN]["vivos"] = [ {}, {}, {} ]
                     for i in range(numVivos):
-                        teams[teamN]["vivos"][i] = {}
                         teams[teamN]["vivos"][i]["vivoNum"] = int.from_bytes(r[(0x70 + shift + (i * 12)):(0x70 + shift + (i * 12) + 2)], "little")
                         teams[teamN]["vivos"][i]["level"] = int.from_bytes(r[(0x70 + shift + (i * 12) + 2):(0x70 + shift + (i * 12) + 4)], "little")
                         teams[teamN]["vivos"][i]["superName"] = sfTable[str(int.from_bytes(r[(0x70 + shift + (i * 12) + 6):(0x70 + shift + (i * 12) + 8)], "little"))]
                         teams[teamN]["vivos"][i]["superPoints"] = int.from_bytes(r[(0x70 + shift + (i * 12) + 8):(0x70 + shift + (i * 12) + 10)], "little")
                         teams[teamN]["vivos"][i]["cpu"] = 0
+                        teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x70 + shift + (numVivos * 12) + (i * 4)):(0x70 + shift + (numVivos * 12) + (i * 4) + 2)], "little")
                         teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x70 + shift + (numVivos * 16) + (i * 2)):(0x70 + shift + (numVivos * 16) + (i * 2) + 2)], "little")
 
 curr = teamList[0]
 
 def makeLayout():
     global curr
+    global teams
 
     layout = [
         [ psg.Text("Team File:"), psg.DropDown(teamList, key = "file", default_value = curr), psg.Button("Load", key = "load") ],
         [ psg.Text("Name:"), psg.DropDown(eNames, key = "name", default_value = teams[curr]["name"]) ],
-        [ psg.Text("Fighter Rank:"), psg.Input(default_text = teams[curr]["rank"], key = "rank", size = 5, enable_events = True) ],
-        [ psg.Text("Battle Points:"), psg.Input(default_text = teams[curr]["points"], key = "points", size = 5, enable_events = True) ],
-        [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])) ]
+        [ psg.Text("Fighter Rank:"), psg.Input(default_text = str(teams[curr]["rank"]), key = "rank", size = 5, enable_events = True) ],
+        [ psg.Text("Battle Points:"), psg.Input(default_text = str(teams[curr]["points"]), key = "points", size = 5, enable_events = True) ],
+        [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])),
+            psg.Button("Apply", key = "apply") ]
     ]
     for i in range(teams[curr]["numVivos"]):
+        # print(i)
         row = [ # yes, I know this is formatted as a column ulol
             psg.Text("Vivosaur:"),
-            psg.DropDown(vNames, key = "vivo", default_value = vNames[teams[curr]["vivos"][i]["vivoNum"]]),
+            psg.DropDown(vNames, key = "vivo" + str(i), default_value = vNames[teams[curr]["vivos"][i]["vivoNum"]]),
             psg.Text("Level:"),
-            psg.Input(default_text = teams[curr]["vivos"][i]["level"], key = "level", size = 5, enable_events = True),
+            psg.Input(default_text = str(teams[curr]["vivos"][i]["level"]), key = "level" + str(i), size = 5, enable_events = True),
             psg.Text("Fossils:"),
-            psg.DropDown(["1", "2", "3", "4"], key = "fossil", default_value = str(teams[curr]["vivos"][i]["fossils"]))
+            psg.DropDown(["1", "2", "3", "4"], key = "fossil" + str(i), default_value = str(teams[curr]["vivos"][i]["fossils"]))
         ]
         if (rom == "ffc"):
             row = row + [
                 psg.Text("Super Fossil:"),
-                psg.DropDown(sfList, key = "superF", default_value = teams[curr]["vivos"][i]["superName"]),
+                psg.DropDown(sfList, key = "superF" + str(i), default_value = teams[curr]["vivos"][i]["superName"]),
                 psg.Text("SF Points:"),
-                psg.Input(default_text = teams[curr]["vivos"][i]["superPoints"], key = "superP", size = 5, enable_events = True)
+                psg.Input(default_text = teams[curr]["vivos"][i]["superPoints"], key = "superP" + str(i), size = 5, enable_events = True)
             ]
         else:
             row = row + [
                 psg.Text("AI Set:"),
-                psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu", size = 7, enable_events = True)
+                psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu" + str(i), size = 5, enable_events = True)
             ]
+        row = row + [ 
+            psg.Text("Unknown:"),
+            psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
+        ]
         layout = layout + [row]
     layout = layout + [[ psg.Button("Save File", key = "save"), psg.Button("Rebuild ROM", key = "rebuild") ]]
     return(layout)
+
+def applyValues(values, numChange):
+    global curr
+    global teams
+
+    teams[curr]["name"] = values["name"]
+
+    if (rom == "ff1"):
+        rankMax = 9
+        levelMax = 12
+    else:
+        rankMax = 20
+        levelMax = 20
+        
+    try:
+        teams[curr]["rank"] = max(1, min(int(values["rank"]), rankMax))
+    except:
+        pass    
+    try:
+        teams[curr]["points"] = max(0, int(values["points"]))
+    except:
+        pass
+    
+    for i in range(teams[curr]["numVivos"]):
+        teams[curr]["vivos"][i]["vivoNum"] = vNames.index(values["vivo" + str(i)])
+        try: # these all need exceptions either to handle non-integers or the buttons not existing for one ROM or the other
+            teams[curr]["vivos"][i]["level"] = max(1, min(int(values["level" + str(i)]), levelMax))
+        except:
+            pass
+        try:
+            teams[curr]["vivos"][i]["superName"] = values["superF" + str(i)]
+        except:
+            pass
+        try:
+            teams[curr]["vivos"][i]["superPoints"] = max(1, min(int(values["superP" + str(i)]), 100))
+        except:
+            pass
+        try:
+            teams[curr]["vivos"][i]["cpu"] = max(1, min(int(values["cpu" + str(i)]), 1600))
+        except:
+            pass
+        try:
+            teams[curr]["vivos"][i]["unknown"] = max(0, int(values["unknown" + str(i)]))
+        except:
+            pass
+        try:
+            teams[curr]["vivos"][i]["fossils"] = max(1, min(int(values["fossil" + str(i)]), 4))
+        except:
+            pass
+    
+    if (numChange == True):
+        old = teams[curr]["numVivos"]
+        diff = int(values["number"]) - teams[curr]["numVivos"]
+        teams[curr]["numVivos"] = int(values["number"])
+
+        if (diff > 0):
+            for i in range(old, old + diff):
+                temp = { "vivoNum": 0, "level": 0, "superName": "NONE", "superPoints": 0, "cpu": 0, "unknown": 0, "fossils": 0 }
+                if (rom == "ffc"):
+                    temp["unknown"] = teams[curr]["vivos"][0]["unknown"]
+                if (len(teams[curr]["vivos"][i].keys()) == 0):
+                    teams[curr]["vivos"][i] = temp.copy()
+
+def saveFile():
+    global curr
+    global teams
+
+    if (rom == "ff1"):
+        path = "NDS_UNPACK/data/battle/bin/" + curr + "/0.bin"
+        f = open(path, "rb")
+        r = f.read()
+        f.close()
+        f = open(path, "wb")
+        f.close()
+        f = open(path, "ab")
+        
+        f.write(r[0:0x54])
+        if (teams[curr]["points"] != 0):
+            f.write(teams[curr]["points"].to_bytes(4, "little"))
+        else:
+            f.write((0xFFFFFFFF).to_bytes(4, "little"))
+            
+        f.write(r[0x58:0x5C])
+        f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
+        f.write(r[0x60:0x64])
+        f.write(int(teams[curr]["name"][-5:-1]).to_bytes(4, "little"))
+        f.write(teams[curr]["rank"].to_bytes(4, "little"))
+        
+        numValues = [ [0x44, 0x48, 0x4C, 0x50], [0x50, 0x58, 0x60, 0x68], [0x5C, 0x68, 0x74, 0x80] ]
+        ours = numValues[teams[curr]["numVivos"] - 1]
+
+        f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
+        f.write(ours[0].to_bytes(4, "little"))
+        f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
+        f.write(ours[1].to_bytes(4, "little"))
+        f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
+        f.write(ours[2].to_bytes(4, "little"))
+        f.write(r[0x84:0x88])
+        f.write(ours[3].to_bytes(4, "little"))
+        f.write(r[0x8C:0x94])
+        
+        for i in range(teams[curr]["numVivos"]):
+            f.write(teams[curr]["vivos"][i]["vivoNum"].to_bytes(4, "little"))
+            f.write(teams[curr]["vivos"][i]["level"].to_bytes(4, "little"))
+            f.write(bytes(4))
+        for i in range(teams[curr]["numVivos"]):
+            f.write(teams[curr]["vivos"][i]["cpu"].to_bytes(4, "little"))
+        for i in range(teams[curr]["numVivos"]):
+            f.write(teams[curr]["vivos"][i]["unknown"].to_bytes(4, "little"))
+        for i in range(teams[curr]["numVivos"]):
+            f.write(teams[curr]["vivos"][i]["fossils"].to_bytes(4, "little"))
+            
+        end = len(r)
+        f.write(r[(end - 8):end])        
+        f.close()
+        
+        size = os.stat(path).st_size
+        f = open(path, "rb")
+        r = f.read()
+        f.close()
+        f = open(path, "wb")
+        f.close()
+        f = open(path, "ab")
+        f.write(r[0:0x38])
+        f.write(size.to_bytes(4, "little"))
+        f.write(r[0x3C:0x40])
+        f.write(size.to_bytes(4, "little"))
+        f.write(r[0x44:])
+        f.close()
+        subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + curr, "-i", "0.bin", "-o", 
+            "NDS_UNPACK/data/battle/" + curr ])
+    else:
+        path = "NDS_UNPACK/data/battle_param/bin/" + curr + "/0.bin"
+        f = open(path, "rb")
+        r = f.read()
+        f.close()
+        f = open(path, "wb")
+        f.close()
+        f = open(path, "ab")
+        
+        f.write(r[0:0x30])
+        if (teams[curr]["points"] != 0):
+            f.write(teams[curr]["points"].to_bytes(2, "little"))
+        else:
+            f.write((0xFFFF).to_bytes(4, "little"))
+        
+        shift = r[0x38] + 2 - 0x46
+        f.write(r[0x32:(0x46 + shift)])
+        f.write(int(teams[curr]["name"][-5:-1]).to_bytes(2, "little"))
+        f.write(teams[curr]["rank"].to_bytes(2, "little"))
+        
+        numValues = [ [0x2C, 0x38, 0x3C, 0x40], [0x2C, 0x44, 0x4C, 0x50], [0x2C, 0x50, 0x5C, 0x64] ]
+        ours = numValues[teams[curr]["numVivos"] - 1]
+        oldNumVivos = r[0x58 + shift]
+        retain = numValues[oldNumVivos - 1][1] - r[0x5C + shift]
+
+        f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
+        f.write(ours[0].to_bytes(4, "little"))
+        f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
+        f.write((ours[1] + retain).to_bytes(4, "little"))
+        f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
+        f.write((ours[2] + retain).to_bytes(4, "little"))
+        f.write(r[(0x68 + shift):(0x6C + shift)])
+        f.write((ours[3] + retain).to_bytes(4, "little"))
+        
+        for i in range(teams[curr]["numVivos"]):
+            f.write(teams[curr]["vivos"][i]["vivoNum"].to_bytes(2, "little"))
+            f.write(teams[curr]["vivos"][i]["level"].to_bytes(4, "little"))
+            for k in sfTable.keys():
+                if (sfTable[k] == teams[curr]["vivos"][i]["superName"]):
+                    f.write(int(k).to_bytes(2, "little"))
+                    break
+            f.write(teams[curr]["vivos"][i]["superPoints"].to_bytes(4, "little"))
+        for i in range(teams[curr]["numVivos"]):
+            f.write(teams[curr]["vivos"][i]["unknown"].to_bytes(4, "little"))
+        for i in range(teams[curr]["numVivos"]):
+            f.write(teams[curr]["vivos"][i]["fossils"].to_bytes(2, "little"))
+            
+        end = len(r)
+        if (r[end - 6] == 0):
+            f.write(r[(end - 6):end])
+        else:
+            f.write(r[(end - 4):end])
+        f.close()
+
+        size = os.stat(path).st_size
+        f = open(path, "rb")
+        r = f.read()
+        f.close()
+        f = open(path, "wb")
+        f.close()
+        f = open(path, "ab")
+        f.write(r[0:0x40])
+        f.write(size.to_bytes(4, "little"))
+        f.write(r[0x44:])
+        f.close()
+        subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle_param/bin/" + curr, "-i", "0.bin", "-o", 
+            "NDS_UNPACK/data/battle_param/" + curr ])
+    psg.popup("File saved!", font = "-size 12")
 
 res = makeLayout()
 window = psg.Window("", res, grab_anywhere = True, resizable = True, font = "-size 12")
@@ -154,8 +361,25 @@ while True:
         window.close()
         res = makeLayout()
         window = psg.Window("", res, grab_anywhere = True, resizable = True, font = "-size 12")
-    if (event == "rebuild"):
-        subprocess.run([ "dslazy.bat", "PACK", "out.nds" ])
+    elif (event == "apply"):
+        applyValues(values, True)
+        window.close()
+        res = makeLayout()
+        window = psg.Window("", res, grab_anywhere = True, resizable = True, font = "-size 12")
+    elif (event == "save"):
+        applyValues(values, False)
+        saveFile()
+    elif (event == "rebuild"):
+        applyValues(values, False)
+        saveFile()
+        if (rom == "ff1"):
+            shutil.move("NDS_UNPACK/data/battle/bin/", "bin/")
+            subprocess.run([ "dslazy.bat", "PACK", "out.nds" ])
+            shutil.move("bin/", "NDS_UNPACK/data/battle/bin/")
+        else:            
+            shutil.move("NDS_UNPACK/data/battle_param/bin/", "bin/")
+            subprocess.run([ "dslazy.bat", "PACK", "out.nds" ])
+            shutil.move("bin/", "NDS_UNPACK/data/battle_param/bin/")
         subprocess.run([ "xdelta3-3.0.11-x86_64.exe", "-e", "-f", "-s", sys.argv[1], "out.nds", "out.xdelta" ])
         psg.popup("You can now play out.nds!", font = "-size 12")
         break
