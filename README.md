@@ -11,6 +11,8 @@ note the following:
   by file name
 - Only the Save and Rebuild buttons actually save the file. Apply only changes the data in the editor, while Load does not change
   anything at all (but it does therefore retain your changes in the editor)
+  
+To download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP."
 
 # Source Codes
 - FFTool: https://github.com/jianmingyong/Fossil-Fighters-Tool
