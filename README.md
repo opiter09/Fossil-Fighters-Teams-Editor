@@ -12,6 +12,8 @@ note the following:
 - Only the Save and Rebuild buttons actually save the file. Apply only changes the data in the editor, while Load does not change
   anything at all (but it does therefore retain your changes in the editor)
   
+Also, as with my other tools, the ROM file MUST be in the same folder as teams.exe, or it will not work correctly.
+  
 To download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP."
 
 # Source Codes
