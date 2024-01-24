@@ -52,26 +52,28 @@ if (rom == "ff1"):
                     teamList.append(teamN)
                     # print(teamN)
                     teams[teamN] = {}
-                    teams[teamN]["numVivos"] = r[0x5C]
+                    bpShift = int.from_bytes(r[4:8], "little")
+                    shift = int.from_bytes(r[8:12], "little") - 0x5C
+                    teams[teamN]["numVivos"] = r[0x5C + shift]
                     numVivos = teams[teamN]["numVivos"]
-                    teams[teamN]["points"] = int.from_bytes(r[0x54:0x58], "little")
+                    teams[teamN]["points"] = int.from_bytes(r[(0x54 + bpShift):(0x58 + bpShift)], "little")
                     if (teams[teamN]["points"] == 0xFFFFFFFF):
                         teams[teamN]["points"] = 0
                     try:
-                        teams[teamN]["name"] = eNames[int.from_bytes(r[0x64:0x66], "little") - nameDiff]
+                        teams[teamN]["name"] = eNames[int.from_bytes(r[(0x64 + shift):(0x66 + shift)], "little") - nameDiff]
                     except IndexError:
                         teams.pop(teamN)
                         continue
-                    teams[teamN]["rank"] = r[0x68]
+                    teams[teamN]["rank"] = r[0x68 + shift]
                     teams[teamN]["vivos"] = [ {}, {}, {} ]
                     for i in range(numVivos):
-                        teams[teamN]["vivos"][i]["vivoNum"] = int.from_bytes(r[(0x94 + (i * 12)):(0x94 + (i * 12) + 4)], "little")
-                        teams[teamN]["vivos"][i]["level"] = int.from_bytes(r[(0x94 + (i * 12) + 4):(0x94 + (i * 12) + 8)], "little")
+                        teams[teamN]["vivos"][i]["vivoNum"] = int.from_bytes(r[(0x94 + shift + (i * 12)):(0x94 + shift + (i * 12) + 4)], "little")
+                        teams[teamN]["vivos"][i]["level"] = int.from_bytes(r[(0x94 + shift + (i * 12) + 4):(0x94 + shift + (i * 12) + 8)], "little")
                         teams[teamN]["vivos"][i]["superName"] = "NONE"
                         teams[teamN]["vivos"][i]["superPoints"] = 0
-                        teams[teamN]["vivos"][i]["cpu"] = int.from_bytes(r[(0x94 + (numVivos * 12) + (i * 4)):(0x94 + (numVivos * 12) + (i * 4) + 4)], "little")
-                        teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x94 + (numVivos * 16) + (i * 4)):(0x94 + (numVivos * 16) + (i * 4) + 4)], "little")
-                        teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + (numVivos * 20) + (i * 4)):(0x94 + (numVivos * 20) + (i * 4) + 4)], "little")
+                        teams[teamN]["vivos"][i]["cpu"] = int.from_bytes(r[(0x94 + shift + (numVivos * 12) + (i * 4)):(0x94 + shift + (numVivos * 12) + (i * 4) + 4)], "little")
+                        teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x94 + shift + (numVivos * 16) + (i * 4)):(0x94 + shift + (numVivos * 16) + (i * 4) + 4)], "little")
+                        teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + shift + (numVivos * 20) + (i * 4)):(0x94 + shift + (numVivos * 20) + (i * 4) + 4)], "little")
 else:
     for root, dirs, files in os.walk("NDS_UNPACK/data/battle_param/bin"):
         for file in files:
@@ -224,15 +226,18 @@ def saveFile():
         f.close()
         f = open(path, "ab")
         
-        f.write(r[0:0x54])
+        bpShift = int.from_bytes(r[4:8], "little")
+        shift = int.from_bytes(r[8:12], "little") - 0x5C
+        
+        f.write(r[0:(0x54 + shift)])
         if (teams[curr]["points"] != 0):
             f.write(teams[curr]["points"].to_bytes(4, "little"))
         else:
             f.write((0xFFFFFFFF).to_bytes(4, "little"))
             
-        f.write(r[0x58:0x5C])
+        f.write(r[(0x58 + shift):(0x5C + shift)])
         f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
-        f.write(r[0x60:0x64])
+        f.write(r[(0x60 + shift):(0x64 + shift)])
         f.write(int(teams[curr]["name"][-5:-1]).to_bytes(4, "little"))
         f.write(teams[curr]["rank"].to_bytes(4, "little"))
         
@@ -245,9 +250,9 @@ def saveFile():
         f.write(ours[1].to_bytes(4, "little"))
         f.write(teams[curr]["numVivos"].to_bytes(4, "little"))
         f.write(ours[2].to_bytes(4, "little"))
-        f.write(r[0x84:0x88])
+        f.write(r[(0x84 + shift):(0x88 + shift)])
         f.write(ours[3].to_bytes(4, "little"))
-        f.write(r[0x8C:0x94])
+        f.write(r[(0x8C + shift):(0x94 + shift)])
         
         for i in range(teams[curr]["numVivos"]):
             f.write(teams[curr]["vivos"][i]["vivoNum"].to_bytes(4, "little"))
