@@ -265,8 +265,8 @@ def saveFile():
         for i in range(teams[curr]["numVivos"]):
             f.write(teams[curr]["vivos"][i]["fossils"].to_bytes(4, "little"))
             
-        end = len(r)
-        f.write(r[(end - 8):end])        
+        weird = int.from_bytes(r[0x38:0x3C], "little")
+        f.write(r[(weird - 8):])     
         f.close()
         
         size = os.stat(path).st_size
@@ -277,7 +277,7 @@ def saveFile():
         f.close()
         f = open(path, "ab")
         f.write(r[0:0x38])
-        f.write(size.to_bytes(4, "little"))
+        f.write((weird + size - len(r)).to_bytes(4, "little"))
         f.write(r[0x3C:0x40])
         f.write(size.to_bytes(4, "little"))
         f.write(r[0x44:])
