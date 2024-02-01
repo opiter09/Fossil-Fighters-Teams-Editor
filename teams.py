@@ -282,8 +282,8 @@ def saveFile():
         f.write(size.to_bytes(4, "little"))
         f.write(r[0x44:])
         f.close()
-        subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + curr, "-i", "0.bin", "-o", 
-            "NDS_UNPACK/data/battle/" + curr ])
+        subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + curr, "-c", "None", "-c", "None",
+            "-i", "0.bin", "-o", "NDS_UNPACK/data/battle/" + curr ])
     else:
         path = "NDS_UNPACK/data/battle_param/bin/" + curr + "/0.bin"
         f = open(path, "rb")
@@ -349,8 +349,8 @@ def saveFile():
         f.write(size.to_bytes(4, "little"))
         f.write(r[0x44:])
         f.close()
-        subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle_param/bin/" + curr, "-i", "0.bin", "-o", 
-            "NDS_UNPACK/data/battle_param/" + curr ])
+        subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle_param/bin/" + curr, "-c", "None", "-c", "None",
+            "-i", "0.bin", "-o", "NDS_UNPACK/data/battle_param/" + curr ])
     psg.popup("File saved!", font = "-size 12")
 
 res = makeLayout()
