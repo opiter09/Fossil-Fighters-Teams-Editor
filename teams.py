@@ -148,7 +148,8 @@ def makeLayout():
             psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
         ]
         layout = layout + [row]
-    layout = layout + [[ psg.Button("Save File", key = "save"), psg.Button("Rebuild ROM", key = "rebuild") ]]
+    layout = layout + [[ psg.Button("Save File", key = "save"), psg.Button("Recompress All", key = "recomp"),
+        psg.Button("Rebuild ROM", key = "rebuild") ]]
     return(layout)
 
 def applyValues(values, numChange):
@@ -388,4 +389,29 @@ while True:
         subprocess.run([ "xdelta3-3.0.11-x86_64.exe", "-e", "-f", "-s", sys.argv[1], "out.nds", "out.xdelta" ])
         psg.popup("You can now play out.nds!", font = "-size 12")
         break
-    
+    elif (event == "recomp"):
+        applyValues(values, False)
+        saveFile()
+        if (rom == "ff1"):
+            for root, dirs, files in os.walk("NDS_UNPACK/data/battle/bin"):
+                for file in files:
+                    if (file == "0.bin"):
+                        f = open(os.path.join(root, file), "rb")
+                        r = f.read()
+                        f.close()
+                        if (len(r) > 0x94):
+                            teamN = os.path.join(root, file).split("\\")[-2]
+                            subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + teamN, "-i", "0.bin", "-o",
+                                "NDS_UNPACK/data/battle/" + teamN ])
+        else:
+            for root, dirs, files in os.walk("NDS_UNPACK/data/battle_param/bin"):
+                for file in files:
+                    if (file == "0.bin"):
+                        f = open(os.path.join(root, file), "rb")
+                        r = f.read()
+                        f.close()
+                        if (len(r) > 0x46) and (r[0x34] == 0):
+                            teamN = os.path.join(root, file).split("\\")[-2]                           
+                            subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle_param/bin/" + teamN, "-c", "None", "-c",
+                                "None", "-i", "0.bin", "-o", "NDS_UNPACK/data/battle_param/" + teamN ])
+        psg.popup("Files recompressed! Don't forget to rebuild!", font = "-size 12")

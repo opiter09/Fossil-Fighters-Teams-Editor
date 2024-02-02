@@ -13,6 +13,8 @@ note the following:
   all team files (in vanilla) in a human-readable format
 - Only the Save and Rebuild buttons actually save the file. Apply only changes the data in the editor, while Load does not change
   anything at all (but it does therefore retain your changes in the editor)
+- The Recompress All button is for debugging purposes ONLY. It is extremely slow, and should not be necessary unless you are trying
+  to help me figure out a problem.
   
 Also, as with my other tools, the ROM file MUST be in the same folder as teams.exe, or it will not work correctly.
   
