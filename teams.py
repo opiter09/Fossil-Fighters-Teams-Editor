@@ -187,6 +187,8 @@ def applyValues(values, numChange):
             pass
         try:
             teams[curr]["vivos"][i]["superPoints"] = max(1, min(int(values["superP" + str(i)]), 100))
+            if (values["superF" + str(i)] == "NONE"):
+                teams[curr]["vivos"][i]["superPoints"] = 0
         except:
             pass
         try:
