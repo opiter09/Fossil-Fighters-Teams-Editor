@@ -22,7 +22,7 @@ if (os.path.exists("NDS_UNPACK") == False):
 if (rom == "ff1"):
     nameDiff = 3362
 else:
-    nameDiff = 0x4D
+    nameDiff = 0x104E
 
 f = open(rom + "_enemyNames.txt", "rt")
 eNames = list(f.read().split("\n"))
@@ -84,7 +84,6 @@ else:
                 f.close()
                 if (len(r) > 0x46) and (r[0x34] == 0):
                     teamN = os.path.join(root, file).split("\\")[-2]
-                    teamList.append(teamN)
                     teams[teamN] = {}
                     shift = r[0x38] + 2 - 0x46
                     teams[teamN]["numVivos"] = r[0x58 + shift]
@@ -92,11 +91,6 @@ else:
                     teams[teamN]["points"] = int.from_bytes(r[0x30:0x32], "little")
                     if (teams[teamN]["points"] == 0xFFFF):
                         teams[teamN]["points"] = 0
-                    try:
-                        teams[teamN]["name"] = eNames[int.from_bytes(r[(0x46 + shift):(0x48 + shift)], "little") - nameDiff]
-                    except IndexError:
-                        teams.pop(teamN)
-                        continue
                     teams[teamN]["rank"] = r[0x48 + shift]
                     teams[teamN]["vivos"] = [ {}, {}, {} ]
                     for i in range(numVivos):
@@ -107,6 +101,12 @@ else:
                         teams[teamN]["vivos"][i]["cpu"] = 0
                         teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x70 + shift + (numVivos * 12) + (i * 4)):(0x70 + shift + (numVivos * 12) + (i * 4) + 2)], "little")
                         teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x70 + shift + (numVivos * 16) + (i * 2)):(0x70 + shift + (numVivos * 16) + (i * 2) + 2)], "little")
+                    try:
+                        orig = int.from_bytes(r[(0x46 + shift):(0x48 + shift)], "little")
+                        teams[teamN]["name"] = eNames[orig - nameDiff]
+                        teamList.append(teamN)
+                    except IndexError:
+                        teams.pop(teamN)
 
 curr = teamList[0]
 
@@ -305,6 +305,7 @@ def saveFile():
         f.write(r[0x32:(0x46 + shift)])
         f.write(int(teams[curr]["name"][-5:-1]).to_bytes(2, "little"))
         f.write(teams[curr]["rank"].to_bytes(2, "little"))
+        f.write(r[(0x4A + shift):(0x50 + shift)])
         
         numValues = [ [0x2C, 0x38, 0x3C, 0x40], [0x2C, 0x44, 0x4C, 0x50], [0x2C, 0x50, 0x5C, 0x64] ]
         ours = numValues[teams[curr]["numVivos"] - 1]
