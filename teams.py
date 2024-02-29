@@ -75,6 +75,7 @@ if (rom == "ff1"):
                         teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x94 + shift + (numVivos * 16) + (i * 4)):(0x94 + shift + (numVivos * 16) + (i * 4) + 4)], "little")
                         teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + shift + (numVivos * 20) + (i * 4)):(0x94 + shift + (numVivos * 20) + (i * 4) + 4)], "little")
 else:
+    teams = {}
     for root, dirs, files in os.walk("NDS_UNPACK/data/battle_param/bin"):
         for file in files:
             if (file == "0.bin"):
