@@ -37,6 +37,8 @@ vNames = ["NONE"] + vNames
 
 sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Silver Arms", "903": "Silver Legs", "904": "Gold" }
 sfList = list(sfTable.values()).copy()
+arenaList = [ "NONE", "Level Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
+    "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
 teamList = []    
    
 if (rom == "ff1"):
@@ -56,6 +58,7 @@ if (rom == "ff1"):
                     shift = int.from_bytes(r[8:12], "little") - 0x5C
                     teams[teamN]["numVivos"] = r[0x5C + shift]
                     numVivos = teams[teamN]["numVivos"]
+                    teams[teamN]["arena"] = arenaList[r[0x30]]
                     teams[teamN]["points"] = int.from_bytes(r[(0x54 + bpShift):(0x58 + bpShift)], "little")
                     if (teams[teamN]["points"] == 0xFFFFFFFF):
                         teams[teamN]["points"] = 0
@@ -122,6 +125,8 @@ def makeLayout():
         [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])),
             psg.Button("Apply", key = "apply") ]
     ]
+    if (rom == "ff1"):
+        layout = layout[0:3] + [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]] + layout[3:]
     for i in range(teams[curr]["numVivos"]):
         # print(i)
         row = [ # yes, I know this is formatted as a column ulol
@@ -170,6 +175,10 @@ def applyValues(values, numChange):
         teams[curr]["rank"] = max(1, min(int(values["rank"]), rankMax))
     except:
         pass    
+    try:
+        teams[curr]["arena"] = values["arena"]
+    except:
+        pass   
     try:
         teams[curr]["points"] = max(0, int(values["points"]))
     except:
@@ -233,7 +242,9 @@ def saveFile():
         bpShift = int.from_bytes(r[4:8], "little")
         shift = int.from_bytes(r[8:12], "little") - 0x5C
         
-        f.write(r[0:(0x54 + shift)])
+        f.write(r[0:0x30])
+        f.write(arenaList.index(teams[curr]["arena"]).to_bytes(1, "little"))
+        f.write(r[0x31:(0x54 + shift)])
         if (teams[curr]["points"] != 0):
             f.write(teams[curr]["points"].to_bytes(4, "little"))
         else:
