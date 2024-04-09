@@ -126,7 +126,7 @@ def makeLayout():
             psg.Button("Apply", key = "apply") ]
     ]
     if (rom == "ff1"):
-        layout = layout[0:3] + [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]] + layout[3:]
+        layout = layout[0:2] + [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]] + layout[2:]
     for i in range(teams[curr]["numVivos"]):
         # print(i)
         row = [ # yes, I know this is formatted as a column ulol
