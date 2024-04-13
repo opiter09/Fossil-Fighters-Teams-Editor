@@ -286,16 +286,16 @@ def saveFile():
         
         size = os.stat(path).st_size
         f = open(path, "rb")
-        r = f.read()
+        r2 = f.read()
         f.close()
         f = open(path, "wb")
         f.close()
         f = open(path, "ab")
-        f.write(r[0:0x38])
+        f.write(r2[0:0x38])
         f.write((weird + size - len(r)).to_bytes(4, "little"))
-        f.write(r[0x3C:0x40])
+        f.write(r2[0x3C:0x40])
         f.write(size.to_bytes(4, "little"))
-        f.write(r[0x44:])
+        f.write(r2[0x44:])
         f.close()
         subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + curr, "-c", "None", "-c", "None",
             "-i", "0.bin", "-o", "NDS_UNPACK/data/battle/" + curr ])
@@ -356,14 +356,14 @@ def saveFile():
 
         size = os.stat(path).st_size
         f = open(path, "rb")
-        r = f.read()
+        r2 = f.read()
         f.close()
         f = open(path, "wb")
         f.close()
         f = open(path, "ab")
-        f.write(r[0:0x40])
+        f.write(r2[0:0x40])
         f.write(size.to_bytes(4, "little"))
-        f.write(r[0x44:])
+        f.write(r2[0x44:])
         f.close()
         subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle_param/bin/" + curr, "-c", "None", "-c", "None",
             "-i", "0.bin", "-o", "NDS_UNPACK/data/battle_param/" + curr ])
