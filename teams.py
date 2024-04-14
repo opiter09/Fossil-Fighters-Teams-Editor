@@ -417,8 +417,8 @@ while True:
                         f = open(os.path.join(root, file), "rb")
                         r = f.read()
                         f.close()
-                        if (r[0x3C] > 0):
-                            print(str(r[0x3C]) + "   " + os.path.join(root, file))
+                        # if (r[0x3C] > 0):
+                            # print(str(r[0x3C]) + "   " + os.path.join(root, file))
                         if (len(r) > 0x94):
                             teamN = os.path.join(root, file).split("\\")[-2]
                             subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + teamN, "-i", "0.bin", "-o",
