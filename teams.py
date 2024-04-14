@@ -294,7 +294,10 @@ def saveFile():
         f.write(r2[0:0x38])
         f.write((weird + size - len(r)).to_bytes(4, "little"))
         f.write(r2[0x3C:0x40])
-        f.write(size.to_bytes(4, "little"))
+        if (r2[0x3C] == 0):
+            f.write(size.to_bytes(4, "little"))
+        else:
+            f.write((weird + size - len(r)).to_bytes(4, "little"))
         f.write(r2[0x44:])
         f.close()
         subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + curr, "-c", "None", "-c", "None",
@@ -414,6 +417,8 @@ while True:
                         f = open(os.path.join(root, file), "rb")
                         r = f.read()
                         f.close()
+                        if (r[0x3C] > 0):
+                            print(str(r[0x3C]) + "   " + os.path.join(root, file))
                         if (len(r) > 0x94):
                             teamN = os.path.join(root, file).split("\\")[-2]
                             subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + teamN, "-i", "0.bin", "-o",
