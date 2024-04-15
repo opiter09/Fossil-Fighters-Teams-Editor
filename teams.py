@@ -421,8 +421,8 @@ while True:
                             # print(str(r[0x3C]) + "   " + os.path.join(root, file))
                         if (len(r) > 0x94):
                             teamN = os.path.join(root, file).split("\\")[-2]
-                            subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + teamN, "-i", "0.bin", "-o",
-                                "NDS_UNPACK/data/battle/" + teamN ])
+                            subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + teamN, "-c", "None", "-c",
+                                "None", "-i", "0.bin", "-o", "NDS_UNPACK/data/battle/" + teamN ])
         else:
             for root, dirs, files in os.walk("NDS_UNPACK/data/battle_param/bin"):
                 for file in files:
