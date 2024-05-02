@@ -37,7 +37,7 @@ vNames = ["NONE"] + vNames
 
 sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Silver Arms", "903": "Silver Legs", "904": "Gold" }
 sfList = list(sfTable.values()).copy()
-xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "43", "4096": "50" }
+xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "41", "4096": "50" }
 xpList = list(xpTable.values()).copy()
 arenaList = [ "NONE", "Level Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
     "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
