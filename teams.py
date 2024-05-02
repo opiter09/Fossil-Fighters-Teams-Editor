@@ -87,7 +87,7 @@ else:
                 f = open(os.path.join(root, file), "rb")
                 r = f.read()
                 f.close()
-                if (len(r) > 0x46) and (r[0x34] == 0):
+                if (len(r) > 0x46):
                     teamN = os.path.join(root, file).split("\\")[-2]
                     teams[teamN] = {}
                     shift = r[0x38] + 2 - 0x46
