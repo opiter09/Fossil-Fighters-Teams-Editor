@@ -87,7 +87,7 @@ else:
                 f = open(os.path.join(root, file), "rb")
                 r = f.read()
                 f.close()
-                if (len(r) > 0x46) and (r[0x34] == 0):
+                if (len(r) > 0x46): # and (r[0x34] == 0):
                     teamN = os.path.join(root, file).split("\\")[-2]
                     teams[teamN] = {}
                     shift = r[0x38] + 2 - 0x46
@@ -324,7 +324,7 @@ def saveFile():
         if (teams[curr]["points"] != 0):
             f.write(teams[curr]["points"].to_bytes(2, "little"))
         else:
-            f.write((0xFFFF).to_bytes(4, "little"))
+            f.write((0xFFFF).to_bytes(2, "little"))
         
         shift = r[0x38] + 2 - 0x46
         f.write(r[0x32:(0x46 + shift)])
