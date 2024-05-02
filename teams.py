@@ -226,7 +226,7 @@ def applyValues(values, numChange):
 
         if (diff > 0):
             for i in range(old, old + diff):
-                temp = { "vivoNum": 0, "level": 0, "superName": "NONE", "superPoints": 0, "cpu": 0, "unknown": 0, "fossils": 0 }
+                temp = { "vivoNum": 0, "level": 1, "superName": "NONE", "superPoints": 0, "cpu": 0, "unknown": 0, "fossils": 1 }
                 if (rom == "ffc"):
                     temp["unknown"] = teams[curr]["vivos"][0]["unknown"]
                 if (len(teams[curr]["vivos"][i].keys()) == 0):
