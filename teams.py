@@ -146,10 +146,10 @@ def makeLayout():
                 psg.Text("SF Points:"),
                 psg.Input(default_text = teams[curr]["vivos"][i]["superPoints"], key = "superP" + str(i), size = 5, enable_events = True)
             ]
-            row = row + [
-                psg.Text("Unknown:"),
-                psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
-            ]
+            # row = row + [
+                # psg.Text("Unknown:"),
+                # psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
+            # ]
         else:
             row = row + [
                 psg.Text("AI Set:"),
