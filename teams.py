@@ -146,15 +146,19 @@ def makeLayout():
                 psg.Text("SF Points:"),
                 psg.Input(default_text = teams[curr]["vivos"][i]["superPoints"], key = "superP" + str(i), size = 5, enable_events = True)
             ]
+            row = row + [
+                psg.Text("Unknown:"),
+                psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
+            ]
         else:
             row = row + [
                 psg.Text("AI Set:"),
                 psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu" + str(i), size = 5, enable_events = True)
             ]
-        row = row + [ 
-            psg.Text("EXP (Affects LP):"),
-            psg.DropDown(xpList, key = "unknown" + str(i), default_value = teams[curr]["vivos"][i]["unknown"], size = 5, enable_events = True)
-        ]
+            row = row + [ 
+                psg.Text("EXP (Affects LP):"),
+                psg.DropDown(xpList, key = "unknown" + str(i), default_value = teams[curr]["vivos"][i]["unknown"], size = 5, enable_events = True)
+            ]
         layout = layout + [row]
     layout = layout + [[ psg.Button("Save File", key = "save"), psg.Button("Recompress All", key = "recomp"),
         psg.Button("Rebuild ROM", key = "rebuild") ]]
