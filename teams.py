@@ -37,6 +37,8 @@ vNames = ["NONE"] + vNames
 
 sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Silver Arms", "903": "Silver Legs", "904": "Gold" }
 sfList = list(sfTable.values()).copy()
+xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "43", "4096": "50" }
+xpList = list(xpTable.values()).copy()
 arenaList = [ "NONE", "Level Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
     "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
 teamList = []    
@@ -75,7 +77,7 @@ if (rom == "ff1"):
                         teams[teamN]["vivos"][i]["superName"] = "NONE"
                         teams[teamN]["vivos"][i]["superPoints"] = 0
                         teams[teamN]["vivos"][i]["cpu"] = int.from_bytes(r[(0x94 + shift + (numVivos * 12) + (i * 4)):(0x94 + shift + (numVivos * 12) + (i * 4) + 4)], "little")
-                        teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x94 + shift + (numVivos * 16) + (i * 4)):(0x94 + shift + (numVivos * 16) + (i * 4) + 4)], "little")
+                        teams[teamN]["vivos"][i]["unknown"] = xpTable[str(int.from_bytes(r[(0x94 + shift + (numVivos * 16) + (i * 4)):(0x94 + shift + (numVivos * 16) + (i * 4) + 4)], "little"))]
                         teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + shift + (numVivos * 20) + (i * 4)):(0x94 + shift + (numVivos * 20) + (i * 4) + 4)], "little")
 else:
     teams = {}
@@ -150,8 +152,8 @@ def makeLayout():
                 psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu" + str(i), size = 5, enable_events = True)
             ]
         row = row + [ 
-            psg.Text("Unknown:"),
-            psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
+            psg.Text("EXP (Affects LP):"),
+            psg.DropDown(xpList, key = "unknown" + str(i), default_value = teams[curr]["vivos"][i]["unknown"], size = 5, enable_events = True)
         ]
         layout = layout + [row]
     layout = layout + [[ psg.Button("Save File", key = "save"), psg.Button("Recompress All", key = "recomp"),
@@ -205,7 +207,7 @@ def applyValues(values, numChange):
         except:
             pass
         try:
-            teams[curr]["vivos"][i]["unknown"] = max(0, int(values["unknown" + str(i)]))
+            teams[curr]["vivos"][i]["unknown"] = values["unknown" + str(i)]
         except:
             pass
         try:
@@ -276,7 +278,10 @@ def saveFile():
         for i in range(teams[curr]["numVivos"]):
             f.write(teams[curr]["vivos"][i]["cpu"].to_bytes(4, "little"))
         for i in range(teams[curr]["numVivos"]):
-            f.write(teams[curr]["vivos"][i]["unknown"].to_bytes(4, "little"))
+            for k in xpTable.keys():
+                if (xpTable[k] == teams[curr]["vivos"][i]["unknown"]):
+                    f.write(int(k).to_bytes(4, "little"))
+                    break
         for i in range(teams[curr]["numVivos"]):
             f.write(teams[curr]["vivos"][i]["fossils"].to_bytes(4, "little"))
             
