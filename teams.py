@@ -35,6 +35,7 @@ vNames = list(f.read().split("\n"))
 f.close()
 vNames = ["NONE"] + vNames
 
+formList = ["< (Cambrian)", "> (Jurassic)"]
 sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Silver Arms", "903": "Silver Legs", "904": "Gold" }
 sfList = list(sfTable.values()).copy()
 xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "41", "4096": "50" }
@@ -101,6 +102,7 @@ else:
                     if (teams[teamN]["points"] == 0xFFFF):
                         teams[teamN]["points"] = 0
                     teams[teamN]["rank"] = r[0x48 + shift]
+                    teams[teamN]["formation"] = formList[r[0x4C + shift]]
                     teams[teamN]["vivos"] = [ {}, {}, {} ]
                     for i in range(numVivos):
                         teams[teamN]["vivos"][i]["vivoNum"] = int.from_bytes(r[(0x70 + shift + (i * 12)):(0x70 + shift + (i * 12) + 2)], "little")
@@ -131,7 +133,9 @@ def makeLayout():
         [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])),
             psg.Button("Apply", key = "apply") ]
     ]
-    if (rom == "ff1"):
+    if (rom == "ffc"):
+        layout = layout[0:4] + [[ psg.Text("Formation:"), psg.DropDown(formList, key = "formation", default_value = teams[curr]["formation"]) ]] + layout[4:]
+    else:
         layout = layout[0:2] + [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]] + layout[2:]
     for i in range(teams[curr]["numVivos"]):
         # print(i)
@@ -160,7 +164,7 @@ def makeLayout():
                 psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu" + str(i), size = 5, enable_events = True)
             ]
             row = row + [ 
-                psg.Text("EXP (Affects LP):"),
+                psg.Text("EXP (For LP):"),
                 psg.DropDown(xpList, key = "unknown" + str(i), default_value = teams[curr]["vivos"][i]["unknown"], size = 5, enable_events = True)
             ]
         layout = layout + [row]
@@ -193,6 +197,10 @@ def applyValues(values, numChange):
         teams[curr]["points"] = max(0, int(values["points"]))
     except:
         pass
+    try:
+        teams[curr]["formation"] = values["formation"]
+    except:
+        pass 
     
     for i in range(teams[curr]["numVivos"]):
         teams[curr]["vivos"][i]["vivoNum"] = vNames.index(values["vivo" + str(i)])
@@ -334,7 +342,9 @@ def saveFile():
         f.write(r[0x32:(0x46 + shift)])
         f.write(int(teams[curr]["name"][-5:-1]).to_bytes(2, "little"))
         f.write(teams[curr]["rank"].to_bytes(2, "little"))
-        f.write(r[(0x4A + shift):(0x50 + shift)])
+        f.write(r[(0x4A + shift):(0x4C + shift)])
+        f.write(formList.index(teams[curr]["formation"]).to_bytes(1, "little"))
+        f.write(r[(0x4D + shift):(0x50 + shift)])
         
         numValues = [ [0x2C, 0x38, 0x3C, 0x40], [0x2C, 0x44, 0x4C, 0x50], [0x2C, 0x50, 0x5C, 0x64] ]
         ours = numValues[teams[curr]["numVivos"] - 1]
