@@ -1,4023 +1,5501 @@
 
 0001:
 Name: Allosaurus (05)
+Battle Points: 0
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 0002:
 Name: Allosaurus (05)
+Battle Points: 0
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 0003:
 Name: Allosaurus (05)
+Battle Points: 0
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 0004:
 Name: Allosaurus (05)
+Battle Points: 0
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 0010:
 Name: Fossil Fighter (71)
+Battle Points: 0
+Formation: < (Cambrian)
 Tarbo: Level = 8, Super Fossil = None
 U-Raptor: Level = 1, Super Fossil = None
 F-Raptor: Level = 1, Super Fossil = None
 
 0011:
 Name: Fossil Fighter (70)
+Battle Points: 0
+Formation: < (Cambrian)
 Tricera: Level = 6, Super Fossil = None
 Styraco: Level = 1, Super Fossil = None
 Centro: Level = 1, Super Fossil = None
 
 0012:
 Name: Fossil Fighter (70)
+Battle Points: 0
+Formation: < (Cambrian)
 Ptera: Level = 6, Super Fossil = None
 Jara: Level = 6, Super Fossil = None
 Dimorph: Level = 6, Super Fossil = None
 
 0100:
 Name: Todd (06)
+Battle Points: 10
+Formation: < (Cambrian)
 Stego: Level = 1, Super Fossil = None
 Goyle: Level = 1, Super Fossil = None
 
 0101:
 Name: Rupert (07)
+Battle Points: 0
+Formation: < (Cambrian)
 Raja: Level = 12, Super Fossil = None
 Mapo: Level = 3, Super Fossil = None
 
 0102:
 Name: Devon Strait (08)
+Battle Points: 0
+Formation: < (Cambrian)
 Alio: Level = 1, Super Fossil = None
 Proto: Level = 1, Super Fossil = None
 Elasmo: Level = 1, Super Fossil = None
 
 0200:
 Name: Jerry (09)
+Battle Points: 5
+Formation: > (Jurassic)
 Nycto: Level = 1, Super Fossil = None
 Anomalo: Level = 1, Super Fossil = None
 
 0201:
 Name: Rockin' Billy (10)
+Battle Points: 10
+Formation: > (Jurassic)
 Raja: Level = 1, Super Fossil = None
 Nigo: Level = 1, Super Fossil = None
 Parapu: Level = 2, Super Fossil = None
 
 0300:
 Name: Di66-R (11)
+Battle Points: 5
+Formation: > (Jurassic)
 Tophis: Level = 2, Super Fossil = None
 Krypto: Level = 2, Super Fossil = None
 Brachio: Level = 2, Super Fossil = None
 
 0301:
 Name: BB Brigade Goon (12)
+Battle Points: 10
+Formation: < (Cambrian)
 B-Lambeo: Level = 2, Super Fossil = Gold
 B-Lambeo: Level = 2, Super Fossil = Gold
 B-Lambeo: Level = 2, Super Fossil = Gold
 
 0302:
 Name: Nell (13)
+Battle Points: 10
+Formation: < (Cambrian)
 Berto: Level = 2, Super Fossil = None
 Yango: Level = 2, Super Fossil = None
 Sungari: Level = 2, Super Fossil = None
 
 0400:
 Name: Joanie (14)
+Battle Points: 5
+Formation: > (Jurassic)
 Peloro: Level = 3, Super Fossil = None
 Machai: Level = 3, Super Fossil = None
 Tryma: Level = 3, Super Fossil = None
 
 0401:
 Name: Cole (15)
+Battle Points: 15
+Formation: > (Jurassic)
 B-Rex: Level = 3, Super Fossil = Gold
 B-Lambeo: Level = 3, Super Fossil = Gold
 B-Plesio: Level = 3, Super Fossil = Gold
 
 0402:
 Name: Lucinda (16)
+Battle Points: 10
+Formation: < (Cambrian)
 Camara: Level = 3, Super Fossil = None
 Camara: Level = 3, Super Fossil = Silver Head
 Camara: Level = 3, Super Fossil = Silver Body
 
 0500:
 Name: Pat Bull (17)
+Battle Points: 5
+Formation: < (Cambrian)
 Heracles: Level = 3, Super Fossil = Gold
 Machai: Level = 3, Super Fossil = None
 Machai: Level = 3, Super Fossil = Silver Arms
 
 0501:
 Name: Lester (18)
+Battle Points: 15
+Formation: > (Jurassic)
 B-Rex: Level = 4, Super Fossil = Gold
 B-Brachio: Level = 4, Super Fossil = Gold
 B-Tricera: Level = 4, Super Fossil = Gold
 
 0502:
 Name: Princess Pooch (19)
+Battle Points: 10
+Formation: < (Cambrian)
 Marple: Level = 4, Super Fossil = Gold
 Gomp: Level = 4, Super Fossil = None
 Gomp: Level = 4, Super Fossil = Silver Legs
 
 0600:
 Name: Lola (20)
+Battle Points: 15
+Formation: > (Jurassic)
 B-Brachio: Level = 4, Super Fossil = Gold
 B-Lambeo: Level = 4, Super Fossil = Gold
 B-Jara: Level = 4, Super Fossil = Gold
 
 0601:
 Name: Lord Tonzilla (21)
+Battle Points: 10
+Formation: < (Cambrian)
 Tonzilla: Level = 5, Super Fossil = Gold
 
 0602:
 Name: Pauleen (22)
+Battle Points: 10
+Formation: > (Jurassic)
 Berto: Level = 5, Super Fossil = None
 Berta: Level = 5, Super Fossil = None
 Krypto: Level = 5, Super Fossil = None
 
 0603:
 Name: Pauleen (22)
+Battle Points: 20
+Formation: < (Cambrian)
 Omias: Level = 7, Super Fossil = Gold
 Plesio: Level = 6, Super Fossil = None
 Synthos: Level = 6, Super Fossil = None
 
 0604:
 Name: Fossil Fighter (70)
+Battle Points: 1
+Formation: < (Cambrian)
 Cerato: Level = 4, Super Fossil = None
 
 0700:
 Name: Cole (23)
+Battle Points: 20
+Formation: > (Jurassic)
 B-Rex: Level = 6, Super Fossil = Gold
 B-Rex: Level = 6, Super Fossil = Gold
 B-Plesio: Level = 7, Super Fossil = Gold
 
 0701:
 Name: Lola (24)
+Battle Points: 20
+Formation: > (Jurassic)
 B-Brachio: Level = 6, Super Fossil = Gold
 B-Rex: Level = 6, Super Fossil = Gold
 B-Jara: Level = 7, Super Fossil = Gold
 
 0702:
 Name: Lester (25)
+Battle Points: 20
+Formation: > (Jurassic)
 B-Brachio: Level = 6, Super Fossil = Gold
 B-Brachio: Level = 6, Super Fossil = Gold
 B-Tricera: Level = 7, Super Fossil = Gold
 
 0703:
 Name: Don Boneyard (26)
+Battle Points: 30
+Formation: > (Jurassic)
 B-Rex: Level = 7, Super Fossil = Gold
 B-Brachio: Level = 7, Super Fossil = Gold
 B-Ptera: Level = 8, Super Fossil = Gold
 
 0704:
 Name: FossilDig CEO (27)
+Battle Points: 20
+Formation: < (Cambrian)
 Ryden: Level = 8, Super Fossil = Gold
 Seismo: Level = 7, Super Fossil = None
 Perso: Level = 7, Super Fossil = None
 
 0705:
 Name: Rupert (28)
+Battle Points: 30
+Formation: < (Cambrian)
 Mapo King: Level = 10, Super Fossil = Gold
 Mapo: Level = 9, Super Fossil = None
 Mapo: Level = 9, Super Fossil = Silver Head
 
 0800:
 Name: Guardian (29)
+Battle Points: 40
+Formation: < (Cambrian)
 B-Rex: Level = 9, Super Fossil = Gold
 B-Rex: Level = 9, Super Fossil = Gold
 B-Rex: Level = 9, Super Fossil = Gold
 
 0900:
 Name: Todd (30)
+Battle Points: 20
+Formation: < (Cambrian)
 Barbaros: Level = 10, Super Fossil = Gold
 Goyle: Level = 9, Super Fossil = Silver Body
 Spinax: Level = 9, Super Fossil = Silver Head
 
 0901:
 Name: Zongazonga (31)
+Battle Points: 40
+Formation: > (Jurassic)
 Berto: Level = 11, Super Fossil = Silver Head
 Seidon: Level = 11, Super Fossil = Silver Body
 Argento: Level = 11, Super Fossil = Silver Arms
 
 0902:
 Name: Zongazonga (32)
+Battle Points: 0
+Formation: > (Jurassic)
 Z-Elasmo: Level = 12, Super Fossil = Gold
 Z-Tricera: Level = 12, Super Fossil = Gold
 Z-Ptera: Level = 13, Super Fossil = Gold
 
 0903:
 Name: Zongazonga (33)
+Battle Points: 50
+Formation: < (Cambrian)
 Zongazonga: Level = 16, Super Fossil = Gold
 Z-Rex: Level = 14, Super Fossil = Gold
 Z-Rex: Level = 14, Super Fossil = Gold
 
 1600:
 Name: Minister Pomposa (34)
+Battle Points: 30
+Formation: > (Jurassic)
 Daspleto: Level = 20, Super Fossil = Silver Body
 Acro: Level = 20, Super Fossil = Silver Body
 Raja: Level = 20, Super Fossil = Silver Body
 
 1601:
 Name: Rosie (35)
+Battle Points: 40
+Formation: < (Cambrian)
 Siamo: Level = 20, Super Fossil = Silver Body
 Andrarch: Level = 20, Super Fossil = Silver Body
 Smilo: Level = 20, Super Fossil = Silver Body
 
 1602:
 Name: Rupert (36)
+Battle Points: 50
+Formation: < (Cambrian)
 Mapo: Level = 20, Super Fossil = Silver Body
 Shoni: Level = 20, Super Fossil = Silver Body
 Krona: Level = 20, Super Fossil = Silver Body
 
 1603:
 Name: Joanie (37)
+Battle Points: 30
+Formation: < (Cambrian)
 Anato: Level = 20, Super Fossil = Silver Head
 Nodo: Level = 20, Super Fossil = Silver Head
 Ankylo: Level = 20, Super Fossil = Silver Head
 
 1604:
 Name: Rosie (38)
+Battle Points: 40
+Formation: < (Cambrian)
 Siamo: Level = 20, Super Fossil = Silver Head
 Maia: Level = 20, Super Fossil = Silver Head
 Nychus: Level = 20, Super Fossil = Silver Head
 
 1605:
 Name: Pauleen (39)
+Battle Points: 50
+Formation: < (Cambrian)
 T-Rex: Level = 20, Super Fossil = Silver Head
 Amargo: Level = 20, Super Fossil = Silver Head
 Saichan: Level = 20, Super Fossil = Silver Head
 
 1606:
 Name: Robinson (40)
+Battle Points: 30
+Formation: < (Cambrian)
 Cryo: Level = 20, Super Fossil = Silver Legs
 Plesio: Level = 20, Super Fossil = Silver Legs
 Coelanth: Level = 20, Super Fossil = Silver Legs
 
 1607:
 Name: Rosie (41)
+Battle Points: 40
+Formation: < (Cambrian)
 S-Raptor: Level = 20, Super Fossil = Silver Legs
 Guan: Level = 20, Super Fossil = Silver Legs
 Compso: Level = 20, Super Fossil = Silver Legs
 
 1608:
 Name: Todd (42)
+Battle Points: 50
+Formation: < (Cambrian)
 Allo: Level = 20, Super Fossil = Silver Legs
 Seismo: Level = 20, Super Fossil = Silver Legs
 Stego: Level = 20, Super Fossil = Silver Legs
 
 1609:
 Name: Stella (43)
+Battle Points: 50
+Formation: < (Cambrian)
 Teffla: Level = 20, Super Fossil = Gold
 Camara: Level = 20, Super Fossil = Gold
 Hibigon: Level = 20, Super Fossil = Gold
 
 1610:
 Name: Terry (44)
+Battle Points: 60
+Formation: > (Jurassic)
 Dimorph Ace: Level = 20, Super Fossil = Gold
 Peloro: Level = 20, Super Fossil = Gold
 Lugmos: Level = 20, Super Fossil = Gold
 
 1611:
 Name: Kent (45)
+Battle Points: 70
+Formation: > (Jurassic)
 Galgaron: Level = 20, Super Fossil = Gold
 Berta: Level = 20, Super Fossil = Gold
 Marple: Level = 20, Super Fossil = Gold
 
 1612:
 Name: Rupert (46)
+Battle Points: 30
+Formation: < (Cambrian)
 Mapo King: Level = 20, Super Fossil = Gold
 Archaeo: Level = 20, Super Fossil = None
 Tanstro: Level = 20, Super Fossil = None
 
 1613:
 Name: Pauleen (47)
+Battle Points: 30
+Formation: < (Cambrian)
 Omias: Level = 20, Super Fossil = Gold
 Saichan: Level = 20, Super Fossil = None
 U-Raptor: Level = 20, Super Fossil = None
 
 1614:
 Name: Todd (48)
+Battle Points: 30
+Formation: < (Cambrian)
 Barbaros: Level = 20, Super Fossil = Gold
 Edapho: Level = 20, Super Fossil = None
 Parium: Level = 20, Super Fossil = None
 
 1615:
 Name: Cole (49)
+Battle Points: 30
+Formation: > (Jurassic)
 B-Rex: Level = 20, Super Fossil = Gold
 B-Lambeo: Level = 20, Super Fossil = Gold
 B-Plesio: Level = 20, Super Fossil = Gold
 
 1616:
 Name: Lola (50)
+Battle Points: 30
+Formation: > (Jurassic)
 B-Brachio: Level = 20, Super Fossil = Gold
 B-Lambeo: Level = 20, Super Fossil = Gold
 B-Jara: Level = 20, Super Fossil = Gold
 
 1617:
 Name: Lester (51)
+Battle Points: 30
+Formation: > (Jurassic)
 B-Tricera: Level = 20, Super Fossil = Gold
 B-Brachio: Level = 20, Super Fossil = Gold
 B-Rex: Level = 20, Super Fossil = Gold
 
 1618:
 Name: Princess Pooch (52)
+Battle Points: 20
+Formation: < (Cambrian)
 Andrarch: Level = 20, Super Fossil = None
 Paki: Level = 20, Super Fossil = None
 Zanth: Level = 20, Super Fossil = Gold
 
 1619:
 Name: Robinson (53)
+Battle Points: 20
+Formation: > (Jurassic)
 Coelanth: Level = 20, Super Fossil = None
 Dunkle: Level = 20, Super Fossil = None
 Gaudry: Level = 20, Super Fossil = None
 
 1620:
 Name: Zongazonga (54)
+Battle Points: 0
+Formation: > (Jurassic)
 Z-Elasmo: Level = 12, Super Fossil = Gold
 Z-Tricera: Level = 12, Super Fossil = Gold
 Z-Ptera: Level = 13, Super Fossil = Gold
 
 1621:
 Name: Zongazonga (55)
+Battle Points: 50
+Formation: < (Cambrian)
 Zongazonga: Level = 16, Super Fossil = Gold
 Z-Rex: Level = 14, Super Fossil = Gold
 Z-Rex: Level = 14, Super Fossil = Gold
 
 1622:
 Name: Joe Wildwest (56)
+Battle Points: 30
+Formation: < (Cambrian)
 Heracles: Level = 20, Super Fossil = Gold
 Bulgon: Level = 20, Super Fossil = Gold
 Ptera: Level = 20, Super Fossil = Silver Legs
 
 1623:
 Name: Joe Wildwest (56)
+Battle Points: 80
+Formation: < (Cambrian)
 Heracles: Level = 20, Super Fossil = Gold
 Bulgon: Level = 20, Super Fossil = Gold
 Ptera: Level = 20, Super Fossil = Gold
 
 1700:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Menchi: Level = 1, Super Fossil = None
 
 1701:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Menchi: Level = 1, Super Fossil = None
 
 1702:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 Raja: Level = 1, Super Fossil = None
 
 1703:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 Raja: Level = 1, Super Fossil = None
 
 1704:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Goyle: Level = 1, Super Fossil = None
 
 1705:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Goyle: Level = 1, Super Fossil = None
 
 1706:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Pacro: Level = 1, Super Fossil = None
 
 1707:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Thalasso: Level = 1, Super Fossil = None
 
 1708:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Thalasso: Level = 1, Super Fossil = None
 
 1709:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Thalasso: Level = 1, Super Fossil = None
 
 1710:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Stego: Level = 2, Super Fossil = None
 
 1711:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Coatlus: Level = 2, Super Fossil = None
 
 1712:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Nycto: Level = 2, Super Fossil = None
 
 1713:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Anomalo: Level = 2, Super Fossil = None
 
 1714:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Nigo: Level = 2, Super Fossil = None
 
 1715:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Parapu: Level = 2, Super Fossil = None
 
 1716:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Krypto: Level = 2, Super Fossil = None
 
 1717:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Anomalo: Level = 2, Super Fossil = None
 Parapu: Level = 2, Super Fossil = None
 
 1718:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 Stego: Level = 2, Super Fossil = None
 Anomalo: Level = 2, Super Fossil = None
 
 1719:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Nigo: Level = 2, Super Fossil = None
 Raja: Level = 2, Super Fossil = None
 
 1720:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: > (Jurassic)
 Ceros: Level = 5, Super Fossil = None
 Parium: Level = 5, Super Fossil = None
 Geneos: Level = 5, Super Fossil = Gold
 
 1721:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Parium: Level = 5, Super Fossil = None
 Ceros: Level = 5, Super Fossil = None
 Edapho: Level = 5, Super Fossil = None
 
 1722:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Nodo: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = Silver Body
 Nodo: Level = 5, Super Fossil = Silver Legs
 
 1723:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Megath: Level = 5, Super Fossil = None
 Megath: Level = 5, Super Fossil = Silver Head
 Megath: Level = 5, Super Fossil = Silver Arms
 
 1724:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: < (Cambrian)
 Thalasso: Level = 5, Super Fossil = None
 Thalasso: Level = 5, Super Fossil = Silver Body
 Nycto Ace: Level = 5, Super Fossil = Gold
 
 1725:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: < (Cambrian)
 Buldor: Level = 5, Super Fossil = Gold
 Nodo: Level = 5, Super Fossil = None
 Megath: Level = 5, Super Fossil = None
 
 1726:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Pachrino: Level = 5, Super Fossil = None
 Megath: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = None
 
 1727:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Jara: Level = 5, Super Fossil = None
 Hypsi: Level = 5, Super Fossil = None
 Ceros: Level = 5, Super Fossil = None
 
 1728:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Jara: Level = 5, Super Fossil = None
 Jara: Level = 5, Super Fossil = Silver Head
 Jara: Level = 5, Super Fossil = Silver Body
 
 1729:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Jara: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = None
 Hopter: Level = 5, Super Fossil = None
 
 1730:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Anato: Level = 2, Super Fossil = None
 
 1731:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Tryma: Level = 2, Super Fossil = None
 
 1732:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Berto: Level = 2, Super Fossil = None
 
 1733:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Sungari: Level = 2, Super Fossil = None
 
 1734:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Machai: Level = 2, Super Fossil = None
 
 1735:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Brachio: Level = 2, Super Fossil = None
 
 1736:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 Desmo: Level = 2, Super Fossil = None
 Machai: Level = 2, Super Fossil = None
 
 1737:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Berto: Level = 2, Super Fossil = None
 Sungari: Level = 2, Super Fossil = None
 
 1738:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 Tryma: Level = 2, Super Fossil = None
 Compso: Level = 2, Super Fossil = None
 
 1739:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Berto: Level = 2, Super Fossil = None
 Machai: Level = 2, Super Fossil = None
 Yango: Level = 2, Super Fossil = None
 
 1740:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Peloro: Level = 3, Super Fossil = None
 
 1741:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: > (Jurassic)
 Hopter: Level = 3, Super Fossil = None
 
 1742:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: > (Jurassic)
 Camara: Level = 3, Super Fossil = None
 
 1743:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Tophis: Level = 3, Super Fossil = None
 
 1744:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Peloro: Level = 3, Super Fossil = None
 Giganto: Level = 3, Super Fossil = None
 
 1745:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Ankylo: Level = 3, Super Fossil = None
 Jiango: Level = 3, Super Fossil = None
 
 1746:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Hopter: Level = 3, Super Fossil = None
 Carchar: Level = 3, Super Fossil = None
 
 1747:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Camara: Level = 3, Super Fossil = None
 Cerato: Level = 3, Super Fossil = None
 
 1748:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Tophis: Level = 3, Super Fossil = None
 Allo: Level = 3, Super Fossil = None
 Aopteryx: Level = 3, Super Fossil = None
 
 1749:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Peloro: Level = 3, Super Fossil = None
 Camara: Level = 3, Super Fossil = None
 Ankylo: Level = 3, Super Fossil = None
 
 1750:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Dikelo: Level = 5, Super Fossil = None
 Dikelo: Level = 5, Super Fossil = Silver Legs
 Dikelo: Level = 5, Super Fossil = Silver Body
 
 1751:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Dikelo: Level = 5, Super Fossil = None
 Dikelo: Level = 5, Super Fossil = Silver Head
 Lagia: Level = 5, Super Fossil = None
 
 1752:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: > (Jurassic)
 S-Raptor: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 Omias: Level = 5, Super Fossil = Gold
 
 1753:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Lagia: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = Silver Legs
 
 1754:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Lagia: Level = 5, Super Fossil = None
 Dikelo: Level = 5, Super Fossil = None
 Amargo: Level = 5, Super Fossil = None
 
 1755:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Venator: Level = 5, Super Fossil = None
 Venator: Level = 5, Super Fossil = Silver Body
 Acro: Level = 5, Super Fossil = None
 
 1756:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Anan: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = Silver Head
 Anan: Level = 5, Super Fossil = Silver Body
 
 1757:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Anan: Level = 5, Super Fossil = None
 Venator: Level = 5, Super Fossil = None
 Acro: Level = 5, Super Fossil = None
 
 1758:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Acro: Level = 5, Super Fossil = None
 S-Raptor: Level = 5, Super Fossil = None
 Penta: Level = 5, Super Fossil = None
 
 1759:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 S-Raptor: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 Amargo: Level = 5, Super Fossil = None
 
 1760:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Alectro: Level = 3, Super Fossil = None
 
 1761:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Toba: Level = 3, Super Fossil = None
 
 1762:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Gomp: Level = 3, Super Fossil = None
 
 1763:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Aeros: Level = 3, Super Fossil = None
 Aeros: Level = 3, Super Fossil = Silver Head
 
 1764:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Toba: Level = 3, Super Fossil = None
 Toba: Level = 3, Super Fossil = Silver Body
 
 1765:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Tsintao: Level = 3, Super Fossil = None
 Tsintao: Level = 3, Super Fossil = Silver Arms
 
 1766:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Dimetro: Level = 3, Super Fossil = None
 Dimetro: Level = 3, Super Fossil = Silver Legs
 
 1767:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Alectro: Level = 3, Super Fossil = None
 Toba: Level = 3, Super Fossil = None
 Gomp: Level = 3, Super Fossil = None
 
 1768:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Aeros: Level = 3, Super Fossil = None
 Dimetro: Level = 3, Super Fossil = None
 Seismo: Level = 3, Super Fossil = None
 
 1769:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Tsintao: Level = 3, Super Fossil = None
 Toba: Level = 3, Super Fossil = None
 Coelo: Level = 3, Super Fossil = None
 
 1770:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 Momo: Level = 4, Super Fossil = Gold
 Futabi: Level = 4, Super Fossil = None
 
 1771:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Mammoth: Level = 4, Super Fossil = None
 Mammoth: Level = 4, Super Fossil = Silver Body
 
 1772:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Krona: Level = 4, Super Fossil = None
 Futabi: Level = 4, Super Fossil = None
 
 1773:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 F-Raptor: Level = 4, Super Fossil = None
 Synthos: Level = 4, Super Fossil = None
 
 1774:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Titanis: Level = 4, Super Fossil = None
 Mihu: Level = 4, Super Fossil = None
 
 1775:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Berta: Level = 4, Super Fossil = None
 Berta: Level = 4, Super Fossil = Silver Legs
 Seidon: Level = 4, Super Fossil = None
 
 1776:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Titanis: Level = 4, Super Fossil = None
 Mammoth: Level = 4, Super Fossil = None
 Pachy: Level = 4, Super Fossil = None
 
 1777:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Berta: Level = 4, Super Fossil = None
 Berta: Level = 4, Super Fossil = Silver Body
 Berta: Level = 4, Super Fossil = Silver Head
 
 1778:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Mihu: Level = 4, Super Fossil = None
 Titanis: Level = 4, Super Fossil = None
 Titanis: Level = 4, Super Fossil = Silver Head
 
 1779:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 F-Raptor: Level = 4, Super Fossil = None
 Synthos: Level = 4, Super Fossil = None
 Pachy: Level = 4, Super Fossil = None
 
 1780:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 T-Rex: Level = 1, Super Fossil = None
 
 1781:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Daspleto: Level = 1, Super Fossil = None
 
 1782:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Gorgo: Level = 1, Super Fossil = None
 
 1783:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Tarbo: Level = 1, Super Fossil = None
 
 1784:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Alio: Level = 1, Super Fossil = None
 
 1785:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Siamo: Level = 1, Super Fossil = None
 
 1786:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Alectro: Level = 1, Super Fossil = None
 
 1787:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Guan: Level = 1, Super Fossil = None
 
 1788:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Shanshan: Level = 1, Super Fossil = None
 
 1789:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 1790:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: < (Cambrian)
 T-Rex: Level = 3, Super Fossil = None
 
 1791:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Shuno: Level = 3, Super Fossil = None
 
 1792:
 Name: Fossil Fighter (57)
+Battle Points: 2
+Formation: < (Cambrian)
 Dacerus: Level = 3, Super Fossil = None
 
 1793:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Shuno: Level = 3, Super Fossil = None
 Shuno: Level = 3, Super Fossil = Silver Arms
 
 1794:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Dacerus: Level = 3, Super Fossil = None
 Dacerus: Level = 3, Super Fossil = Silver Body
 
 1795:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Metri: Level = 3, Super Fossil = None
 Metri: Level = 3, Super Fossil = Silver Legs
 
 1796:
 Name: Fossil Fighter (57)
+Battle Points: 3
+Formation: > (Jurassic)
 Nippono: Level = 3, Super Fossil = None
 Nippono: Level = 3, Super Fossil = Silver Head
 
 1797:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: < (Cambrian)
 T-Rex: Level = 3, Super Fossil = None
 Shuno: Level = 3, Super Fossil = None
 Dacerus: Level = 3, Super Fossil = None
 
 1798:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Shuno: Level = 3, Super Fossil = None
 Shuno: Level = 3, Super Fossil = Silver Body
 Dacerus: Level = 3, Super Fossil = None
 
 1799:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Metri: Level = 3, Super Fossil = None
 Metri: Level = 3, Super Fossil = Silver Head
 Nippono: Level = 3, Super Fossil = None
 
 1800:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 T-Rex: Level = 1, Super Fossil = None
 
 1801:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Daspleto: Level = 1, Super Fossil = None
 
 1802:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Gorgo: Level = 1, Super Fossil = None
 
 1803:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Tarbo: Level = 1, Super Fossil = None
 
 1804:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Alio: Level = 1, Super Fossil = None
 
 1805:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Siamo: Level = 1, Super Fossil = None
 
 1806:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Alectro: Level = 1, Super Fossil = None
 
 1807:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Guan: Level = 1, Super Fossil = None
 
 1808:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Shanshan: Level = 1, Super Fossil = None
 
 1809:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 1810:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 T-Rex: Level = 1, Super Fossil = None
 
 1811:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Daspleto: Level = 1, Super Fossil = None
 
 1812:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Gorgo: Level = 1, Super Fossil = None
 
 1813:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Tarbo: Level = 1, Super Fossil = None
 
 1814:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Alio: Level = 1, Super Fossil = None
 
 1815:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Siamo: Level = 1, Super Fossil = None
 
 1816:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Alectro: Level = 1, Super Fossil = None
 
 1817:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: > (Jurassic)
 Guan: Level = 1, Super Fossil = None
 
 1818:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Shanshan: Level = 1, Super Fossil = None
 
 1819:
 Name: Fossil Fighter (57)
+Battle Points: 1
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 1820:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Tro: Level = 7, Super Fossil = None
 Krypto: Level = 7, Super Fossil = None
 Alio: Level = 7, Super Fossil = None
 
 1821:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: > (Jurassic)
 Carno: Level = 7, Super Fossil = None
 Daspleto: Level = 7, Super Fossil = None
 Dunkle: Level = 7, Super Fossil = None
 
 1822:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: > (Jurassic)
 Paki: Level = 7, Super Fossil = None
 Berta: Level = 7, Super Fossil = None
 Despino: Level = 7, Super Fossil = Gold
 
 1823:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: < (Cambrian)
 Gorgo: Level = 7, Super Fossil = None
 Lagia: Level = 7, Super Fossil = None
 S-Raptor: Level = 7, Super Fossil = None
 
 1824:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: < (Cambrian)
 Giganto: Level = 7, Super Fossil = None
 Dacerus: Level = 7, Super Fossil = None
 U-Raptor: Level = 7, Super Fossil = None
 
 1825:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Onyx: Level = 7, Super Fossil = None
 Carchar: Level = 7, Super Fossil = None
 V-Raptor: Level = 7, Super Fossil = None
 
 1826:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: < (Cambrian)
 Carno: Level = 7, Super Fossil = None
 Hopter: Level = 7, Super Fossil = None
 Sucho: Level = 7, Super Fossil = None
 
 1827:
 Name: Fossil Fighter (57)
+Battle Points: 4
+Formation: > (Jurassic)
 Guera: Level = 7, Super Fossil = None
 Tophis: Level = 7, Super Fossil = None
 Zino: Level = 7, Super Fossil = None
 
 1828:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: > (Jurassic)
 Krona: Level = 7, Super Fossil = None
 Brontoth: Level = 7, Super Fossil = None
 Tanstro: Level = 7, Super Fossil = None
 
 1829:
 Name: Fossil Fighter (57)
+Battle Points: 5
+Formation: < (Cambrian)
 Berto: Level = 7, Super Fossil = None
 Sungari: Level = 7, Super Fossil = None
 Kentro: Level = 7, Super Fossil = None
 
 1900:
 Name: Petula (59)
+Battle Points: 30
+Formation: > (Jurassic)
 Berto: Level = 6, Super Fossil = None
 Raja: Level = 6, Super Fossil = None
 Krypto: Level = 6, Super Fossil = None
 
 1901:
 Name: Petula (60)
+Battle Points: 40
+Formation: < (Cambrian)
 Ryden: Level = 12, Super Fossil = Gold
 Dacerus: Level = 12, Super Fossil = None
 Hopter: Level = 12, Super Fossil = None
 
 1902:
 Name: ã‚­ã‚¶ãƒƒã‚¯ (61)
+Battle Points: 1
+Formation: < (Cambrian)
 Coelo: Level = 1, Super Fossil = None
 Aopteryx: Level = 1, Super Fossil = None
 Dilopho: Level = 1, Super Fossil = None
 
 1903:
 Name: Ned Tudor (62)
+Battle Points: 0
+Formation: < (Cambrian)
 Igua: Level = 1, Super Fossil = None
 Radox: Level = 1, Super Fossil = None
 
 1904:
 Name: Jed Tudor (63)
+Battle Points: 0
+Formation: < (Cambrian)
 Gorgo: Level = 2, Super Fossil = None
 Saichan: Level = 2, Super Fossil = None
 Dimorph: Level = 2, Super Fossil = None
 
 1905:
 Name: Fred Tudor (64)
+Battle Points: 0
+Formation: > (Jurassic)
 Cryo: Level = 5, Super Fossil = None
 Angato: Level = 5, Super Fossil = None
 Archaeo: Level = 5, Super Fossil = None
 
 1906:
 Name: Allosaurus (05)
+Battle Points: 0
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 
 1907:
 Name: Devon Strait (08)
+Battle Points: 0
+Formation: < (Cambrian)
 Alio: Level = 1, Super Fossil = None
 Proto: Level = 1, Super Fossil = None
 Elasmo: Level = 1, Super Fossil = None
 
 1908:
 Name: Zongazonga (65)
+Battle Points: 60
+Formation: < (Cambrian)
 Zongazonga: Level = 20, Super Fossil = Gold
 Z-Rex: Level = 20, Super Fossil = Gold
 Z-Rex: Level = 20, Super Fossil = Gold
 
 1909:
 Name: Ryne (66)
+Battle Points: 60
+Formation: < (Cambrian)
 Salada: Level = 20, Super Fossil = Gold
 B-Lambeo: Level = 20, Super Fossil = Gold
 B-Lambeo: Level = 20, Super Fossil = Gold
 
 1910:
 Name: Duna (67)
+Battle Points: 50
+Formation: > (Jurassic)
 Dinomaton: Level = 20, Super Fossil = Gold
 Dinomaton: Level = 20, Super Fossil = Gold
 Duna: Level = 20, Super Fossil = Gold
 
 1911:
 Name: Raptin (68)
+Battle Points: 60
+Formation: > (Jurassic)
 Dinomaton: Level = 20, Super Fossil = Gold
 Dinomaton: Level = 20, Super Fossil = Gold
 Raptin: Level = 20, Super Fossil = Gold
 
 1912:
 Name: Dynal (69)
+Battle Points: 70
+Formation: > (Jurassic)
 Dinomaton: Level = 20, Super Fossil = Gold
 Dinomaton: Level = 20, Super Fossil = Gold
 Dynal: Level = 20, Super Fossil = Gold
 
 2400:
 Name: Fossil Fighter (70)
+Battle Points: 2
+Formation: < (Cambrian)
 Menchi: Level = 1, Super Fossil = None
 
 2401:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Menchi: Level = 2, Super Fossil = None
 
 2402:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Menchi: Level = 2, Super Fossil = None
 
 2403:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Menchi: Level = 3, Super Fossil = None
 
 2404:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Menchi: Level = 3, Super Fossil = None
 Menchi: Level = 3, Super Fossil = Silver Body
 
 2405:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Menchi: Level = 4, Super Fossil = None
 Menchi: Level = 4, Super Fossil = Silver Body
 
 2406:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Menchi: Level = 5, Super Fossil = None
 Menchi: Level = 5, Super Fossil = Silver Body
 Menchi: Level = 5, Super Fossil = Silver Head
 
 2407:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Menchi: Level = 5, Super Fossil = None
 Menchi: Level = 5, Super Fossil = Silver Body
 Menchi: Level = 5, Super Fossil = Silver Head
 
 2408:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Tarbo: Level = 10, Super Fossil = None
 Goyle: Level = 10, Super Fossil = None
 Goyo: Level = 10, Super Fossil = None
 
 2409:
 Name: Fossil Fighter (70)
+Battle Points: 1
+Formation: < (Cambrian)
 Thalasso: Level = 1, Super Fossil = None
 
 2410:
 Name: Fossil Fighter (70)
+Battle Points: 2
+Formation: < (Cambrian)
 Thalasso: Level = 2, Super Fossil = None
 
 2411:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Tricera: Level = 1, Super Fossil = None
 Thalasso: Level = 1, Super Fossil = None
 
 2412:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Tricera: Level = 2, Super Fossil = None
 Thalasso: Level = 2, Super Fossil = None
 
 2413:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Tricera: Level = 3, Super Fossil = None
 Thalasso: Level = 3, Super Fossil = None
 
 2414:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Heracles: Level = 3, Super Fossil = Gold
 Thalasso: Level = 3, Super Fossil = None
 Thalasso: Level = 3, Super Fossil = Silver Arms
 
 2415:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Heracles: Level = 5, Super Fossil = Gold
 Thalasso: Level = 5, Super Fossil = None
 Thalasso: Level = 5, Super Fossil = Silver Arms
 
 2416:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Heracles: Level = 5, Super Fossil = Gold
 Thalasso: Level = 5, Super Fossil = None
 Thalasso: Level = 5, Super Fossil = Silver Arms
 
 2417:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Raja: Level = 10, Super Fossil = None
 Proto: Level = 10, Super Fossil = None
 Kentro: Level = 10, Super Fossil = None
 
 2418:
 Name: Fossil Fighter (70)
+Battle Points: 2
+Formation: < (Cambrian)
 Goyle: Level = 1, Super Fossil = None
 
 2419:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Goyle: Level = 2, Super Fossil = None
 
 2420:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Goyle: Level = 1, Super Fossil = None
 Anomalo: Level = 1, Super Fossil = None
 
 2421:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Goyle: Level = 2, Super Fossil = None
 Anomalo: Level = 2, Super Fossil = None
 
 2422:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Goyle: Level = 3, Super Fossil = None
 Anomalo: Level = 3, Super Fossil = None
 
 2423:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Goyle: Level = 4, Super Fossil = None
 Anomalo: Level = 4, Super Fossil = None
 
 2424:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Goyle: Level = 5, Super Fossil = None
 Anomalo: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = None
 
 2425:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Goyle: Level = 5, Super Fossil = None
 Anomalo: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = None
 
 2426:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Perso: Level = 10, Super Fossil = None
 Tanstro: Level = 10, Super Fossil = None
 Sucho: Level = 10, Super Fossil = None
 
 2427:
 Name: Fossil Fighter (70)
+Battle Points: 2
+Formation: < (Cambrian)
 Pacro: Level = 1, Super Fossil = None
 
 2428:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Pacro: Level = 2, Super Fossil = None
 
 2429:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Pacro: Level = 2, Super Fossil = None
 
 2430:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Pacro: Level = 3, Super Fossil = None
 
 2431:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Pacro: Level = 4, Super Fossil = None
 
 2432:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Pacro: Level = 4, Super Fossil = None
 Pacro: Level = 4, Super Fossil = Silver Legs
 
 2433:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Pacro: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = Silver Legs
 Pacro: Level = 5, Super Fossil = Silver Body
 
 2434:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Pacro: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = Silver Legs
 Pacro: Level = 5, Super Fossil = Silver Body
 
 2435:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Tricera: Level = 10, Super Fossil = None
 Menchi: Level = 10, Super Fossil = None
 Pacro: Level = 10, Super Fossil = None
 
 2436:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Raja: Level = 1, Super Fossil = None
 
 2437:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Raja: Level = 2, Super Fossil = None
 
 2438:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Raja: Level = 2, Super Fossil = None
 
 2439:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Raja: Level = 3, Super Fossil = None
 
 2440:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Raja: Level = 3, Super Fossil = None
 Raja: Level = 3, Super Fossil = Silver Head
 
 2441:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Raja: Level = 4, Super Fossil = None
 Raja: Level = 4, Super Fossil = Silver Head
 
 2442:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Giga Raja: Level = 5, Super Fossil = Gold
 Giga Raja: Level = 5, Super Fossil = Gold
 Raja: Level = 5, Super Fossil = None
 
 2443:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Giga Raja: Level = 5, Super Fossil = Gold
 Giga Raja: Level = 5, Super Fossil = Gold
 Raja: Level = 5, Super Fossil = None
 
 2444:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Hoplo: Level = 10, Super Fossil = None
 Elasmoth: Level = 10, Super Fossil = None
 Pendem: Level = 10, Super Fossil = None
 
 2445:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Raja: Level = 1, Super Fossil = None
 
 2446:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Raja: Level = 2, Super Fossil = None
 
 2447:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Raja: Level = 1, Super Fossil = None
 Nigo: Level = 1, Super Fossil = None
 
 2448:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Raja: Level = 1, Super Fossil = None
 Nigo: Level = 1, Super Fossil = None
 Nigo: Level = 1, Super Fossil = None
 
 2449:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Raja: Level = 2, Super Fossil = None
 Nigo: Level = 2, Super Fossil = None
 Nigo: Level = 2, Super Fossil = Silver Body
 
 2450:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Giga Raja: Level = 3, Super Fossil = Gold
 Nigo: Level = 3, Super Fossil = None
 Nigo: Level = 3, Super Fossil = Silver Body
 
 2451:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Giga Raja: Level = 5, Super Fossil = Gold
 Nigo: Level = 5, Super Fossil = None
 Nigo: Level = 5, Super Fossil = Silver Body
 
 2452:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Giga Raja: Level = 5, Super Fossil = Gold
 Nigo: Level = 5, Super Fossil = None
 Nigo: Level = 5, Super Fossil = Silver Body
 
 2453:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Tanstro: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = Silver Legs
 
 2454:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Stego: Level = 2, Super Fossil = None
 
 2455:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Stego: Level = 2, Super Fossil = None
 
 2456:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Stego: Level = 3, Super Fossil = None
 
 2457:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Stego: Level = 4, Super Fossil = None
 
 2458:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Stego: Level = 4, Super Fossil = None
 Goyle: Level = 4, Super Fossil = None
 
 2459:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Stego: Level = 5, Super Fossil = None
 Goyle: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = None
 
 2460:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Stego: Level = 5, Super Fossil = None
 Goyle: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = None
 
 2461:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Spinax: Level = 10, Super Fossil = None
 Epidex: Level = 10, Super Fossil = None
 Nycto: Level = 10, Super Fossil = None
 
 2462:
 Name: Fossil Fighter (70)
+Battle Points: 2
+Formation: < (Cambrian)
 Coatlus: Level = 2, Super Fossil = None
 
 2463:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Coatlus: Level = 2, Super Fossil = None
 
 2464:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Coatlus: Level = 3, Super Fossil = None
 
 2465:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Coatlus: Level = 4, Super Fossil = None
 
 2466:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Coatlus: Level = 4, Super Fossil = None
 Menchi: Level = 4, Super Fossil = None
 
 2467:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Coatlus: Level = 5, Super Fossil = None
 Menchi: Level = 5, Super Fossil = None
 Jara: Level = 5, Super Fossil = None
 
 2468:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Coatlus: Level = 5, Super Fossil = None
 Menchi: Level = 5, Super Fossil = None
 Jara: Level = 5, Super Fossil = None
 
 2469:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Anomalo: Level = 10, Super Fossil = None
 Parapu: Level = 10, Super Fossil = None
 Desmo: Level = 10, Super Fossil = None
 
 2470:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Nycto: Level = 2, Super Fossil = None
 
 2471:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Nycto: Level = 2, Super Fossil = None
 
 2472:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Nycto: Level = 3, Super Fossil = None
 
 2473:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Nycto: Level = 3, Super Fossil = None
 Nigo: Level = 3, Super Fossil = None
 
 2474:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Nycto: Level = 4, Super Fossil = None
 Nigo: Level = 4, Super Fossil = None
 
 2475:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Nycto: Level = 5, Super Fossil = None
 Nigo: Level = 5, Super Fossil = None
 Hypsi: Level = 5, Super Fossil = None
 
 2476:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Nycto: Level = 5, Super Fossil = None
 Nigo: Level = 5, Super Fossil = None
 Hypsi: Level = 5, Super Fossil = None
 
 2477:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Dilopho: Level = 10, Super Fossil = None
 Delta: Level = 10, Super Fossil = None
 Breme: Level = 10, Super Fossil = None
 
 2478:
 Name: Fossil Fighter (70)
+Battle Points: 2
+Formation: < (Cambrian)
 Anomalo: Level = 2, Super Fossil = None
 
 2479:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Anomalo: Level = 2, Super Fossil = None
 
 2480:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Anomalo: Level = 3, Super Fossil = None
 
 2481:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Anomalo: Level = 3, Super Fossil = None
 Anomalo: Level = 3, Super Fossil = Silver Legs
 
 2482:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Anomalo: Level = 4, Super Fossil = None
 Anomalo: Level = 4, Super Fossil = Silver Legs
 
 2483:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Anomalo: Level = 5, Super Fossil = None
 Anomalo: Level = 5, Super Fossil = Silver Legs
 Anomalo: Level = 5, Super Fossil = Silver Head
 
 2484:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Anomalo: Level = 5, Super Fossil = None
 Anomalo: Level = 5, Super Fossil = Silver Legs
 Anomalo: Level = 5, Super Fossil = Silver Head
 
 2485:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Giga Spinax: Level = 10, Super Fossil = Gold
 Stego: Level = 10, Super Fossil = None
 Nigo: Level = 10, Super Fossil = None
 
 2486:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Nigo: Level = 2, Super Fossil = None
 
 2487:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Nigo: Level = 2, Super Fossil = None
 
 2488:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Nigo: Level = 2, Super Fossil = None
 Raja: Level = 2, Super Fossil = None
 
 2489:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Nigo: Level = 3, Super Fossil = None
 Raja: Level = 3, Super Fossil = None
 
 2490:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Nigo: Level = 4, Super Fossil = None
 Raja: Level = 4, Super Fossil = None
 
 2491:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Raja: Level = 5, Super Fossil = None
 Raja: Level = 5, Super Fossil = Silver Head
 Nigo: Level = 5, Super Fossil = None
 
 2492:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Raja: Level = 5, Super Fossil = None
 Raja: Level = 5, Super Fossil = Silver Head
 Nigo: Level = 5, Super Fossil = None
 
 2493:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Megalo: Level = 10, Super Fossil = None
 M-Raptor: Level = 10, Super Fossil = None
 Coatlus: Level = 10, Super Fossil = None
 
 2494:
 Name: Fossil Fighter (70)
+Battle Points: 2
+Formation: < (Cambrian)
 Parapu: Level = 2, Super Fossil = None
 
 2495:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Parapu: Level = 2, Super Fossil = None
 
 2496:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Parapu: Level = 2, Super Fossil = None
 Thalasso: Level = 2, Super Fossil = None
 
 2497:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Parapu: Level = 3, Super Fossil = None
 Thalasso: Level = 3, Super Fossil = None
 
 2498:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Parapu: Level = 4, Super Fossil = None
 Thalasso: Level = 4, Super Fossil = None
 
 2499:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tricera: Level = 5, Super Fossil = None
 Parapu: Level = 5, Super Fossil = None
 Thalasso: Level = 5, Super Fossil = None
 
 2500:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tricera: Level = 5, Super Fossil = None
 Parapu: Level = 5, Super Fossil = None
 Thalasso: Level = 5, Super Fossil = None
 
 2501:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Oloro: Level = 10, Super Fossil = None
 Paraloph: Level = 10, Super Fossil = None
 Lambeo: Level = 10, Super Fossil = None
 
 2502:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Krypto: Level = 2, Super Fossil = None
 
 2503:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Krypto: Level = 2, Super Fossil = None
 Krypto: Level = 2, Super Fossil = None
 
 2504:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Krypto: Level = 2, Super Fossil = None
 Krypto: Level = 2, Super Fossil = None
 
 2505:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Krypto: Level = 2, Super Fossil = None
 Krypto: Level = 2, Super Fossil = Silver Head
 
 2506:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Krypto: Level = 4, Super Fossil = None
 Krypto: Level = 4, Super Fossil = Silver Head
 
 2507:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Krypto: Level = 5, Super Fossil = None
 Krypto: Level = 5, Super Fossil = Silver Head
 Krypto: Level = 5, Super Fossil = Silver Legs
 
 2508:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Krypto: Level = 5, Super Fossil = None
 Krypto: Level = 5, Super Fossil = Silver Head
 Krypto: Level = 5, Super Fossil = Silver Legs
 
 2509:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Cryo: Level = 10, Super Fossil = None
 Tricera: Level = 10, Super Fossil = None
 Parapu: Level = 10, Super Fossil = None
 
 2510:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Coatlus: Level = 1, Super Fossil = None
 Pacro: Level = 1, Super Fossil = None
 
 2511:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Coatlus: Level = 1, Super Fossil = None
 Pacro: Level = 1, Super Fossil = None
 
 2512:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Coatlus: Level = 2, Super Fossil = None
 Pacro: Level = 2, Super Fossil = None
 
 2513:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Coatlus: Level = 2, Super Fossil = None
 Pacro: Level = 2, Super Fossil = None
 
 2514:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Coatlus: Level = 4, Super Fossil = None
 Pacro: Level = 4, Super Fossil = None
 
 2515:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Coatlus: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = None
 Goyle: Level = 5, Super Fossil = None
 
 2516:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Coatlus: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = None
 Goyle: Level = 5, Super Fossil = None
 
 2517:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Shenliu: Level = 10, Super Fossil = Gold
 Dilopho: Level = 10, Super Fossil = None
 Tricera: Level = 10, Super Fossil = None
 
 2518:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: > (Jurassic)
 Anomalo: Level = 1, Super Fossil = None
 Pacro: Level = 1, Super Fossil = None
 
 2519:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Anomalo: Level = 1, Super Fossil = None
 Pacro: Level = 1, Super Fossil = None
 
 2520:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Anomalo: Level = 2, Super Fossil = None
 Pacro: Level = 2, Super Fossil = None
 
 2521:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Anomalo: Level = 2, Super Fossil = None
 Pacro: Level = 2, Super Fossil = None
 Nycto: Level = 2, Super Fossil = None
 
 2522:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Anomalo: Level = 3, Super Fossil = None
 Pacro: Level = 3, Super Fossil = None
 Nycto: Level = 3, Super Fossil = None
 
 2523:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Anomalo: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = None
 Nycto: Level = 5, Super Fossil = None
 
 2524:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Anomalo: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = None
 Nycto: Level = 5, Super Fossil = None
 
 2525:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Nigo: Level = 10, Super Fossil = None
 Nodo: Level = 10, Super Fossil = None
 Arsith: Level = 10, Super Fossil = None
 
 2526:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Stego: Level = 1, Super Fossil = None
 Tricera: Level = 1, Super Fossil = None
 
 2527:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Stego: Level = 1, Super Fossil = None
 Tricera: Level = 1, Super Fossil = None
 
 2528:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Stego: Level = 2, Super Fossil = None
 Tricera: Level = 2, Super Fossil = None
 
 2529:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Stego: Level = 2, Super Fossil = None
 Tricera: Level = 2, Super Fossil = None
 Coatlus: Level = 2, Super Fossil = None
 
 2530:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Stego: Level = 3, Super Fossil = None
 Tricera: Level = 3, Super Fossil = None
 Coatlus: Level = 3, Super Fossil = None
 
 2531:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Stego: Level = 5, Super Fossil = None
 Tricera: Level = 5, Super Fossil = None
 Coatlus: Level = 5, Super Fossil = None
 
 2532:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Stego: Level = 5, Super Fossil = None
 Tricera: Level = 5, Super Fossil = None
 Coatlus: Level = 5, Super Fossil = None
 
 2533:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Parium: Level = 10, Super Fossil = None
 Coatlus: Level = 10, Super Fossil = None
 Hoplo: Level = 10, Super Fossil = None
 
 2534:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: > (Jurassic)
 Parapu: Level = 1, Super Fossil = None
 Anomalo: Level = 1, Super Fossil = None
 
 2535:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Parapu: Level = 1, Super Fossil = None
 Anomalo: Level = 1, Super Fossil = None
 
 2536:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Parapu: Level = 1, Super Fossil = None
 Parapu: Level = 1, Super Fossil = None
 Anomalo: Level = 1, Super Fossil = None
 
 2537:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parapu: Level = 2, Super Fossil = None
 Parapu: Level = 2, Super Fossil = Silver Arms
 Anomalo: Level = 2, Super Fossil = None
 
 2538:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parapu: Level = 3, Super Fossil = None
 Parapu: Level = 3, Super Fossil = Silver Arms
 Anomalo: Level = 3, Super Fossil = None
 
 2539:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parapu: Level = 5, Super Fossil = None
 Parapu: Level = 5, Super Fossil = Silver Arms
 Anomalo: Level = 5, Super Fossil = None
 
 2540:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parapu: Level = 5, Super Fossil = None
 Parapu: Level = 5, Super Fossil = Silver Arms
 Anomalo: Level = 5, Super Fossil = None
 
 2541:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Anomalo: Level = 10, Super Fossil = None
 Radox: Level = 10, Super Fossil = None
 Terata: Level = 10, Super Fossil = None
 
 2542:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: > (Jurassic)
 Nycto: Level = 1, Super Fossil = None
 Thalasso: Level = 1, Super Fossil = None
 
 2543:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Nycto: Level = 1, Super Fossil = None
 Thalasso: Level = 1, Super Fossil = None
 
 2544:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Nycto: Level = 1, Super Fossil = None
 Thalasso: Level = 1, Super Fossil = None
 Thalasso: Level = 1, Super Fossil = None
 
 2545:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Nycto: Level = 2, Super Fossil = None
 Thalasso: Level = 2, Super Fossil = None
 Thalasso: Level = 2, Super Fossil = Silver Legs
 
 2546:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Nycto Ace: Level = 3, Super Fossil = Gold
 Thalasso: Level = 3, Super Fossil = None
 Thalasso: Level = 3, Super Fossil = Silver Legs
 
 2547:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Nycto Ace: Level = 5, Super Fossil = Gold
 Thalasso: Level = 5, Super Fossil = None
 Thalasso: Level = 5, Super Fossil = Silver Legs
 
 2548:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Nycto Ace: Level = 5, Super Fossil = Gold
 Thalasso: Level = 5, Super Fossil = None
 Thalasso: Level = 5, Super Fossil = Silver Legs
 
 2549:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Nycto: Level = 10, Super Fossil = None
 Thalasso: Level = 10, Super Fossil = None
 Coatlus: Level = 10, Super Fossil = None
 
 2550:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Sungari: Level = 2, Super Fossil = None
 
 2551:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Sungari: Level = 3, Super Fossil = None
 
 2552:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Sungari: Level = 4, Super Fossil = None
 
 2553:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Sungari: Level = 4, Super Fossil = None
 Hopter: Level = 4, Super Fossil = None
 
 2554:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Sungari: Level = 5, Super Fossil = None
 Hopter: Level = 5, Super Fossil = None
 Jara: Level = 5, Super Fossil = None
 
 2555:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Sungari: Level = 5, Super Fossil = None
 Hopter: Level = 5, Super Fossil = None
 Jara: Level = 5, Super Fossil = None
 
 2556:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Berto: Level = 10, Super Fossil = None
 Yango: Level = 10, Super Fossil = None
 Sungari: Level = 10, Super Fossil = None
 
 2557:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Berto: Level = 2, Super Fossil = None
 
 2558:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Berto: Level = 3, Super Fossil = None
 
 2559:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Berto: Level = 4, Super Fossil = None
 
 2560:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Berto: Level = 4, Super Fossil = None
 Giganto: Level = 4, Super Fossil = None
 
 2561:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Berto: Level = 5, Super Fossil = None
 Giganto: Level = 5, Super Fossil = None
 S-Raptor: Level = 5, Super Fossil = None
 
 2562:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Berto: Level = 5, Super Fossil = None
 Giganto: Level = 5, Super Fossil = None
 S-Raptor: Level = 5, Super Fossil = None
 
 2563:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 T-Rex: Level = 10, Super Fossil = None
 Nippono: Level = 10, Super Fossil = None
 Anato: Level = 10, Super Fossil = None
 
 2564:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Machai: Level = 2, Super Fossil = None
 
 2565:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Machai: Level = 3, Super Fossil = None
 
 2566:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Machai: Level = 3, Super Fossil = None
 Peloro: Level = 3, Super Fossil = None
 
 2567:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Machai: Level = 4, Super Fossil = None
 Peloro: Level = 4, Super Fossil = None
 
 2568:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Peloro: Level = 5, Super Fossil = None
 Peloro: Level = 5, Super Fossil = Silver Head
 Machai: Level = 5, Super Fossil = None
 
 2569:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Peloro: Level = 5, Super Fossil = None
 Peloro: Level = 5, Super Fossil = Silver Head
 Machai: Level = 5, Super Fossil = None
 
 2570:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Brachio: Level = 10, Super Fossil = None
 Cerato: Level = 10, Super Fossil = None
 Arsith: Level = 10, Super Fossil = None
 
 2571:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Desmo: Level = 2, Super Fossil = None
 
 2572:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Desmo: Level = 3, Super Fossil = None
 
 2573:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Desmo: Level = 3, Super Fossil = None
 Tophis: Level = 3, Super Fossil = None
 
 2574:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Desmo: Level = 4, Super Fossil = None
 Tophis: Level = 4, Super Fossil = None
 
 2575:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Desmo: Level = 5, Super Fossil = None
 Tophis: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2576:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Desmo: Level = 5, Super Fossil = None
 Tophis: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2577:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Machai: Level = 10, Super Fossil = None
 Tryma: Level = 10, Super Fossil = None
 Metri: Level = 10, Super Fossil = None
 
 2578:
 Name: Fossil Fighter (70)
+Battle Points: 3
+Formation: < (Cambrian)
 Compso: Level = 2, Super Fossil = None
 
 2579:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Anato: Level = 2, Super Fossil = None
 Compso: Level = 2, Super Fossil = None
 
 2580:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Anato: Level = 3, Super Fossil = None
 Compso: Level = 3, Super Fossil = None
 
 2581:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Anato: Level = 4, Super Fossil = None
 Compso: Level = 4, Super Fossil = None
 
 2582:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Anato: Level = 5, Super Fossil = None
 Compso: Level = 5, Super Fossil = None
 Tryma: Level = 5, Super Fossil = None
 
 2583:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Anato: Level = 5, Super Fossil = None
 Compso: Level = 5, Super Fossil = None
 Tryma: Level = 5, Super Fossil = None
 
 2584:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Nychus: Level = 10, Super Fossil = None
 Dacerus: Level = 10, Super Fossil = None
 Angato: Level = 10, Super Fossil = None
 
 2585:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Brachio: Level = 2, Super Fossil = None
 
 2586:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Brachio: Level = 2, Super Fossil = None
 Aopteryx: Level = 2, Super Fossil = None
 
 2587:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Brachio: Level = 3, Super Fossil = None
 Aopteryx: Level = 3, Super Fossil = None
 
 2588:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Ryden: Level = 4, Super Fossil = Gold
 Aopteryx: Level = 4, Super Fossil = None
 
 2589:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Ryden: Level = 5, Super Fossil = Gold
 Aopteryx: Level = 5, Super Fossil = None
 Penta: Level = 5, Super Fossil = None
 
 2590:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Ryden: Level = 5, Super Fossil = Gold
 Aopteryx: Level = 5, Super Fossil = None
 Penta: Level = 5, Super Fossil = None
 
 2591:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Argento: Level = 10, Super Fossil = None
 Shuno: Level = 10, Super Fossil = None
 Compso: Level = 10, Super Fossil = None
 
 2592:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Berto: Level = 1, Super Fossil = None
 Yango: Level = 1, Super Fossil = None
 
 2593:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Berto: Level = 2, Super Fossil = None
 Yango: Level = 2, Super Fossil = None
 
 2594:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Berto: Level = 3, Super Fossil = None
 Yango: Level = 3, Super Fossil = None
 
 2595:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Berto: Level = 4, Super Fossil = None
 Dydomio: Level = 4, Super Fossil = Gold
 
 2596:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Berto: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = Silver Body
 Dydomio: Level = 5, Super Fossil = Gold
 
 2597:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Berto: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = Silver Body
 Dydomio: Level = 5, Super Fossil = Gold
 
 2598:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: > (Jurassic)
 Teffla: Level = 10, Super Fossil = Gold
 Radox: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = None
 
 2599:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Berto: Level = 1, Super Fossil = None
 Machai: Level = 1, Super Fossil = None
 
 2600:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Berto: Level = 2, Super Fossil = None
 Machai: Level = 2, Super Fossil = None
 
 2601:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Berto: Level = 3, Super Fossil = None
 Machai: Level = 3, Super Fossil = None
 
 2602:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Berto: Level = 4, Super Fossil = None
 Machai: Level = 4, Super Fossil = None
 
 2603:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Berto: Level = 5, Super Fossil = None
 Machai: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 
 2604:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Berto: Level = 5, Super Fossil = None
 Machai: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 
 2605:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Perso: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = None
 Bulgon: Level = 10, Super Fossil = Gold
 
 2606:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Sungari: Level = 1, Super Fossil = None
 Desmo: Level = 1, Super Fossil = None
 
 2607:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Sungari: Level = 2, Super Fossil = None
 Desmo: Level = 2, Super Fossil = None
 
 2608:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Giganto: Level = 2, Super Fossil = None
 Sungari: Level = 2, Super Fossil = None
 Desmo: Level = 2, Super Fossil = None
 
 2609:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Giganto: Level = 3, Super Fossil = None
 Sungari: Level = 3, Super Fossil = None
 Desmo: Level = 3, Super Fossil = None
 
 2610:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Giganto: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = None
 Desmo: Level = 5, Super Fossil = None
 
 2611:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Giganto: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = None
 Desmo: Level = 5, Super Fossil = None
 
 2612:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Teffla: Level = 10, Super Fossil = Gold
 Tricera: Level = 10, Super Fossil = None
 Tricera: Level = 10, Super Fossil = Silver Head
 
 2613:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Desmo: Level = 1, Super Fossil = None
 Desmo: Level = 1, Super Fossil = None
 
 2614:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Desmo: Level = 2, Super Fossil = None
 Desmo: Level = 2, Super Fossil = None
 
 2615:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Desmo: Level = 2, Super Fossil = None
 Desmo: Level = 2, Super Fossil = Silver Arms
 Desmo: Level = 2, Super Fossil = Silver Legs
 
 2616:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Desmo: Level = 3, Super Fossil = None
 Desmo: Level = 3, Super Fossil = Silver Arms
 Desmo: Level = 3, Super Fossil = Silver Legs
 
 2617:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Desmo: Level = 5, Super Fossil = None
 Desmo: Level = 5, Super Fossil = Silver Arms
 Desmo: Level = 5, Super Fossil = Silver Legs
 
 2618:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Desmo: Level = 5, Super Fossil = None
 Desmo: Level = 5, Super Fossil = Silver Arms
 Desmo: Level = 5, Super Fossil = Silver Legs
 
 2619:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Hopter: Level = 10, Super Fossil = None
 Hopter: Level = 10, Super Fossil = Silver Body
 Compso: Level = 10, Super Fossil = None
 
 2620:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Anato: Level = 1, Super Fossil = None
 Anato: Level = 1, Super Fossil = None
 
 2621:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Anato: Level = 1, Super Fossil = None
 Anato: Level = 1, Super Fossil = None
 Anato: Level = 1, Super Fossil = None
 
 2622:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Anato: Level = 2, Super Fossil = Silver Head
 Anato: Level = 2, Super Fossil = Silver Legs
 Anato: Level = 2, Super Fossil = None
 
 2623:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Anato: Level = 3, Super Fossil = Silver Head
 Anato: Level = 3, Super Fossil = Silver Legs
 Papygon: Level = 3, Super Fossil = Gold
 
 2624:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Anato: Level = 5, Super Fossil = Silver Head
 Anato: Level = 5, Super Fossil = Silver Legs
 Papygon: Level = 5, Super Fossil = Gold
 
 2625:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Anato: Level = 5, Super Fossil = Silver Head
 Anato: Level = 5, Super Fossil = Silver Legs
 Papygon: Level = 5, Super Fossil = Gold
 
 2626:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Parium: Level = 10, Super Fossil = None
 Parium: Level = 10, Super Fossil = Silver Legs
 Epidex: Level = 10, Super Fossil = None
 
 2627:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Tryma: Level = 1, Super Fossil = None
 Compso: Level = 1, Super Fossil = None
 
 2628:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Tryma: Level = 1, Super Fossil = None
 Compso: Level = 1, Super Fossil = None
 Compso: Level = 1, Super Fossil = None
 
 2629:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tryma: Level = 2, Super Fossil = None
 Compso: Level = 2, Super Fossil = None
 Compso: Level = 2, Super Fossil = Silver Legs
 
 2630:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tryma: Level = 3, Super Fossil = None
 Compso: Level = 3, Super Fossil = None
 Compso: Level = 3, Super Fossil = Silver Legs
 
 2631:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tryma: Level = 5, Super Fossil = None
 Compso: Level = 5, Super Fossil = None
 Compso: Level = 5, Super Fossil = Silver Legs
 
 2632:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tryma: Level = 5, Super Fossil = None
 Compso: Level = 5, Super Fossil = None
 Compso: Level = 5, Super Fossil = Silver Legs
 
 2633:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Hopter: Level = 10, Super Fossil = None
 Tryma: Level = 10, Super Fossil = None
 Compso: Level = 10, Super Fossil = None
 
 2634:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 T-Rex: Level = 4, Super Fossil = None
 
 2635:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 T-Rex: Level = 4, Super Fossil = None
 Machai: Level = 4, Super Fossil = None
 
 2636:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 T-Rex Lord: Level = 5, Super Fossil = Gold
 Machai: Level = 5, Super Fossil = None
 Machai: Level = 5, Super Fossil = Silver Legs
 
 2637:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 T-Rex Lord: Level = 5, Super Fossil = Gold
 Machai: Level = 5, Super Fossil = None
 Machai: Level = 5, Super Fossil = Silver Legs
 
 2638:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 T-Rex: Level = 10, Super Fossil = None
 T-Rex: Level = 10, Super Fossil = Silver Head
 Guan: Level = 10, Super Fossil = None
 
 2639:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Shuno: Level = 3, Super Fossil = None
 Brachio: Level = 3, Super Fossil = None
 
 2640:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Shuno: Level = 4, Super Fossil = None
 Brachio: Level = 4, Super Fossil = None
 
 2641:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Shuno: Level = 5, Super Fossil = None
 Brachio: Level = 5, Super Fossil = None
 Amargo: Level = 5, Super Fossil = None
 
 2642:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Shuno: Level = 5, Super Fossil = None
 Brachio: Level = 5, Super Fossil = None
 Amargo: Level = 5, Super Fossil = None
 
 2643:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Dacerus: Level = 10, Super Fossil = None
 Saichan: Level = 10, Super Fossil = None
 Dydomio: Level = 10, Super Fossil = Gold
 
 2644:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Dacerus: Level = 3, Super Fossil = None
 Yango: Level = 3, Super Fossil = None
 
 2645:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Dacerus: Level = 4, Super Fossil = None
 Yango: Level = 4, Super Fossil = None
 
 2646:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Dacerus: Level = 5, Super Fossil = None
 Yango: Level = 5, Super Fossil = None
 Jiango: Level = 5, Super Fossil = None
 
 2647:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Dacerus: Level = 5, Super Fossil = None
 Yango: Level = 5, Super Fossil = None
 Jiango: Level = 5, Super Fossil = None
 
 2648:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Shuno: Level = 10, Super Fossil = None
 Menchi: Level = 10, Super Fossil = None
 Amargo: Level = 10, Super Fossil = None
 
 2649:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Nippono: Level = 3, Super Fossil = None
 Anato: Level = 3, Super Fossil = None
 
 2650:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Nippono: Level = 4, Super Fossil = None
 Anato: Level = 4, Super Fossil = None
 
 2651:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Nippono: Level = 5, Super Fossil = None
 Nippono: Level = 5, Super Fossil = Silver Head
 Anato: Level = 5, Super Fossil = None
 
 2652:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Nippono: Level = 5, Super Fossil = None
 Nippono: Level = 5, Super Fossil = Silver Head
 Anato: Level = 5, Super Fossil = None
 
 2653:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Metri: Level = 10, Super Fossil = None
 Metri: Level = 10, Super Fossil = Silver Arms
 Metri: Level = 10, Super Fossil = Silver Legs
 
 2654:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Metri: Level = 2, Super Fossil = None
 Metri: Level = 2, Super Fossil = Silver Body
 Metri: Level = 2, Super Fossil = Silver Arms
 
 2655:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Metri: Level = 3, Super Fossil = None
 Metri: Level = 3, Super Fossil = Silver Body
 Metri: Level = 3, Super Fossil = Silver Arms
 
 2656:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Metri: Level = 5, Super Fossil = None
 Metri: Level = 5, Super Fossil = Silver Body
 Metri: Level = 5, Super Fossil = Silver Arms
 
 2657:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Metri: Level = 5, Super Fossil = None
 Metri: Level = 5, Super Fossil = Silver Body
 Metri: Level = 5, Super Fossil = Silver Arms
 
 2658:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Nippono: Level = 10, Super Fossil = None
 Oloro: Level = 10, Super Fossil = None
 Pacro: Level = 10, Super Fossil = None
 
 2659:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 T-Rex: Level = 2, Super Fossil = None
 Berto: Level = 2, Super Fossil = None
 Dacerus: Level = 2, Super Fossil = None
 
 2660:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 T-Rex: Level = 3, Super Fossil = None
 Berto: Level = 3, Super Fossil = None
 Dacerus: Level = 3, Super Fossil = None
 
 2661:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 T-Rex: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = None
 Dacerus: Level = 5, Super Fossil = None
 
 2662:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 T-Rex: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = None
 Dacerus: Level = 5, Super Fossil = None
 
 2663:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 T-Rex Lord: Level = 10, Super Fossil = Gold
 Guan: Level = 10, Super Fossil = None
 Guan: Level = 10, Super Fossil = None
 
 2664:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Peloro: Level = 3, Super Fossil = None
 
 2665:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Peloro: Level = 4, Super Fossil = None
 
 2666:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Peloro: Level = 4, Super Fossil = None
 Tryma: Level = 4, Super Fossil = None
 
 2667:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Peloro: Level = 5, Super Fossil = None
 Tryma: Level = 5, Super Fossil = None
 Machai: Level = 5, Super Fossil = None
 
 2668:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Peloro: Level = 5, Super Fossil = None
 Tryma: Level = 5, Super Fossil = None
 Machai: Level = 5, Super Fossil = None
 
 2669:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Gorgo: Level = 10, Super Fossil = None
 Saichan: Level = 10, Super Fossil = None
 Dimorph: Level = 10, Super Fossil = None
 
 2670:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Giganto: Level = 3, Super Fossil = None
 
 2671:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Giganto: Level = 4, Super Fossil = None
 
 2672:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Giganto: Level = 4, Super Fossil = None
 Carchar: Level = 4, Super Fossil = None
 
 2673:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Giganto: Level = 5, Super Fossil = None
 Carchar: Level = 5, Super Fossil = None
 S-Raptor: Level = 5, Super Fossil = None
 
 2674:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Giganto: Level = 5, Super Fossil = None
 Carchar: Level = 5, Super Fossil = None
 S-Raptor: Level = 5, Super Fossil = None
 
 2675:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Salto: Level = 10, Super Fossil = None
 Ourano: Level = 10, Super Fossil = None
 Pelto: Level = 10, Super Fossil = None
 
 2676:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Hopter: Level = 3, Super Fossil = None
 
 2677:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Hopter: Level = 4, Super Fossil = None
 
 2678:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Carchar: Level = 4, Super Fossil = None
 Hopter: Level = 4, Super Fossil = None
 
 2679:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Carchar: Level = 5, Super Fossil = None
 Hopter: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2680:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Carchar: Level = 5, Super Fossil = None
 Hopter: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2681:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Cheirus: Level = 10, Super Fossil = None
 V-Raptor: Level = 10, Super Fossil = None
 Ptera: Level = 10, Super Fossil = None
 
 2682:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Camara: Level = 3, Super Fossil = None
 
 2683:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Camara: Level = 3, Super Fossil = None
 Hopter: Level = 3, Super Fossil = None
 
 2684:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Camara: Level = 4, Super Fossil = None
 Hopter: Level = 4, Super Fossil = None
 
 2685:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Camara: Level = 5, Super Fossil = None
 Hopter: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 
 2686:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Camara: Level = 5, Super Fossil = None
 Hopter: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 
 2687:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Elasmo: Level = 10, Super Fossil = None
 Alio: Level = 10, Super Fossil = None
 Nasaur: Level = 10, Super Fossil = None
 
 2688:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Ankylo: Level = 3, Super Fossil = None
 
 2689:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Ankylo: Level = 3, Super Fossil = None
 Ankylo: Level = 3, Super Fossil = Silver Body
 
 2690:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Ankylo: Level = 4, Super Fossil = None
 Ankylo: Level = 4, Super Fossil = Silver Body
 
 2691:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Galgaron: Level = 5, Super Fossil = Gold
 Ankylo: Level = 5, Super Fossil = Silver Body
 Ankylo: Level = 5, Super Fossil = None
 
 2692:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Galgaron: Level = 5, Super Fossil = Gold
 Ankylo: Level = 5, Super Fossil = Silver Body
 Ankylo: Level = 5, Super Fossil = None
 
 2693:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Orno: Level = 10, Super Fossil = None
 O-Raptor: Level = 10, Super Fossil = None
 Guera: Level = 10, Super Fossil = None
 
 2694:
 Name: Fossil Fighter (70)
+Battle Points: 4
+Formation: < (Cambrian)
 Tophis: Level = 3, Super Fossil = None
 
 2695:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Tophis: Level = 3, Super Fossil = None
 Nippono: Level = 3, Super Fossil = None
 
 2696:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Tophis: Level = 4, Super Fossil = None
 Nippono: Level = 4, Super Fossil = None
 
 2697:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Tophis: Level = 5, Super Fossil = None
 Nippono: Level = 5, Super Fossil = None
 Penta: Level = 5, Super Fossil = None
 
 2698:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Tophis: Level = 5, Super Fossil = None
 Nippono: Level = 5, Super Fossil = None
 Penta: Level = 5, Super Fossil = None
 
 2699:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Allo: Level = 10, Super Fossil = None
 Neo: Level = 10, Super Fossil = None
 Apato: Level = 10, Super Fossil = None
 
 2700:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Peloro: Level = 2, Super Fossil = None
 Sungari: Level = 2, Super Fossil = None
 
 2701:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Peloro: Level = 3, Super Fossil = None
 Sungari: Level = 3, Super Fossil = None
 
 2702:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Peloro: Level = 4, Super Fossil = None
 Sungari: Level = 4, Super Fossil = None
 
 2703:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Peloro: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = None
 Dikelo: Level = 5, Super Fossil = None
 
 2704:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Peloro: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = None
 Dikelo: Level = 5, Super Fossil = None
 
 2705:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: > (Jurassic)
 Kaishin: Level = 10, Super Fossil = Gold
 Seidon: Level = 10, Super Fossil = None
 Chelon: Level = 10, Super Fossil = None
 
 2706:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Hopter: Level = 2, Super Fossil = None
 Sungari: Level = 2, Super Fossil = None
 
 2707:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Hopter: Level = 3, Super Fossil = None
 Sungari: Level = 3, Super Fossil = None
 
 2708:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Hopter: Level = 4, Super Fossil = None
 Sungari: Level = 4, Super Fossil = None
 
 2709:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Hopter: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = Silver Head
 
 2710:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Hopter: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = None
 Sungari: Level = 5, Super Fossil = Silver Head
 
 2711:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 T-Rex: Level = 10, Super Fossil = None
 Tophis: Level = 10, Super Fossil = None
 Tophis: Level = 10, Super Fossil = Silver Arms
 
 2712:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Carchar: Level = 2, Super Fossil = None
 Berto: Level = 2, Super Fossil = None
 
 2713:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Carchar: Level = 3, Super Fossil = None
 Berto: Level = 3, Super Fossil = None
 
 2714:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Carchar: Level = 4, Super Fossil = None
 Berto: Level = 4, Super Fossil = None
 
 2715:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Carchar: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = None
 Venator: Level = 5, Super Fossil = None
 
 2716:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Carchar: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = None
 Venator: Level = 5, Super Fossil = None
 
 2717:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Hopter: Level = 10, Super Fossil = None
 Sucho: Level = 10, Super Fossil = None
 Compso: Level = 10, Super Fossil = None
 
 2718:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Carchar: Level = 2, Super Fossil = None
 Tryma: Level = 2, Super Fossil = None
 
 2719:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Carchar: Level = 3, Super Fossil = None
 Tryma: Level = 3, Super Fossil = None
 
 2720:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Carchar: Level = 4, Super Fossil = None
 Tryma: Level = 4, Super Fossil = None
 
 2721:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Carchar: Level = 5, Super Fossil = None
 Acro: Level = 5, Super Fossil = None
 Tryma: Level = 5, Super Fossil = None
 
 2722:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Carchar: Level = 5, Super Fossil = None
 Acro: Level = 5, Super Fossil = None
 Tryma: Level = 5, Super Fossil = None
 
 2723:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Aeros: Level = 10, Super Fossil = None
 Tricera: Level = 10, Super Fossil = None
 Dimorph Ace: Level = 10, Super Fossil = Gold
 
 2724:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Cerato: Level = 2, Super Fossil = None
 Camara: Level = 2, Super Fossil = None
 
 2725:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Cerato: Level = 3, Super Fossil = None
 Camara: Level = 3, Super Fossil = None
 
 2726:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Cerato: Level = 4, Super Fossil = None
 Camara: Level = 4, Super Fossil = None
 
 2727:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Cerato: Level = 5, Super Fossil = None
 Camara: Level = 5, Super Fossil = None
 Lagia: Level = 5, Super Fossil = None
 
 2728:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Cerato: Level = 5, Super Fossil = None
 Camara: Level = 5, Super Fossil = None
 Lagia: Level = 5, Super Fossil = None
 
 2729:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Raja: Level = 10, Super Fossil = None
 Dimorph Ace: Level = 10, Super Fossil = Gold
 Nycto Ace: Level = 10, Super Fossil = Gold
 
 2730:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Ankylo: Level = 2, Super Fossil = None
 Jiango: Level = 2, Super Fossil = None
 
 2731:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Ankylo: Level = 3, Super Fossil = None
 Jiango: Level = 3, Super Fossil = None
 
 2732:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Ankylo: Level = 4, Super Fossil = None
 Jiango: Level = 4, Super Fossil = None
 
 2733:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Ankylo: Level = 5, Super Fossil = None
 Yango: Level = 5, Super Fossil = None
 Jiango: Level = 5, Super Fossil = None
 
 2734:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Ankylo: Level = 5, Super Fossil = None
 Yango: Level = 5, Super Fossil = None
 Jiango: Level = 5, Super Fossil = None
 
 2735:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Parium: Level = 10, Super Fossil = None
 Peloro: Level = 10, Super Fossil = None
 Hoplo: Level = 10, Super Fossil = None
 
 2736:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Jiango: Level = 2, Super Fossil = None
 Yango: Level = 2, Super Fossil = None
 
 2737:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Yango: Level = 2, Super Fossil = None
 Yango: Level = 2, Super Fossil = Silver Body
 Jiango: Level = 2, Super Fossil = None
 
 2738:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Yango: Level = 3, Super Fossil = None
 Yango: Level = 3, Super Fossil = Silver Body
 Jiango: Level = 3, Super Fossil = None
 
 2739:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Yango: Level = 5, Super Fossil = None
 Yango: Level = 5, Super Fossil = Silver Body
 Jiango: Level = 5, Super Fossil = None
 
 2740:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Yango: Level = 5, Super Fossil = None
 Yango: Level = 5, Super Fossil = Silver Body
 Jiango: Level = 5, Super Fossil = None
 
 2741:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Giganto: Level = 10, Super Fossil = None
 Gorgo: Level = 10, Super Fossil = None
 Siamo: Level = 10, Super Fossil = None
 
 2742:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Aopteryx: Level = 2, Super Fossil = None
 Aopteryx: Level = 2, Super Fossil = None
 
 2743:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Aopteryx: Level = 2, Super Fossil = None
 Aopteryx: Level = 2, Super Fossil = Silver Arms
 Aopteryx: Level = 2, Super Fossil = Silver Legs
 
 2744:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Aopteryx: Level = 3, Super Fossil = None
 Aopteryx: Level = 3, Super Fossil = Silver Arms
 Aopteryx: Level = 3, Super Fossil = Silver Legs
 
 2745:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Aopteryx: Level = 5, Super Fossil = None
 Aopteryx: Level = 5, Super Fossil = Silver Arms
 Aopteryx: Level = 5, Super Fossil = Silver Legs
 
 2746:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Aopteryx: Level = 5, Super Fossil = None
 Aopteryx: Level = 5, Super Fossil = Silver Arms
 Aopteryx: Level = 5, Super Fossil = Silver Legs
 
 2747:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Hopter: Level = 10, Super Fossil = None
 Sungari: Level = 10, Super Fossil = None
 Dimorph: Level = 10, Super Fossil = None
 
 2748:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: > (Jurassic)
 Tophis: Level = 2, Super Fossil = None
 Tophis: Level = 2, Super Fossil = None
 
 2749:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Tophis: Level = 2, Super Fossil = None
 Tophis: Level = 2, Super Fossil = Silver Head
 Tophis: Level = 2, Super Fossil = Silver Body
 
 2750:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Tophis: Level = 3, Super Fossil = None
 Tophis: Level = 3, Super Fossil = Silver Head
 Tophis: Level = 3, Super Fossil = Silver Body
 
 2751:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Tophis: Level = 5, Super Fossil = None
 Tophis: Level = 5, Super Fossil = Silver Head
 Tophis: Level = 5, Super Fossil = Silver Body
 
 2752:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Tophis: Level = 5, Super Fossil = None
 Tophis: Level = 5, Super Fossil = Silver Head
 Tophis: Level = 5, Super Fossil = Silver Body
 
 2753:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Giga Raja: Level = 10, Super Fossil = Gold
 Carchar: Level = 10, Super Fossil = None
 Acro: Level = 10, Super Fossil = None
 
 2754:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Giganto: Level = 1, Super Fossil = None
 Berto: Level = 1, Super Fossil = None
 Peloro: Level = 1, Super Fossil = None
 
 2755:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Giganto: Level = 2, Super Fossil = None
 Berto: Level = 2, Super Fossil = None
 Peloro: Level = 2, Super Fossil = None
 
 2756:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Giganto: Level = 3, Super Fossil = None
 Berto: Level = 3, Super Fossil = None
 Peloro: Level = 3, Super Fossil = None
 
 2757:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Giganto: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = None
 Peloro: Level = 5, Super Fossil = None
 
 2758:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Giganto: Level = 5, Super Fossil = None
 Berto: Level = 5, Super Fossil = None
 Peloro: Level = 5, Super Fossil = None
 
 2759:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 O-Raptor Fiend: Level = 10, Super Fossil = Gold
 Mihu: Level = 10, Super Fossil = None
 Mihu: Level = 10, Super Fossil = Silver Legs
 
 2760:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Cerato: Level = 1, Super Fossil = None
 Cerato: Level = 1, Super Fossil = None
 Cerato: Level = 1, Super Fossil = None
 
 2761:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Cerato: Level = 2, Super Fossil = None
 Cerato: Level = 2, Super Fossil = Silver Legs
 Cerato: Level = 2, Super Fossil = Silver Body
 
 2762:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Cerato: Level = 3, Super Fossil = None
 Cerato: Level = 3, Super Fossil = Silver Legs
 Cerato: Level = 3, Super Fossil = Silver Body
 
 2763:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Cerato: Level = 5, Super Fossil = None
 Cerato: Level = 5, Super Fossil = Silver Legs
 Cerato: Level = 5, Super Fossil = Silver Body
 
 2764:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Cerato: Level = 5, Super Fossil = None
 Cerato: Level = 5, Super Fossil = Silver Legs
 Cerato: Level = 5, Super Fossil = Silver Body
 
 2765:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Jiango: Level = 10, Super Fossil = None
 Kentro: Level = 10, Super Fossil = None
 Lexo: Level = 10, Super Fossil = None
 
 2766:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Allo: Level = 1, Super Fossil = None
 Tophis: Level = 1, Super Fossil = None
 Aopteryx: Level = 1, Super Fossil = None
 
 2767:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Allo: Level = 2, Super Fossil = None
 Tophis: Level = 2, Super Fossil = None
 Aopteryx: Level = 2, Super Fossil = None
 
 2768:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Allo: Level = 3, Super Fossil = None
 Tophis: Level = 3, Super Fossil = None
 Aopteryx: Level = 3, Super Fossil = None
 
 2769:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Giga Allo: Level = 5, Super Fossil = Gold
 Tophis: Level = 5, Super Fossil = None
 Aopteryx: Level = 5, Super Fossil = None
 
 2770:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Giga Allo: Level = 5, Super Fossil = Gold
 Tophis: Level = 5, Super Fossil = None
 Aopteryx: Level = 5, Super Fossil = None
 
 2771:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: > (Jurassic)
 Camara: Level = 10, Super Fossil = None
 Toba: Level = 10, Super Fossil = None
 Equinas: Level = 10, Super Fossil = Gold
 
 2772:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Dimetro: Level = 2, Super Fossil = None
 Maia: Level = 2, Super Fossil = None
 Maia: Level = 2, Super Fossil = Silver Body
 
 2773:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Dimetro: Level = 3, Super Fossil = None
 Maia: Level = 3, Super Fossil = None
 Maia: Level = 3, Super Fossil = Silver Body
 
 2774:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Lugmos: Level = 5, Super Fossil = Gold
 Maia: Level = 5, Super Fossil = None
 Maia: Level = 5, Super Fossil = Silver Body
 
 2775:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Lugmos: Level = 5, Super Fossil = Gold
 Maia: Level = 5, Super Fossil = None
 Maia: Level = 5, Super Fossil = Silver Body
 
 2776:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Teffla: Level = 10, Super Fossil = Gold
 Radox: Level = 10, Super Fossil = None
 Dimorph Ace: Level = 10, Super Fossil = Gold
 
 2777:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tsintao: Level = 2, Super Fossil = None
 Seismo: Level = 2, Super Fossil = None
 Seismo: Level = 2, Super Fossil = Silver Body
 
 2778:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Tsintao: Level = 3, Super Fossil = None
 Seismo: Level = 3, Super Fossil = None
 Seismo: Level = 3, Super Fossil = Silver Body
 
 2779:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Seismo: Level = 5, Super Fossil = None
 Seismo: Level = 5, Super Fossil = Silver Body
 Bulgon: Level = 5, Super Fossil = Gold
 
 2780:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Seismo: Level = 5, Super Fossil = None
 Seismo: Level = 5, Super Fossil = Silver Body
 Bulgon: Level = 5, Super Fossil = Gold
 
 2781:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Tsintao: Level = 10, Super Fossil = None
 Seismo: Level = 10, Super Fossil = None
 Maia: Level = 10, Super Fossil = None
 
 2782:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Aeros: Level = 3, Super Fossil = None
 Coelo: Level = 3, Super Fossil = None
 
 2783:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Aeros: Level = 4, Super Fossil = None
 Coelo: Level = 4, Super Fossil = None
 
 2784:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Teffla: Level = 5, Super Fossil = Gold
 Coelo: Level = 5, Super Fossil = None
 Chasmo: Level = 5, Super Fossil = None
 
 2785:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Teffla: Level = 5, Super Fossil = Gold
 Coelo: Level = 5, Super Fossil = None
 Chasmo: Level = 5, Super Fossil = None
 
 2786:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Toba: Level = 10, Super Fossil = None
 Gomp: Level = 10, Super Fossil = None
 Coelo: Level = 10, Super Fossil = None
 
 2787:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Toba: Level = 3, Super Fossil = None
 Toba: Level = 3, Super Fossil = Silver Body
 
 2788:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Toba: Level = 4, Super Fossil = None
 Toba: Level = 4, Super Fossil = Silver Body
 
 2789:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Toba: Level = 5, Super Fossil = None
 F-Raptor: Level = 5, Super Fossil = None
 Equinas: Level = 5, Super Fossil = Gold
 
 2790:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Toba: Level = 5, Super Fossil = None
 F-Raptor: Level = 5, Super Fossil = None
 Equinas: Level = 5, Super Fossil = Gold
 
 2791:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Dimetro: Level = 10, Super Fossil = None
 U-Raptor: Level = 10, Super Fossil = None
 Metria: Level = 10, Super Fossil = None
 
 2792:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Gomp: Level = 3, Super Fossil = None
 Alectro: Level = 3, Super Fossil = None
 
 2793:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Gomp: Level = 4, Super Fossil = None
 Alectro: Level = 4, Super Fossil = None
 
 2794:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gomp: Level = 5, Super Fossil = None
 Mammoth: Level = 5, Super Fossil = None
 Alectro: Level = 5, Super Fossil = None
 
 2795:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gomp: Level = 5, Super Fossil = None
 Mammoth: Level = 5, Super Fossil = None
 Alectro: Level = 5, Super Fossil = None
 
 2796:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Gaudry: Level = 10, Super Fossil = None
 Coelanth: Level = 10, Super Fossil = None
 Chelon: Level = 10, Super Fossil = None
 
 2797:
 Name: Fossil Fighter (70)
+Battle Points: 5
+Formation: < (Cambrian)
 Seismo: Level = 4, Super Fossil = None
 
 2798:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Seismo: Level = 4, Super Fossil = None
 Toba: Level = 4, Super Fossil = None
 
 2799:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Seismo: Level = 5, Super Fossil = None
 Toba: Level = 5, Super Fossil = None
 Coelo: Level = 5, Super Fossil = None
 
 2800:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Seismo: Level = 5, Super Fossil = None
 Toba: Level = 5, Super Fossil = None
 Coelo: Level = 5, Super Fossil = None
 
 2801:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Breme: Level = 10, Super Fossil = None
 Breme: Level = 10, Super Fossil = Silver Legs
 Maia: Level = 10, Super Fossil = None
 
 2802:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Krona: Level = 4, Super Fossil = None
 Alectro: Level = 4, Super Fossil = None
 
 2803:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Alectro: Level = 5, Super Fossil = None
 Alectro: Level = 5, Super Fossil = Silver Head
 Krona: Level = 5, Super Fossil = None
 
 2804:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Alectro: Level = 5, Super Fossil = None
 Alectro: Level = 5, Super Fossil = Silver Head
 Krona: Level = 5, Super Fossil = None
 
 2805:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Mapo: Level = 10, Super Fossil = None
 Angato: Level = 10, Super Fossil = None
 Berta: Level = 10, Super Fossil = None
 
 2806:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Berta: Level = 4, Super Fossil = None
 Alectro: Level = 4, Super Fossil = None
 
 2807:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Berta: Level = 5, Super Fossil = None
 Alectro: Level = 5, Super Fossil = None
 Mammoth: Level = 5, Super Fossil = None
 
 2808:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Berta: Level = 5, Super Fossil = None
 Alectro: Level = 5, Super Fossil = None
 Mammoth: Level = 5, Super Fossil = None
 
 2809:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Seidon: Level = 10, Super Fossil = None
 Pachy: Level = 10, Super Fossil = None
 Ankylo: Level = 10, Super Fossil = None
 
 2810:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Seidon: Level = 3, Super Fossil = None
 Krona: Level = 3, Super Fossil = None
 Futabi: Level = 3, Super Fossil = None
 
 2811:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Seidon: Level = 5, Super Fossil = None
 Krona: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 
 2812:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Seidon: Level = 5, Super Fossil = None
 Krona: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 
 2813:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Krona: Level = 10, Super Fossil = None
 Plesio: Level = 10, Super Fossil = None
 Centro: Level = 10, Super Fossil = None
 
 2814:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Berta: Level = 4, Super Fossil = None
 Synthos: Level = 4, Super Fossil = None
 
 2815:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Berta: Level = 5, Super Fossil = None
 Synthos: Level = 5, Super Fossil = None
 Mihu: Level = 5, Super Fossil = None
 
 2816:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Berta: Level = 5, Super Fossil = None
 Synthos: Level = 5, Super Fossil = None
 Mihu: Level = 5, Super Fossil = None
 
 2817:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: > (Jurassic)
 Despino: Level = 10, Super Fossil = Gold
 Cryo: Level = 10, Super Fossil = None
 Aopteryx: Level = 10, Super Fossil = None
 
 2818:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Futabi: Level = 4, Super Fossil = None
 Futabi: Level = 4, Super Fossil = Silver Legs
 
 2819:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Futabi: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = Silver Legs
 Momo: Level = 5, Super Fossil = Gold
 
 2820:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Futabi: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = Silver Legs
 Momo: Level = 5, Super Fossil = Gold
 
 2821:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Mammoth: Level = 10, Super Fossil = None
 Titanis: Level = 10, Super Fossil = None
 Synthos: Level = 10, Super Fossil = None
 
 2822:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Krona: Level = 4, Super Fossil = None
 Futabi: Level = 4, Super Fossil = None
 
 2823:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Krona: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = None
 
 2824:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Krona: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = None
 
 2825:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 F-Raptor: Level = 10, Super Fossil = None
 Futabi: Level = 10, Super Fossil = None
 Mihu: Level = 10, Super Fossil = None
 
 2826:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gomp: Level = 3, Super Fossil = None
 Gomp: Level = 3, Super Fossil = Silver Body
 Mammoth: Level = 3, Super Fossil = None
 
 2827:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gomp: Level = 5, Super Fossil = None
 Gomp: Level = 5, Super Fossil = Silver Body
 Mammoth: Level = 5, Super Fossil = None
 
 2828:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gomp: Level = 5, Super Fossil = None
 Gomp: Level = 5, Super Fossil = Silver Body
 Mammoth: Level = 5, Super Fossil = None
 
 2829:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Megath: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = Silver Head
 
 2830:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 F-Raptor: Level = 3, Super Fossil = None
 Synthos: Level = 3, Super Fossil = None
 Pachy: Level = 3, Super Fossil = None
 
 2831:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 F-Raptor: Level = 5, Super Fossil = None
 Synthos: Level = 5, Super Fossil = None
 Pachy: Level = 5, Super Fossil = None
 
 2832:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 F-Raptor: Level = 5, Super Fossil = None
 Synthos: Level = 5, Super Fossil = None
 Pachy: Level = 5, Super Fossil = None
 
 2833:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Krona: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = None
 Equinas: Level = 10, Super Fossil = Gold
 
 2834:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: < (Cambrian)
 Synthos: Level = 4, Super Fossil = None
 F-Raptor: Level = 4, Super Fossil = None
 
 2835:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Synthos: Level = 5, Super Fossil = None
 F-Raptor: Level = 5, Super Fossil = None
 Titanis: Level = 5, Super Fossil = None
 
 2836:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Synthos: Level = 5, Super Fossil = None
 F-Raptor: Level = 5, Super Fossil = None
 Titanis: Level = 5, Super Fossil = None
 
 2837:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Pachy: Level = 10, Super Fossil = None
 Stygi: Level = 10, Super Fossil = None
 Goyo: Level = 10, Super Fossil = None
 
 2838:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Pachy: Level = 4, Super Fossil = None
 Pachy: Level = 4, Super Fossil = Silver Head
 
 2839:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Pachy: Level = 5, Super Fossil = None
 Pachy: Level = 5, Super Fossil = Silver Head
 Pachy: Level = 5, Super Fossil = Silver Arms
 
 2840:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Pachy: Level = 5, Super Fossil = None
 Pachy: Level = 5, Super Fossil = Silver Head
 Pachy: Level = 5, Super Fossil = Silver Arms
 
 2841:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Mammoth: Level = 10, Super Fossil = None
 Gomp: Level = 10, Super Fossil = None
 Anan: Level = 10, Super Fossil = None
 
 2842:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Mihu: Level = 3, Super Fossil = None
 F-Raptor: Level = 3, Super Fossil = None
 Futabi: Level = 3, Super Fossil = None
 
 2843:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Mihu: Level = 5, Super Fossil = None
 F-Raptor: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 
 2844:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Mihu: Level = 5, Super Fossil = None
 F-Raptor: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 
 2845:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Titanis: Level = 10, Super Fossil = None
 Lagia: Level = 10, Super Fossil = None
 Epidex: Level = 10, Super Fossil = None
 
 2846:
 Name: Fossil Fighter (70)
+Battle Points: 6
+Formation: > (Jurassic)
 Titanis: Level = 4, Super Fossil = None
 Titanis: Level = 4, Super Fossil = Silver Arms
 
 2847:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Titanis: Level = 5, Super Fossil = None
 Titanis: Level = 5, Super Fossil = Silver Arms
 Titanis: Level = 5, Super Fossil = Silver Legs
 
 2848:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Titanis: Level = 5, Super Fossil = None
 Titanis: Level = 5, Super Fossil = Silver Arms
 Titanis: Level = 5, Super Fossil = Silver Legs
 
 2849:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: > (Jurassic)
 Elasmo: Level = 10, Super Fossil = None
 Plesio: Level = 10, Super Fossil = None
 Momo: Level = 10, Super Fossil = Gold
 
 2850:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Coelanth: Level = 5, Super Fossil = None
 Dunkle: Level = 5, Super Fossil = None
 Krona: Level = 5, Super Fossil = None
 
 2851:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Coelanth: Level = 5, Super Fossil = None
 Dunkle: Level = 5, Super Fossil = None
 Krona: Level = 5, Super Fossil = None
 
 2852:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Shoni: Level = 10, Super Fossil = None
 Thalasso: Level = 10, Super Fossil = None
 Igua: Level = 10, Super Fossil = None
 
 2853:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Coelanth: Level = 5, Super Fossil = None
 Nychus: Level = 5, Super Fossil = None
 Maia: Level = 5, Super Fossil = None
 
 2854:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Coelanth: Level = 5, Super Fossil = None
 Nychus: Level = 5, Super Fossil = None
 Maia: Level = 5, Super Fossil = None
 
 2855:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Coelanth: Level = 10, Super Fossil = None
 Dunkle: Level = 10, Super Fossil = None
 Nychus: Level = 10, Super Fossil = None
 
 2856:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Plesio: Level = 5, Super Fossil = None
 Coelo: Level = 5, Super Fossil = None
 Nychus: Level = 5, Super Fossil = None
 
 2857:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Plesio: Level = 5, Super Fossil = None
 Coelo: Level = 5, Super Fossil = None
 Nychus: Level = 5, Super Fossil = None
 
 2858:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Giga Allo: Level = 10, Super Fossil = Gold
 Nychus: Level = 10, Super Fossil = None
 Gaudry: Level = 10, Super Fossil = None
 
 2859:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Dunkle: Level = 5, Super Fossil = None
 Dunkle: Level = 5, Super Fossil = Silver Head
 Coelanth: Level = 5, Super Fossil = None
 
 2860:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Dunkle: Level = 5, Super Fossil = None
 Dunkle: Level = 5, Super Fossil = Silver Head
 Coelanth: Level = 5, Super Fossil = None
 
 2861:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Chasmo: Level = 10, Super Fossil = None
 Styraco: Level = 10, Super Fossil = None
 Proto: Level = 10, Super Fossil = None
 
 2862:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Dunkle: Level = 5, Super Fossil = None
 Synthos: Level = 5, Super Fossil = None
 Seismo: Level = 5, Super Fossil = None
 
 2863:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Dunkle: Level = 5, Super Fossil = None
 Synthos: Level = 5, Super Fossil = None
 Seismo: Level = 5, Super Fossil = None
 
 2864:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Oloro: Level = 10, Super Fossil = None
 Plesio: Level = 10, Super Fossil = None
 Chelon: Level = 10, Super Fossil = None
 
 2865:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Oloro: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = None
 Chelon: Level = 5, Super Fossil = None
 
 2866:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Oloro: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = None
 Chelon: Level = 5, Super Fossil = None
 
 2867:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Aeros: Level = 10, Super Fossil = None
 Styraco: Level = 10, Super Fossil = None
 Alectro: Level = 10, Super Fossil = None
 
 2868:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Krona: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = None
 
 2869:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Krona: Level = 5, Super Fossil = None
 Futabi: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = None
 
 2870:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Spino: Level = 10, Super Fossil = None
 E-Raptor: Level = 10, Super Fossil = None
 Einio: Level = 10, Super Fossil = None
 
 2871:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Plesio: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = Silver Arms
 Marple: Level = 5, Super Fossil = Gold
 
 2872:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Plesio: Level = 5, Super Fossil = None
 Plesio: Level = 5, Super Fossil = Silver Arms
 Marple: Level = 5, Super Fossil = Gold
 
 2873:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Dilopho: Level = 10, Super Fossil = None
 Delta: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = None
 
 2874:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gomp: Level = 5, Super Fossil = None
 Mammoth: Level = 5, Super Fossil = None
 Chelon: Level = 5, Super Fossil = None
 
 2875:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gomp: Level = 5, Super Fossil = None
 Mammoth: Level = 5, Super Fossil = None
 Chelon: Level = 5, Super Fossil = None
 
 2876:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Cryo: Level = 10, Super Fossil = None
 Plesio: Level = 10, Super Fossil = None
 Archaeo: Level = 10, Super Fossil = None
 
 2877:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Berta: Level = 5, Super Fossil = None
 Mihu: Level = 5, Super Fossil = None
 Chasmo: Level = 5, Super Fossil = None
 
 2878:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Berta: Level = 5, Super Fossil = None
 Mihu: Level = 5, Super Fossil = None
 Chasmo: Level = 5, Super Fossil = None
 
 2879:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Coelanth: Level = 10, Super Fossil = None
 Desmo: Level = 10, Super Fossil = None
 Dikelo: Level = 10, Super Fossil = None
 
 2880:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Coelanth: Level = 5, Super Fossil = None
 Dunkle: Level = 5, Super Fossil = None
 Gaudry: Level = 5, Super Fossil = None
 
 2881:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Coelanth: Level = 5, Super Fossil = None
 Dunkle: Level = 5, Super Fossil = None
 Gaudry: Level = 5, Super Fossil = None
 
 2882:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Krona: Level = 10, Super Fossil = None
 Shoni: Level = 10, Super Fossil = None
 Dunkle: Level = 10, Super Fossil = None
 
 2883:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gaudry: Level = 5, Super Fossil = None
 Gaudry: Level = 5, Super Fossil = Silver Body
 Gaudry: Level = 5, Super Fossil = Silver Legs
 
 2884:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Gaudry: Level = 5, Super Fossil = None
 Gaudry: Level = 5, Super Fossil = Silver Body
 Gaudry: Level = 5, Super Fossil = Silver Legs
 
 2885:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Gaudry: Level = 10, Super Fossil = None
 Desmo: Level = 10, Super Fossil = None
 Parapu: Level = 10, Super Fossil = None
 
 2886:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Lagia: Level = 5, Super Fossil = None
 Dikelo: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2887:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Lagia: Level = 5, Super Fossil = None
 Dikelo: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2888:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 S-Raptor: Level = 10, Super Fossil = None
 Lagia: Level = 10, Super Fossil = None
 Guan: Level = 10, Super Fossil = None
 
 2889:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Desmo: Level = 5, Super Fossil = None
 Desmo: Level = 5, Super Fossil = Silver Legs
 Dikelo: Level = 5, Super Fossil = None
 
 2890:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Desmo: Level = 5, Super Fossil = None
 Desmo: Level = 5, Super Fossil = Silver Legs
 Dikelo: Level = 5, Super Fossil = None
 
 2891:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Andrarch: Level = 10, Super Fossil = None
 Smilo: Level = 10, Super Fossil = None
 Anan: Level = 10, Super Fossil = None
 
 2892:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 S-Raptor: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 Amargo: Level = 5, Super Fossil = None
 
 2893:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 S-Raptor: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 Amargo: Level = 5, Super Fossil = None
 
 2894:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Papygon: Level = 10, Super Fossil = Gold
 Venator: Level = 10, Super Fossil = None
 Siamo: Level = 10, Super Fossil = None
 
 2895:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 S-Raptor: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = Silver Head
 
 2896:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 S-Raptor: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = None
 Stygi: Level = 5, Super Fossil = Silver Head
 
 2897:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Amargo: Level = 10, Super Fossil = None
 Stygi: Level = 10, Super Fossil = None
 Penta: Level = 10, Super Fossil = None
 
 2898:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Venator: Level = 5, Super Fossil = None
 S-Raptor: Level = 5, Super Fossil = None
 Acro: Level = 5, Super Fossil = None
 
 2899:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Venator: Level = 5, Super Fossil = None
 S-Raptor: Level = 5, Super Fossil = None
 Acro: Level = 5, Super Fossil = None
 
 2900:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Dikelo: Level = 10, Super Fossil = None
 Terata: Level = 10, Super Fossil = None
 Radox: Level = 10, Super Fossil = None
 
 2901:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 S-Raptor: Level = 5, Super Fossil = None
 Penta: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2902:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 S-Raptor: Level = 5, Super Fossil = None
 Penta: Level = 5, Super Fossil = None
 Anan: Level = 5, Super Fossil = None
 
 2903:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Giganto: Level = 10, Super Fossil = None
 Carchar: Level = 10, Super Fossil = None
 Daspleto: Level = 10, Super Fossil = None
 
 2904:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Edapho: Level = 5, Super Fossil = None
 Geneos: Level = 5, Super Fossil = Gold
 Nodo: Level = 5, Super Fossil = None
 
 2905:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Edapho: Level = 5, Super Fossil = None
 Geneos: Level = 5, Super Fossil = Gold
 Nodo: Level = 5, Super Fossil = None
 
 2906:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: > (Jurassic)
 Buldor: Level = 10, Super Fossil = Gold
 Pachrino: Level = 10, Super Fossil = None
 Lexo: Level = 10, Super Fossil = None
 
 2907:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parium: Level = 5, Super Fossil = None
 Megath: Level = 5, Super Fossil = None
 Ceros: Level = 5, Super Fossil = None
 
 2908:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parium: Level = 5, Super Fossil = None
 Megath: Level = 5, Super Fossil = None
 Ceros: Level = 5, Super Fossil = None
 
 2909:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Ceros: Level = 10, Super Fossil = None
 Hypsi: Level = 10, Super Fossil = None
 Edapho: Level = 10, Super Fossil = None
 
 2910:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parium: Level = 5, Super Fossil = None
 Nycto: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = None
 
 2911:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Parium: Level = 5, Super Fossil = None
 Nycto: Level = 5, Super Fossil = None
 Pacro: Level = 5, Super Fossil = None
 
 2912:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Sungari: Level = 10, Super Fossil = None
 Coatlus: Level = 10, Super Fossil = None
 Aopteryx: Level = 10, Super Fossil = None
 
 2913:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Edapho: Level = 5, Super Fossil = None
 Jara: Level = 5, Super Fossil = None
 Hypsi: Level = 5, Super Fossil = None
 
 2914:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: > (Jurassic)
 Edapho: Level = 5, Super Fossil = None
 Jara: Level = 5, Super Fossil = None
 Hypsi: Level = 5, Super Fossil = None
 
 2915:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Jara: Level = 10, Super Fossil = None
 Nycto: Level = 10, Super Fossil = None
 Thalasso: Level = 10, Super Fossil = None
 
 2916:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Megath: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = None
 Goyle: Level = 5, Super Fossil = None
 
 2917:
 Name: Fossil Fighter (70)
+Battle Points: 7
+Formation: < (Cambrian)
 Megath: Level = 5, Super Fossil = None
 Nodo: Level = 5, Super Fossil = None
 Goyle: Level = 5, Super Fossil = None
 
 2918:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Geneos: Level = 10, Super Fossil = Gold
 Parium: Level = 10, Super Fossil = None
 Dikelo: Level = 10, Super Fossil = None
 
 2919:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Pachrino: Level = 5, Super Fossil = None
 Pachrino: Level = 5, Super Fossil = Silver Body
 Buldor: Level = 5, Super Fossil = Gold
 
 2920:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Pachrino: Level = 5, Super Fossil = None
 Pachrino: Level = 5, Super Fossil = Silver Body
 Buldor: Level = 5, Super Fossil = Gold
 
 2921:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Shanshan: Level = 10, Super Fossil = None
 Nodo: Level = 10, Super Fossil = None
 Megath: Level = 10, Super Fossil = None
 
 2922:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Tro: Level = 10, Super Fossil = None
 Onyx: Level = 10, Super Fossil = None
 Jiango: Level = 10, Super Fossil = None
 
 2923:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Carno: Level = 10, Super Fossil = None
 Sucho: Level = 10, Super Fossil = None
 Sopteryx: Level = 10, Super Fossil = None
 
 2924:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Paki: Level = 10, Super Fossil = None
 Peloro: Level = 10, Super Fossil = None
 Brontoth: Level = 10, Super Fossil = None
 
 2925:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: > (Jurassic)
 Tophis: Level = 10, Super Fossil = None
 Dunkle: Level = 10, Super Fossil = None
 Parapu: Level = 10, Super Fossil = None
 
 2926:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: < (Cambrian)
 Blitzigon: Level = 10, Super Fossil = Gold
 Stygi: Level = 10, Super Fossil = None
 Berta: Level = 10, Super Fossil = None
 
 2927:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Krypto: Level = 10, Super Fossil = None
 Breme: Level = 10, Super Fossil = None
 Zino: Level = 10, Super Fossil = None
 
 2928:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Seismo: Level = 10, Super Fossil = None
 Tro: Level = 10, Super Fossil = None
 Tro: Level = 10, Super Fossil = Silver Body
 
 2929:
 Name: Fossil Fighter (70)
+Battle Points: 9
+Formation: > (Jurassic)
 Chasmo: Level = 10, Super Fossil = None
 Nychus: Level = 10, Super Fossil = None
 V-Ripper: Level = 10, Super Fossil = Gold
 
 2930:
 Name: Fossil Fighter (70)
+Battle Points: 8
+Formation: < (Cambrian)
 Paki: Level = 10, Super Fossil = None
 Andrarch: Level = 10, Super Fossil = None
 Smilo: Level = 10, Super Fossil = None
 
 3004:
 Name: Fossil Fighter (73)
+Battle Points: 1
+Formation: < (Cambrian)
 T-Rex Lord: Level = 20, Super Fossil = None
 Barbaros: Level = 20, Super Fossil = None
 Nycto Ace: Level = 20, Super Fossil = None
 
 3005:
 Name: Fossil Fighter (73)
+Battle Points: 1
+Formation: < (Cambrian)
 Zongazonga: Level = 20, Super Fossil = None
 Parium: Level = 20, Super Fossil = None
 Peloro: Level = 20, Super Fossil = None
 
 3006:
 Name: Fossil Fighter (73)
+Battle Points: 1
+Formation: > (Jurassic)
 Stego: Level = 20, Super Fossil = None
 Spinax: Level = 20, Super Fossil = None
 Hoplo: Level = 20, Super Fossil = None
 
 3007:
 Name: Fossil Fighter (73)
+Battle Points: 1
+Formation: > (Jurassic)
 Gaudry: Level = 20, Super Fossil = None
 Gaudry: Level = 20, Super Fossil = None
 Gaudry: Level = 20, Super Fossil = None
