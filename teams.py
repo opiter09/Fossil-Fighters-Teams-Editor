@@ -77,7 +77,11 @@ if (rom == "ff1"):
                         teams[teamN]["vivos"][i]["superName"] = "NONE"
                         teams[teamN]["vivos"][i]["superPoints"] = 0
                         teams[teamN]["vivos"][i]["cpu"] = int.from_bytes(r[(0x94 + shift + (numVivos * 12) + (i * 4)):(0x94 + shift + (numVivos * 12) + (i * 4) + 4)], "little")
-                        teams[teamN]["vivos"][i]["unknown"] = xpTable[str(int.from_bytes(r[(0x94 + shift + (numVivos * 16) + (i * 4)):(0x94 + shift + (numVivos * 16) + (i * 4) + 4)], "little"))]
+                        try:
+                            teams[teamN]["vivos"][i]["unknown"] = xpTable[str(int.from_bytes(r[(0x94 + shift + (numVivos * 16) + (i * 4)):(0x94 + shift + (numVivos * 16) + (i * 4) + 4)], "little"))]
+                        except:
+                            print(teamN)
+                            sys.exit()
                         teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x94 + shift + (numVivos * 20) + (i * 4)):(0x94 + shift + (numVivos * 20) + (i * 4) + 4)], "little")
 else:
     teams = {}
