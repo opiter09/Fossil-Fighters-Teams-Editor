@@ -1,0 +1,8 @@
+01: Charge = 070, Max = 100
+02: Charge = 080, Max = 160
+03: Charge = 090, Max = 180
+04: Charge = 100, Max = 200
+05: Charge = 120, Max = 240
+06: Charge = 140, Max = 280
+07: Charge = 180, Max = 360
+08: Charge = 220, Max = 440
