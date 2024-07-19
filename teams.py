@@ -42,6 +42,10 @@ xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "327
 xpList = list(xpTable.values()).copy()
 arenaList = [ "NONE", "Level Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
     "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
+musicTable = { "0": "NONE", "107": "Tutorial", "108": "Captain Travers", "109": "Level-Up (Prelim.)", "110": "Level-Up (Master)",
+    "111": "Normal Enemies", "112": "Bosses", "113": "Guhnash", "1303": "Bullwort", "1304": "Dynal" }
+musicList = list(musicTable.values()).copy()
+
 teamList = []    
    
 if (rom == "ff1"):
@@ -62,6 +66,7 @@ if (rom == "ff1"):
                     teams[teamN]["numVivos"] = r[0x5C + shift]
                     numVivos = teams[teamN]["numVivos"]
                     teams[teamN]["arena"] = arenaList[r[0x30]]
+                    teams[teamN]["music"] = musicTable[str(int.from_bytes(r[12:14], "little"))]                    
                     teams[teamN]["points"] = int.from_bytes(r[(0x54 + bpShift):(0x58 + bpShift)], "little")
                     if (teams[teamN]["points"] == 0xFFFFFFFF):
                         teams[teamN]["points"] = 0
@@ -134,9 +139,12 @@ def makeLayout():
             psg.Button("Apply", key = "apply") ]
     ]
     if (rom == "ffc"):
-        layout = layout[0:4] + [[ psg.Text("Formation:"), psg.DropDown(formList, key = "formation", default_value = teams[curr]["formation"]) ]] + layout[4:]
+        formRow = [[ psg.Text("Formation:"), psg.DropDown(formList, key = "formation", default_value = teams[curr]["formation"]) ]]
+        layout = layout[0:4] + formRow + layout[4:]
     else:
-        layout = layout[0:2] + [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]] + layout[2:]
+        arenaRow = [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
+        musicRow = [[ psg.Text("Music:"), psg.DropDown(musicList, key = "music", default_value = teams[curr]["music"]) ]]
+        layout = layout[0:2] + arenaRow + musicRow + layout[2:]
     for i in range(teams[curr]["numVivos"]):
         # print(i)
         row = [ # yes, I know this is formatted as a column ulol
@@ -192,7 +200,11 @@ def applyValues(values, numChange):
     try:
         teams[curr]["arena"] = values["arena"]
     except:
-        pass   
+        pass
+    try:
+        teams[curr]["music"] = values["music"]
+    except:
+        pass        
     try:
         teams[curr]["points"] = max(0, int(values["points"]))
     except:
@@ -260,7 +272,12 @@ def saveFile():
         bpShift = int.from_bytes(r[4:8], "little")
         shift = int.from_bytes(r[8:12], "little") - 0x5C
         
-        f.write(r[0:0x30])
+        f.write(r[0:12])
+        for k in musicTable.keys():
+            if (musicTable[k] == teams[curr]["music"]):
+                f.write(int(k).to_bytes(2, "little"))
+                break
+        f.write(r[14:0x30])
         f.write(arenaList.index(teams[curr]["arena"]).to_bytes(1, "little"))
         f.write(r[0x31:(0x54 + shift)])
         if (teams[curr]["points"] != 0):
