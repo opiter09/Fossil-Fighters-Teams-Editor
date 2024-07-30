@@ -1,4 +1,6 @@
 # Fossil-Fighters-Teams-Editor
+You MUST put the ROM in the same folder as the exe, or it won't work.
+
 This is a simple graphical editor for FF1 and FFC teams. Note that, currently, editing certain FFC teams in certain ways will cause
 crashes. I have absolutely no idea how to fix it (hence why FFC team randomization is unavailable); it is only an option here to save
 me time later.
@@ -15,8 +17,6 @@ note the following:
   anything at all (but it does therefore retain your changes in the editor)
 - The Recompress All button is for debugging purposes ONLY. It is extremely slow, and should not be necessary unless you are trying
   to help me figure out a problem
-  
-Also, as with my other tools, the ROM file MUST be in the same folder as teams.exe, or it will not work correctly.
   
 To download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP."
 
