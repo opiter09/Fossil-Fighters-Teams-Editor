@@ -66,6 +66,19 @@ if (rom == "ff1"):
                     teams[teamN]["numVivos"] = r[0x5C + shift]
                     numVivos = teams[teamN]["numVivos"]
                     teams[teamN]["arena"] = arenaList[r[0x30]]
+                    teams[teamN]["required"] = ""
+                    firstLen = int.from_bytes(r[0x38:0x3C], "little")
+                    secondLen = int.from_bytes(r[0x40:0x44], "little")
+                    if (firstLen == secondLen):
+                        teams[teamN]["canRequire"] = "Yes"
+                    else:
+                        teams[teamN]["canRequire"] = "No" # no way I'm letting you try using both kinds of weird data at the end
+                    if ((firstLen == secondLen) and (secondLen < len(r))):
+                        count = int.from_bytes(r[0x3C:0x40], "little")
+                        for i in range(count):
+                            teams[teamN]["required"] = teams[teamN]["required"] + str(int.from_bytes(r[(firstLen + (i * 4)):(firstLen + (i * 4) + 4)], "little")) + ", "
+                    if (teams[teamN]["required"].endswith(", ") == True):
+                        teams[teamN]["required"] = teams[teamN]["required"][0:-2]
                     teams[teamN]["music"] = musicTable[str(int.from_bytes(r[12:14], "little"))]                    
                     teams[teamN]["points"] = int.from_bytes(r[(0x54 + bpShift):(0x58 + bpShift)], "little")
                     if (teams[teamN]["points"] == 0xFFFFFFFF):
@@ -144,7 +157,10 @@ def makeLayout():
     else:
         arenaRow = [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
         musicRow = [[ psg.Text("Music:"), psg.DropDown(musicList, key = "music", default_value = teams[curr]["music"]) ]]
+        requireRow = [[ psg.Text("Req'd:"), psg.Input(default_text = teams[curr]["required"], key = "required", size = 10, enable_events = True) ]]
         layout = layout[0:2] + arenaRow + musicRow + layout[2:]
+        if (teams[curr]["canRequire"] == "Yes"):
+            layout = layout[0:4] + requireRow + layout[4:]
     for i in range(teams[curr]["numVivos"]):
         # print(i)
         row = [ # yes, I know this is formatted as a column ulol
@@ -193,7 +209,7 @@ def applyValues(values, numChange):
         rankMax = 20
         levelMax = 20
         
-    try:
+    try: # these all need exceptions either to handle non-integers or the buttons not existing for one ROM or the other
         teams[curr]["rank"] = max(1, min(int(values["rank"]), rankMax))
     except:
         pass    
@@ -204,7 +220,11 @@ def applyValues(values, numChange):
     try:
         teams[curr]["music"] = values["music"]
     except:
-        pass        
+        pass    
+    try:
+        teams[curr]["required"] = values["required"]
+    except:
+        pass
     try:
         teams[curr]["points"] = max(0, int(values["points"]))
     except:
@@ -216,7 +236,7 @@ def applyValues(values, numChange):
     
     for i in range(teams[curr]["numVivos"]):
         teams[curr]["vivos"][i]["vivoNum"] = vNames.index(values["vivo" + str(i)])
-        try: # these all need exceptions either to handle non-integers or the buttons not existing for one ROM or the other
+        try:
             teams[curr]["vivos"][i]["level"] = max(1, min(int(values["level" + str(i)]), levelMax))
         except:
             pass
@@ -318,11 +338,15 @@ def saveFile():
         for i in range(teams[curr]["numVivos"]):
             f.write(teams[curr]["vivos"][i]["fossils"].to_bytes(4, "little"))
             
-        weird = int.from_bytes(r[0x38:0x3C], "little")
-        f.write(r[(weird - 8):])     
+        firstLen = int.from_bytes(r[0x38:0x3C], "little")
+        secondLen = int.from_bytes(r[0x40:0x44], "little")
+        f.write(r[(firstLen - 8):secondLen])     
         f.close()
         
         size = os.stat(path).st_size
+        oldSize = len(r)
+        if ((teams[curr]["canRequire"] == "Yes") and (r[0x38] > 0)):
+            oldSize = secondLen
         f = open(path, "rb")
         r2 = f.read()
         f.close()
@@ -330,14 +354,33 @@ def saveFile():
         f.close()
         f = open(path, "ab")
         f.write(r2[0:0x38])
-        f.write((weird + size - len(r)).to_bytes(4, "little"))
+        f.write((firstLen + size - oldSize).to_bytes(4, "little"))
         f.write(r2[0x3C:0x40])
-        if (r2[0x3C] == 0):
-            f.write(size.to_bytes(4, "little"))
-        else:
-            f.write((weird + size - len(r)).to_bytes(4, "little"))
+        f.write((secondLen + size - oldSize).to_bytes(4, "little"))
         f.write(r2[0x44:])
         f.close()
+        
+        if (teams[curr]["canRequire"] == "Yes"):
+            reqs = list(teams[curr]["required"].replace(" ", "").replace("\n", "").split(","))
+            reqs = list(set(reqs))
+            try:
+                reqs = [ max(1, min(100, int(x))) for x in reqs ]
+            except:
+                reqs = []
+            reqs = reqs[0:3] # you can only have three vivos on your team, after all
+            f = open(path, "rb")
+            r3 = f.read()
+            f.close()
+            f = open(path, "wb")
+            f.close()
+            f = open(path, "ab")
+            f.write(r3[0:0x3C])
+            f.write(len(reqs).to_bytes(4, "little"))
+            f.write(r3[0x40:])
+            for v in reqs:
+                f.write(v.to_bytes(4, "little"))
+            f.close()
+
         subprocess.run([ "fftool.exe", "compress", "NDS_UNPACK/data/battle/bin/" + curr, "-c", "None", "-c", "None",
             "-i", "0.bin", "-o", "NDS_UNPACK/data/battle/" + curr ])
     else:

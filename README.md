@@ -13,6 +13,10 @@ note the following:
   by file name
 - To get an easier grasp on which files are which, check out "FF1 Teams.txt" and "FFC Teams.txt", which list out the information of
   all team files (in vanilla) in a human-readable format
+- The FF1 option "Req'd" refers to vivosaurs you must have on your team to begin the fight. Like with the randomizer's "Post-Game
+  Vivos" option, this must be a list of vivosaur Numbers separated by a comma and any number of spaces. The code will automatically
+  use the first three values, although this will not be shown in the editor. Finally, some teams do not have this option, due to
+  having a different kind of extra data in the same spot.
 - Only the Save and Rebuild buttons actually save the file. Apply only changes the data in the editor, while Load does not change
   anything at all (but it does therefore retain your changes in the editor)
 - The Recompress All button is for debugging purposes ONLY. It is extremely slow, and should not be necessary unless you are trying
