@@ -128,7 +128,7 @@ else:
                         teams[teamN]["vivos"][i]["superName"] = sfTable[str(int.from_bytes(r[(0x70 + shift + (i * 12) + 6):(0x70 + shift + (i * 12) + 8)], "little"))]
                         teams[teamN]["vivos"][i]["superPoints"] = int.from_bytes(r[(0x70 + shift + (i * 12) + 8):(0x70 + shift + (i * 12) + 10)], "little")
                         teams[teamN]["vivos"][i]["cpu"] = 0
-                        teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x70 + shift + (numVivos * 12) + (i * 4)):(0x70 + shift + (numVivos * 12) + (i * 4) + 2)], "little")
+                        teams[teamN]["vivos"][i]["unknown"] = int.from_bytes(r[(0x70 + shift + (numVivos * 12) + (i * 4)):(0x70 + shift + (numVivos * 12) + (i * 4) + 4)], "little")
                         teams[teamN]["vivos"][i]["fossils"] = int.from_bytes(r[(0x70 + shift + (numVivos * 16) + (i * 2)):(0x70 + shift + (numVivos * 16) + (i * 2) + 2)], "little")
                     try:
                         orig = int.from_bytes(r[(0x46 + shift):(0x48 + shift)], "little")
@@ -178,10 +178,10 @@ def makeLayout():
                 psg.Text("SF Points:"),
                 psg.Input(default_text = teams[curr]["vivos"][i]["superPoints"], key = "superP" + str(i), size = 5, enable_events = True)
             ]
-            # row = row + [
-                # psg.Text("Unknown:"),
-                # psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
-            # ]
+            row = row + [
+                psg.Text("Unknown:"),
+                psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
+            ]
         else:
             row = row + [
                 psg.Text("AI Set:"),
