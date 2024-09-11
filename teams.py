@@ -40,7 +40,7 @@ sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Sil
 sfList = list(sfTable.values()).copy()
 xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "41", "4096": "50" }
 xpList = list(xpTable.values()).copy()
-arenaList = [ "NONE", "Level-Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
+arenaList = [ "Unused Temple", "Level-Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
     "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
 musicTable = { "0": "NONE", "107": "Tutorial", "108": "Captain Travers", "109": "Level-Up (Prelim.)", "110": "Level-Up (Master)",
     "111": "Normal Enemies", "112": "Bosses", "113": "Guhnash", "1303": "Bullwort", "1304": "Dynal" }
