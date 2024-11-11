@@ -255,7 +255,7 @@ def applyValues(values, numChange):
         except:
             pass
         try:
-            teams[curr]["vivos"][i]["unknown"] = values["unknown" + str(i)]
+            teams[curr]["vivos"][i]["unknown"] = str(int(values["unknown" + str(i)]))
         except:
             pass
         try:
@@ -429,7 +429,7 @@ def saveFile():
                     break
             f.write(teams[curr]["vivos"][i]["superPoints"].to_bytes(4, "little"))
         for i in range(teams[curr]["numVivos"]):
-            f.write(teams[curr]["vivos"][i]["unknown"].to_bytes(4, "little"))
+            f.write(int(teams[curr]["vivos"][i]["unknown"]).to_bytes(4, "little"))
         for i in range(teams[curr]["numVivos"]):
             f.write(teams[curr]["vivos"][i]["fossils"].to_bytes(2, "little"))
             
