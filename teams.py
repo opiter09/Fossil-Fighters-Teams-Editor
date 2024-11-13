@@ -33,6 +33,8 @@ for i in range(len(eNames)):
 f = open(rom + "_vivoNames.txt", "rt")
 vNames = list(f.read().split("\n"))
 f.close()
+vNamesAlph = vNames.copy()
+vNamesAlph.sort()
 vNames = ["NONE"] + vNames
 
 formList = ["< (Cambrian)", "> (Jurassic)"]
@@ -167,7 +169,7 @@ def makeLayout():
         # print(i)
         row = [ # yes, I know this is formatted as a column ulol
             psg.Text("Vivosaur:"),
-            psg.DropDown(vNames, key = "vivo" + str(i), default_value = vNames[teams[curr]["vivos"][i]["vivoNum"]]),
+            psg.DropDown(vNamesAlph, key = "vivo" + str(i), default_value = vNames[teams[curr]["vivos"][i]["vivoNum"]]),
             psg.Text("Level:"),
             psg.Input(default_text = str(teams[curr]["vivos"][i]["level"]), key = "level" + str(i), size = 5, enable_events = True),
         ]
