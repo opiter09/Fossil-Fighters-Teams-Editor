@@ -16,7 +16,11 @@ note the following:
 - The FF1 option "Req'd" refers to vivosaurs you must have on your team to begin the fight. Like with the randomizer's "Post-Game
   Vivos" option, this must be a list of vivosaur Numbers separated by a comma and any number of spaces. The code will automatically
   use the first three values, although this will not be shown in the editor. Finally, some teams do not have this option, due to
-  having a different kind of extra data in the same spot.
+  having a different kind of extra data in the same spot
+- To avoid cosmetic issues on the Formation screen, enemies' fossils in FFC are assigned automatically, based on the level
+  at which moves are learned (so e.g. a level 4 vivo is given 2 fossils). This is based on the vanilla levels, so if by some
+  chance you want to modify them, you'll have to edit the team file manually, or possibly edit the "moveLevels" variable in
+  teams.py and run that if you made a universal change
 - Only the Save and Rebuild buttons actually save the file. Apply only changes the data in the editor, while Load does not change
   anything at all (but it does therefore retain your changes in the editor)
 - The Recompress All button is for debugging purposes ONLY. It is extremely slow, and should not be necessary unless you are trying

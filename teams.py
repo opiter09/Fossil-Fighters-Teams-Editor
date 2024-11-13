@@ -40,11 +40,12 @@ sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Sil
 sfList = list(sfTable.values()).copy()
 xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "41", "4096": "50" }
 xpList = list(xpTable.values()).copy()
-arenaList = [ "Unused Temple", "Level-Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
+moveLevels = [3, 5, 7]
+ff1ArenaList = [ "Unused Temple", "Level-Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
     "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
-musicTable = { "0": "NONE", "107": "Tutorial", "108": "Captain Travers", "109": "Level-Up (Prelim.)", "110": "Level-Up (Master)",
+ff1MusicTable = { "0": "NONE", "107": "Tutorial", "108": "Captain Travers", "109": "Level-Up (Prelim.)", "110": "Level-Up (Master)",
     "111": "Normal Enemies", "112": "Bosses", "113": "Guhnash", "1303": "Bullwort", "1304": "Dynal" }
-musicList = list(musicTable.values()).copy()
+ff1MusicList = list(ff1MusicTable.values()).copy()
 
 teamList = []    
    
@@ -65,7 +66,7 @@ if (rom == "ff1"):
                     shift = int.from_bytes(r[8:12], "little") - 0x5C
                     teams[teamN]["numVivos"] = r[0x5C + shift]
                     numVivos = teams[teamN]["numVivos"]
-                    teams[teamN]["arena"] = arenaList[r[0x30]]
+                    teams[teamN]["arena"] = ff1ArenaList[r[0x30]]
                     teams[teamN]["required"] = ""
                     firstLen = int.from_bytes(r[0x38:0x3C], "little")
                     secondLen = int.from_bytes(r[0x40:0x44], "little")
@@ -79,7 +80,7 @@ if (rom == "ff1"):
                             teams[teamN]["required"] = teams[teamN]["required"] + str(int.from_bytes(r[(firstLen + (i * 4)):(firstLen + (i * 4) + 4)], "little")) + ", "
                     if (teams[teamN]["required"].endswith(", ") == True):
                         teams[teamN]["required"] = teams[teamN]["required"][0:-2]
-                    teams[teamN]["music"] = musicTable[str(int.from_bytes(r[12:14], "little"))]                    
+                    teams[teamN]["music"] = ff1MusicTable[str(int.from_bytes(r[12:14], "little"))]                    
                     teams[teamN]["points"] = int.from_bytes(r[(0x54 + bpShift):(0x58 + bpShift)], "little")
                     if (teams[teamN]["points"] == 0xFFFFFFFF):
                         teams[teamN]["points"] = 0
@@ -136,6 +137,7 @@ else:
                         teamList.append(teamN)
                     except IndexError:
                         teams.pop(teamN)
+    teamList.sort(key = lambda x: x.split("_")[-1].zfill(4))
 
 curr = teamList[0]
 
@@ -155,8 +157,8 @@ def makeLayout():
         formRow = [[ psg.Text("Formation:"), psg.DropDown(formList, key = "formation", default_value = teams[curr]["formation"]) ]]
         layout = layout[0:4] + formRow + layout[4:]
     else:
-        arenaRow = [[ psg.Text("Arena:"), psg.DropDown(arenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
-        musicRow = [[ psg.Text("Music:"), psg.DropDown(musicList, key = "music", default_value = teams[curr]["music"]) ]]
+        arenaRow = [[ psg.Text("Arena:"), psg.DropDown(ff1ArenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
+        musicRow = [[ psg.Text("Music:"), psg.DropDown(ff1MusicList, key = "music", default_value = teams[curr]["music"]) ]]
         requireRow = [[ psg.Text("Req'd:"), psg.Input(default_text = teams[curr]["required"], key = "required", size = 10, enable_events = True) ]]
         layout = layout[0:2] + arenaRow + musicRow + layout[2:]
         if (teams[curr]["canRequire"] == "Yes"):
@@ -168,8 +170,6 @@ def makeLayout():
             psg.DropDown(vNames, key = "vivo" + str(i), default_value = vNames[teams[curr]["vivos"][i]["vivoNum"]]),
             psg.Text("Level:"),
             psg.Input(default_text = str(teams[curr]["vivos"][i]["level"]), key = "level" + str(i), size = 5, enable_events = True),
-            psg.Text("Fossils:"),
-            psg.DropDown(["1", "2", "3", "4"], key = "fossil" + str(i), default_value = str(teams[curr]["vivos"][i]["fossils"]))
         ]
         if (rom == "ffc"):
             row = row + [
@@ -183,6 +183,10 @@ def makeLayout():
                 psg.Input(default_text = teams[curr]["vivos"][i]["unknown"], key = "unknown" + str(i), size = 5, enable_events = True)
             ]
         else:
+            row = row + [
+                psg.Text("Fossils:"),
+                psg.DropDown(["1", "2", "3", "4"], key = "fossil" + str(i), default_value = str(teams[curr]["vivos"][i]["fossils"]))
+            ]
             row = row + [
                 psg.Text("AI Set:"),
                 psg.Input(default_text = teams[curr]["vivos"][i]["cpu"], key = "cpu" + str(i), size = 5, enable_events = True)
@@ -293,12 +297,12 @@ def saveFile():
         shift = int.from_bytes(r[8:12], "little") - 0x5C
         
         f.write(r[0:12])
-        for k in musicTable.keys():
-            if (musicTable[k] == teams[curr]["music"]):
+        for k in ff1MusicTable.keys():
+            if (ff1MusicTable[k] == teams[curr]["music"]):
                 f.write(int(k).to_bytes(2, "little"))
                 break
         f.write(r[14:0x30])
-        f.write(arenaList.index(teams[curr]["arena"]).to_bytes(1, "little"))
+        f.write(ff1ArenaList.index(teams[curr]["arena"]).to_bytes(1, "little"))
         f.write(r[0x31:(0x54 + shift)])
         if (teams[curr]["points"] != 0):
             f.write(teams[curr]["points"].to_bytes(4, "little"))
@@ -431,7 +435,17 @@ def saveFile():
         for i in range(teams[curr]["numVivos"]):
             f.write(int(teams[curr]["vivos"][i]["unknown"]).to_bytes(4, "little"))
         for i in range(teams[curr]["numVivos"]):
-            f.write(teams[curr]["vivos"][i]["fossils"].to_bytes(2, "little"))
+            lev = teams[curr]["vivos"][i]["level"]
+            fos = 0
+            if (lev < moveLevels[0]):
+                fos = 1
+            elif (lev < moveLevels[1]):
+                fos = 2
+            elif (lev < moveLevels[2]):
+                fos = 3
+            else:
+                fos = 4
+            f.write(fos.to_bytes(2, "little"))
             
         end = len(r)
         if (r[end - 6] == 0):
