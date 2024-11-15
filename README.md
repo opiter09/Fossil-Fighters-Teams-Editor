@@ -18,9 +18,9 @@ note the following:
   use the first three values, although this will not be shown in the editor. Finally, some teams do not have this option, due to
   having a different kind of extra data in the same spot
 - To avoid cosmetic issues on the Formation screen, enemies' fossils in FFC are assigned automatically, based on the level
-  at which moves are learned (so e.g. a level 4 vivo is given 2 fossils). This is based on the vanilla levels, so if by some
-  chance you want to modify them, you'll have to edit the team file manually, or possibly edit the "moveLevels" variable in
-  teams.py and run that if you made a universal change
+  at which moves are learned. In order to accomodate ROMs where these levels are edited, a file named "ffc_moveLevels.txt" is
+  generated if none exists. Therefore, if you choose to change levels again, you will need to delete this file in order to
+  have the program regenerate it
 - Only the Save and Rebuild buttons actually save the file. Apply only changes the data in the editor, while Load does not change
   anything at all (but it does therefore retain your changes in the editor)
 - The Recompress All button is for debugging purposes ONLY. It is extremely slow, and should not be necessary unless you are trying

@@ -19,6 +19,24 @@ if (os.path.exists("NDS_UNPACK") == False):
     else:
         subprocess.run([ "fftool.exe", "NDS_UNPACK/data/battle_param" ])
 
+if ((rom == "ffc") and (os.path.exists("ffc_moveLevels.txt") == False)):
+    subprocess.run([ "fftool.exe", "NDS_UNPACK/data/etc/creature_defs" ])
+    f = open("NDS_UNPACK/data/etc/bin/creature_defs/0.bin", "rb")
+    zero = f.read()
+    f.close()
+    text = open("ffc_moveLevels.txt", "at")
+    text.write("0, 0, 0" + "\n")
+    for i in range(210):
+        oldOffset = int.from_bytes(zero[(44 + (i * 4)):(48 + (i * 4))], "little")
+        ml2 = zero[oldOffset + 0xC6]
+        ml3 = zero[oldOffset + 0xC8]
+        ml4 = zero[oldOffset + 0xCA]
+        text.write(str(ml2) + ", " + str(ml3) + ", " + str(ml4))
+        if (i != 209):
+            text.write("\n")
+    text.close()
+    shutil.rmtree("NDS_UNPACK/data/etc/bin/")
+        
 if (rom == "ff1"):
     nameDiff = 3362
 else:
@@ -37,12 +55,19 @@ vNamesAlph = vNames.copy()
 vNamesAlph.sort()
 vNames = ["NONE"] + vNames
 
+moveLevels = []
+if (rom == "ffc"):
+    f = open("ffc_moveLevels.txt", "rt")
+    r = f.read()
+    f.close()
+    for l in list(r.split("\n")):
+        moveLevels.append(list(l.split(", ")))
+
 formList = ["< (Cambrian)", "> (Jurassic)"]
 sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Silver Arms", "903": "Silver Legs", "904": "Gold" }
 sfList = list(sfTable.values()).copy()
 xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "41", "4096": "50" }
 xpList = list(xpTable.values()).copy()
-moveLevels = [3, 5, 7]
 ff1ArenaList = [ "Unused Temple", "Level-Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
     "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
 ff1MusicTable = { "0": "NONE", "107": "Tutorial", "108": "Captain Travers", "109": "Level-Up (Prelim.)", "110": "Level-Up (Master)",
@@ -437,13 +462,14 @@ def saveFile():
         for i in range(teams[curr]["numVivos"]):
             f.write(int(teams[curr]["vivos"][i]["unknown"]).to_bytes(4, "little"))
         for i in range(teams[curr]["numVivos"]):
+            vNum = teams[curr]["vivos"][i]["vivoNum"]
             lev = teams[curr]["vivos"][i]["level"]
             fos = 0
-            if (lev < moveLevels[0]):
+            if (lev < int(moveLevels[vNum][0])):
                 fos = 1
-            elif (lev < moveLevels[1]):
+            elif (lev < int(moveLevels[vNum][1])):
                 fos = 2
-            elif (lev < moveLevels[2]):
+            elif (lev < int(moveLevels[vNum][2])):
                 fos = 3
             else:
                 fos = 4
