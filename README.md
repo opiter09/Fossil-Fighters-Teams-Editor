@@ -26,7 +26,7 @@ note the following:
 - The Recompress All button is for debugging purposes ONLY. It is extremely slow, and should not be necessary unless you are trying
   to help me figure out a problem
   
-To download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP."
+To download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP".
 
 Finally, many thanks to EchoSpaceZ, for patiently testing this editor and helping me iron out all of the bugs (for FF1 at least).
 
