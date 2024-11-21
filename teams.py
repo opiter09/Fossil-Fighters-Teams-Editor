@@ -145,7 +145,7 @@ else:
                 f = open(os.path.join(root, file), "rb")
                 r = f.read()
                 f.close()
-                if (len(r) > 0x46): # and (r[0x34] == 0):
+                if ((len(r) > 0x46) and (r[0x34] == 0)):
                     teamN = os.path.join(root, file).split("\\")[-2]
                     teams[teamN] = {}
                     shift = r[0x38] + 2 - 0x46
@@ -308,7 +308,7 @@ def applyValues(values, numChange):
 
         if (diff > 0):
             for i in range(old, old + diff):
-                temp = { "vivoNum": 0, "level": 1, "superName": "NONE", "superPoints": 0, "cpu": 0, "unknown": 0, "fossils": 1 }
+                temp = { "vivoNum": 18, "level": 1, "superName": "NONE", "superPoints": 0, "cpu": 0, "unknown": 0, "fossils": 1 }
                 if (rom == "ffc"):
                     temp["unknown"] = teams[curr]["vivos"][0]["unknown"]
                 if (len(teams[curr]["vivos"][i].keys()) == 0):
