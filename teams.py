@@ -75,11 +75,23 @@ sfTable = { "0": "NONE", "900": "Silver Head", "901": "Silver Body", "902": "Sil
 sfList = list(sfTable.values()).copy()
 xpTable = { "0": "0", "410": "9", "1229": "18", "2048": "27", "2867": "36", "3277": "41", "4096": "50" }
 xpList = list(xpTable.values()).copy()
+
 ff1ArenaList = [ "Unused Temple", "Level-Up Arena", "Guhnash", "Hotel/Outside", "Greenhorn/Knotwood", "BB Base/Digadigamid", "Rivet Ravine", 
     "Bottomsup Bay", "Mt. Lavaflow", "Starship", "Secret Island", "Parchment Desert", "Coldfeet Glacier", "Pirate Ship", "Mine Tunnels" ]
 ff1MusicTable = { "0": "NONE", "107": "Tutorial", "108": "Captain Travers", "109": "Level-Up (Prelim.)", "110": "Level-Up (Master)",
     "111": "Normal Enemies", "112": "Bosses", "113": "Guhnash", "1303": "Bullwort", "1304": "Dynal" }
 ff1MusicList = list(ff1MusicTable.values()).copy()
+
+ffcArenaList = [ "NONE", "Ribular Stadium", "Cranial Stadium", "Ilium Stadium", "Treasure Lake", "Jungle Labyrinth", "Petrified Woods",
+    "Stone Pyramid", "Mt. Krakanak", "Rainbow Canyon", "Dusty Dunes", "Hot Spring Heights", "Icegrip Plateau", "BB Brigade Base (Story)",
+    "BB Brigade Base (Postgame)", "Zongazonga's Castle", "The Bonehemoth", "Spinal Pillar", "Mt. Krakanak Lava Room", "Move Viewing Room",
+    "Empty Ribular Stadium", "Empty Cranial Stadium", "Empty Ilium Stadium" ]
+ffcMusicTable = { "50": "Tutorial", "51": "Cup Battles", "52": "Cup Final (Rupert)", "53": "Normal Enemies", "54": "Bosses",
+    "55": "BareBones Brigade", "56": "Don Boneyard", "57": "Pauleen and 2nd Todd", "58": "Zongazonga (First)", "59": "Zongazonga (Second)",
+    "62": "Dynal" }
+ffcMusicList = list(ffcMusicTable.values()).copy()
+ffcMusicInstruments = { "50": 0x25, "51": 0x26, "52": 0x27, "53": 0x28, "54": 0x29, "55": 0x2A, "56": 0x2B, "57": 0x2C, "58": 0x2D,
+    "59": 0x2D, "62": 0x30 }
 
 teamList = []    
    
@@ -151,6 +163,8 @@ else:
                     shift = r[0x38] + 2 - 0x46
                     teams[teamN]["numVivos"] = r[0x58 + shift]
                     numVivos = teams[teamN]["numVivos"]
+                    teams[teamN]["arena"] = ffcArenaList[r[0x22]]
+                    teams[teamN]["music"] = ffcMusicTable[str(int.from_bytes(r[0x12:0x14], "little"))]
                     teams[teamN]["points"] = int.from_bytes(r[0x30:0x32], "little")
                     if (teams[teamN]["points"] == 0xFFFF):
                         teams[teamN]["points"] = 0
@@ -188,8 +202,10 @@ def makeLayout():
             psg.Button("Apply", key = "apply") ]
     ]
     if (rom == "ffc"):
+        arenaRow = [[ psg.Text("Arena:"), psg.DropDown(ffcArenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
+        musicRow = [[ psg.Text("Music:"), psg.DropDown(ffcMusicList, key = "music", default_value = teams[curr]["music"]) ]]
         formRow = [[ psg.Text("Formation:"), psg.DropDown(formList, key = "formation", default_value = teams[curr]["formation"]) ]]
-        layout = layout[0:4] + formRow + layout[4:]
+        layout = layout[0:2] + arenaRow + musicRow + layout[2:4] + formRow + layout[4:]
     else:
         arenaRow = [[ psg.Text("Arena:"), psg.DropDown(ff1ArenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
         musicRow = [[ psg.Text("Music:"), psg.DropDown(ff1MusicList, key = "music", default_value = teams[curr]["music"]) ]]
@@ -430,7 +446,18 @@ def saveFile():
         f.close()
         f = open(path, "ab")
         
-        f.write(r[0:0x30])
+        f.write(r[0:0x12])
+        for k in ffcMusicTable.keys():
+            if (ffcMusicTable[k] == teams[curr]["music"]):
+                f.write(int(k).to_bytes(2, "little"))
+                if ((curr == "battle_param_defs_1623") and (k == "52")):
+                    f.write((0x28).to_bytes(2, "little"))
+                else:
+                    f.write(ffcMusicInstruments[k].to_bytes(2, "little"))
+                break
+        f.write(r[0x16:0x22])
+        f.write(ffcArenaList.index(teams[curr]["arena"]).to_bytes(1, "little"))
+        f.write(r[0x23:0x30])
         if (teams[curr]["points"] != 0):
             f.write(teams[curr]["points"].to_bytes(2, "little"))
         else:
