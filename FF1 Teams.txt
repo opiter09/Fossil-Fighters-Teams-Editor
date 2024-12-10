@@ -1,4 +1,3 @@
-
 0001:
 Name: 【debug】敵のサンプル名 (3363)
 Battle Points: 0
