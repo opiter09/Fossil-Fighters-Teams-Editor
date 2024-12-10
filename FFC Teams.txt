@@ -1,4 +1,3 @@
-
 0001:
 Name: Allosaurus (05)
 Battle Points: 0
@@ -1380,7 +1379,7 @@ Dacerus: Level = 12, Super Fossil = None
 Hopter: Level = 12, Super Fossil = None
 
 1902:
-Name: ã‚­ã‚¶ãƒƒã‚¯ (61)
+Name: キザック (61)
 Battle Points: 1
 Formation: < (Cambrian)
 Coelo: Level = 1, Super Fossil = None

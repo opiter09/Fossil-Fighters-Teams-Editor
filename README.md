@@ -1,13 +1,9 @@
 # Fossil-Fighters-Teams-Editor
 You MUST put the ROM in the same folder as the exe, or it won't work.
 
-This is a simple graphical editor for FF1 and FFC teams. Note that, currently, editing certain FFC teams in certain ways will cause
-crashes. I have absolutely no idea how to fix it (hence why FFC team randomization is unavailable); it is only an option here to save
-me time later.
-
-To use, just drag and drop a ROM onto teams.exe. If the folder NDS_UNPACK does not exist, it will make that folder and unpack the ROM
-into it; be patient as it does so (especially for FFC). Then, you can use the editor. It should be mostly self-eplanatory, but please
-note the following:
+This is a simple graphical editor for FF1 and FFC enemy teams. To use, just drag and drop a ROM onto teams.exe. If the folder NDS_UNPACK
+does not exist, it will make that folder and unpack the ROM into it; be patient as it does so (especially for FFC). Then, you can use the
+editor. It should be mostly self-eplanatory, but please note the following:
 - Only the top list of file names changes which file you go to (even I get confused and try to change via fighter name). The reason
   for this is, well, a majority of the fighters are named "Fossil Fighter", so it's both easier to implement and less confusing to go
   by file name
