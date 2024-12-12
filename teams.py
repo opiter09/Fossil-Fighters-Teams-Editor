@@ -88,10 +88,10 @@ ffcArenaList = [ "NONE", "Ribular Stadium", "Cranial Stadium", "Ilium Stadium", 
     "Empty Ribular Stadium", "Empty Cranial Stadium", "Empty Ilium Stadium" ]
 ffcMusicTable = { "50": "Tutorial", "51": "Cup Battles", "52": "Cup Final (Rupert)", "53": "Normal Enemies", "54": "Bosses",
     "55": "BareBones Brigade", "56": "Don Boneyard", "57": "Pauleen and 2nd Todd", "58": "Zongazonga (First)", "59": "Zongazonga (Second)",
-    "62": "Dynal" }
+    "60": "Unused Theme", "62": "Dynal" }
 ffcMusicList = list(ffcMusicTable.values()).copy()
 ffcMusicInstruments = { "50": 0x25, "51": 0x26, "52": 0x27, "53": 0x28, "54": 0x29, "55": 0x2A, "56": 0x2B, "57": 0x2C, "58": 0x2D,
-    "59": 0x2D, "62": 0x30 }
+    "59": 0x2D, "60": 0x26, "62": 0x30 }
 
 teamList = []    
    
