@@ -246,8 +246,8 @@ def makeLayout():
                 psg.DropDown(xpList, key = "unknown" + str(i), default_value = teams[curr]["vivos"][i]["unknown"], size = 5, enable_events = True)
             ]
         layout = layout + [row]
-    layout = layout + [[ psg.Button("Save File", key = "save"), psg.Button("Recompress All", key = "recomp"),
-        psg.Button("Rebuild ROM", key = "rebuild") ]]
+    layout = [[ psg.Button("Save File", key = "save"), psg.Button("Recompress All", key = "recomp"),
+        psg.Button("Rebuild ROM", key = "rebuild") ]] + layout
     return(layout)
 
 def applyValues(values, numChange):
