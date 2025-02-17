@@ -1,0 +1,126 @@
+201: Rupert 1
+202: Rupert 2
+210: Pauleen (Without Mask)
+211: Pauleen (With Mask)
+220: Joe Wildwest 1
+221: Joe Wildwest 1
+230: Don Boneyard
+240: Zongazonga
+250: Cole
+260: Lola
+270: Lester
+280: Stella
+281: Stella (Sunglasses)
+290: Terry
+291: Terry (Sunglasses)
+300: Kent
+301: Kent (Sunglasses)
+310: Professor Scatterly
+320: Joanie
+330: Princess Pooch
+340: Robinson
+350: Digadig Chieftain
+360: KL-33N
+370: Todd 1
+371: Todd 2
+380: Di66-R
+390: FossilDig CEO
+400: Minister Pomposa
+410: BB Brigade Goon
+420: Icy Sunglasses Man
+430: Icy Sunglasses Woman
+440: Staff M (Light Blue)
+441: Staff M (Khaki)
+442: Staff M (Blue)
+443: Staff M (Black)
+450: Staff F (Light Blue)
+451: Staff F (Khaki)
+452: Staff F (Blue)
+453: Staff F (Red)
+454: Staff F (Wh/Brown Hair)
+455: Staff F (Wh/Black Hair)
+456: Staff F (Wh/Blonde Hair)
+460: Digadig Tribesman
+470: Allo
+480: Lord Tonzilla
+490: Guardian
+500: Boy (Blue)
+501: Boy (Red)
+502: Boy (Green)
+503: Boy (Purple)
+504: Boy (Green and L. Blue)
+505: Boy (Blue and Yellow)
+510: Petula
+511: Petula (Red Hair)
+512: Petula (Brown Hair)
+513: Petula (Blonde Hair)
+520: Man (Yellow)
+521: Man (Grey)
+522: Man (Khaki)
+523: Man (Black) 1
+524: Man (Black and Red)
+525: Man (Black) 2
+526: Man (Grey and Red)
+527: Man (Grey and Blue)
+530: Lucinda (L. Brown Hair)
+531: Lucinda
+532: Lucinda (Blonde Hair)
+533: Lucinda (Green Hair)
+534: Lucinda (Brown Hair)
+535: Lucinda (Blue Hair)
+536: Lucinda (L. Blue Hair)
+540: Min. Pomposa (White) 1
+541: Min. Pomposa (Naked)
+542: Min. Pomposa (White) 2
+543: Min. Pomposa (White) 3
+550: Woman #1 (L. Brown Hair)
+551: Woman #1 (Brown Hair)
+560: Old Man (Yellow)
+561: Old Man (Naked)
+562: Old Man (Blue)
+570: Old Woman (Yellow)
+571: old Woman (Grey)
+600: Winter Man (Blue)
+601: Winter Man (Red)
+602: Winter Man (Green)
+603: Winter Man (Khaki)
+620: Pat Bull (Khaki)
+621: Pat Bull
+622: Pat Bull (Black)
+623: Pat Bull (Blue)
+624: Tudor Brothers
+630: Woman #2 (Brown Hair)
+631: Woman #2 (Blue Hair)
+640: Rockin' Billy
+650: Woman #3 (Black)
+660: Miner Boy (Khaki)
+661: Miner Boy (Blue)
+662: Miner Boy (Brown)
+663: Miner Boy (Yellow)
+664: Miner Boy (Purple)
+665: Miner Boy (Green)
+670: Nell (Pink)
+671: Nell
+672: Nell (Purple)
+680: Large Man (Blonde Hair)
+681: Large Man (Black Hair)
+682: Large Man (Brown Hair)
+683: Large Man (Grey Hair)
+690: Jerry (Light Blue)
+691: Jerry (Light Grey)
+692: Jerry (Light Red)
+693: Jerry
+694: Jerry (Brown)
+695: Jerry (Red)
+696: Jerry (Grey)
+697: Jerry (Green)
+700: Man with Hat (Blue)
+701: Man with Hat (Brown)
+702: Man with Hat (Green)
+710: Woman #3 (Blue)
+711: Woman #3 (Green)
+720: Rosie
+730: Duna
+740: Raptin
+750: Dynal
+760: Ryne

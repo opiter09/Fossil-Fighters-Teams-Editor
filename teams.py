@@ -54,6 +54,28 @@ eNames = list(f.read().split("\n"))
 f.close()
 for i in range(len(eNames)):
     eNames[i] = eNames[i] + " (" + str(i + nameDiff).zfill(4) + ")"
+    
+f = open(rom + "_iconNames.txt", "rt")
+if (rom == "ff1"):
+    iNames = list(f.read().split("\n"))
+    f.close()
+    iNamesAlph = iNames.copy()
+    iNamesAlph.sort()
+    iNames = ["NONE"] + iNames
+    iNamesAlph = ["NONE"] + iNamesAlph
+else:
+    iDict = {}
+    iNames = []
+    lines = list(f.read().split("\n"))
+    f.close()
+    for l in lines:
+        iDict[l.split(": ")[0]] = l.split(": ")[1]
+        iNames.append(l.split(": ")[1])
+    iNamesAlph = iNames.copy()
+    iNamesAlph.sort()
+    iDict["0"] = "NONE"
+    iNames = ["NONE"] + iNames
+    iNamesAlph = ["NONE"] + iNamesAlph
 
 f = open(rom + "_vivoNames.txt", "rt")
 vNames = list(f.read().split("\n"))
@@ -93,8 +115,7 @@ ffcMusicList = list(ffcMusicTable.values()).copy()
 ffcMusicInstruments = { "50": 0x25, "51": 0x26, "52": 0x27, "53": 0x28, "54": 0x29, "55": 0x2A, "56": 0x2B, "57": 0x2C, "58": 0x2D,
     "59": 0x2D, "60": 0x26, "62": 0x30 }
 
-teamList = []    
-   
+teamList = []
 if (rom == "ff1"):
     teams = {}
     for root, dirs, files in os.walk("NDS_UNPACK/data/battle/bin"):
@@ -136,6 +157,7 @@ if (rom == "ff1"):
                         teams.pop(teamN)
                         continue
                     teams[teamN]["rank"] = r[0x68 + shift]
+                    teams[teamN]["icon"] = iNames[int.from_bytes(r[(0x8C + shift):(0x90 + shift)], "little")]
                     teams[teamN]["vivos"] = [ {}, {}, {} ]
                     for i in range(numVivos):
                         teams[teamN]["vivos"][i]["vivoNum"] = int.from_bytes(r[(0x94 + shift + (i * 12)):(0x94 + shift + (i * 12) + 4)], "little")
@@ -169,6 +191,7 @@ else:
                     if (teams[teamN]["points"] == 0xFFFF):
                         teams[teamN]["points"] = 0
                     teams[teamN]["rank"] = r[0x48 + shift]
+                    teams[teamN]["icon"] = iDict[str(int.from_bytes(r[(0x4A + shift):(0x4C + shift)], "little"))]
                     teams[teamN]["formation"] = formList[r[0x4C + shift]]
                     teams[teamN]["vivos"] = [ {}, {}, {} ]
                     for i in range(numVivos):
@@ -186,7 +209,6 @@ else:
                     except IndexError:
                         teams.pop(teamN)
     teamList.sort(key = lambda x: x.split("_")[-1].zfill(4))
-
 curr = teamList[0]
 
 def makeLayout():
@@ -196,6 +218,7 @@ def makeLayout():
     layout = [
         [ psg.Text("Team File:"), psg.DropDown(teamList, key = "file", default_value = curr), psg.Button("Load", key = "load") ],
         [ psg.Text("Name:"), psg.DropDown(eNames, key = "name", default_value = teams[curr]["name"]) ],
+        [ psg.Text("Icon:", size = 5), psg.DropDown(iNamesAlph, key = "icon", default_value = teams[curr]["icon"]) ],
         [ psg.Text("Fighter Rank:"), psg.Input(default_text = str(teams[curr]["rank"]), key = "rank", size = 5, enable_events = True) ],
         [ psg.Text("Battle Points:"), psg.Input(default_text = str(teams[curr]["points"]), key = "points", size = 5, enable_events = True) ],
         [ psg.Text("# of Vivos:"), psg.DropDown(["1", "2", "3"], key = "number", default_value = str(teams[curr]["numVivos"])),
@@ -205,14 +228,14 @@ def makeLayout():
         arenaRow = [[ psg.Text("Arena:"), psg.DropDown(ffcArenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
         musicRow = [[ psg.Text("Music:"), psg.DropDown(ffcMusicList, key = "music", default_value = teams[curr]["music"]) ]]
         formRow = [[ psg.Text("Formation:"), psg.DropDown(formList, key = "formation", default_value = teams[curr]["formation"]) ]]
-        layout = layout[0:2] + arenaRow + musicRow + layout[2:4] + formRow + layout[4:]
+        layout = layout[0:3] + arenaRow + musicRow + layout[3:5] + formRow + layout[5:]
     else:
         arenaRow = [[ psg.Text("Arena:"), psg.DropDown(ff1ArenaList, key = "arena", default_value = teams[curr]["arena"]) ]]
         musicRow = [[ psg.Text("Music:"), psg.DropDown(ff1MusicList, key = "music", default_value = teams[curr]["music"]) ]]
         requireRow = [[ psg.Text("Req'd:"), psg.Input(default_text = teams[curr]["required"], key = "required", size = 10, enable_events = True) ]]
-        layout = layout[0:2] + arenaRow + musicRow + layout[2:]
+        layout = layout[0:3] + arenaRow + musicRow + layout[3:]
         if (teams[curr]["canRequire"] == "Yes"):
-            layout = layout[0:4] + requireRow + layout[4:]
+            layout = layout[0:5] + requireRow + layout[5:]
     for i in range(teams[curr]["numVivos"]):
         # print(i)
         row = [ # yes, I know this is formatted as a column ulol
@@ -255,6 +278,7 @@ def applyValues(values, numChange):
     global teams
 
     teams[curr]["name"] = values["name"]
+    teams[curr]["icon"] = values["icon"]
 
     if (rom == "ff1"):
         rankMax = 9
@@ -376,7 +400,9 @@ def saveFile():
         f.write(ours[2].to_bytes(4, "little"))
         f.write(r[(0x84 + shift):(0x88 + shift)])
         f.write(ours[3].to_bytes(4, "little"))
-        f.write(r[(0x8C + shift):(0x94 + shift)])
+        
+        f.write(iNames.index(teams[curr]["icon"]).to_bytes(4, "little"))
+        f.write(r[(0x90 + shift):(0x94 + shift)])
         
         for i in range(teams[curr]["numVivos"]):
             f.write(teams[curr]["vivos"][i]["vivoNum"].to_bytes(4, "little"))
@@ -467,7 +493,10 @@ def saveFile():
         f.write(r[0x32:(0x46 + shift)])
         f.write(int(teams[curr]["name"][-5:-1]).to_bytes(2, "little"))
         f.write(teams[curr]["rank"].to_bytes(2, "little"))
-        f.write(r[(0x4A + shift):(0x4C + shift)])
+        for k, v in iDict.items():
+            if (v == teams[curr]["icon"]):
+                f.write(int(k).to_bytes(2, "little"))
+                break
         f.write(formList.index(teams[curr]["formation"]).to_bytes(1, "little"))
         f.write(r[(0x4D + shift):(0x50 + shift)])
         
