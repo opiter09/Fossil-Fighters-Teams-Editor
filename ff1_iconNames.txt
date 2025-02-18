@@ -53,9 +53,9 @@ BB Bandit M
 Attendant (Blonde Hair)
 Westley/Chip
 Captain Travers
-Random Travers-Like
+Travers Recolor
 Dennis
-Middle-Aged Woman
+Mask Lady Recolor
 Mr. Ozzlewit
 Mrs. Riggle
 Eli
@@ -77,7 +77,7 @@ BB Bandit F
 Diving Mask F
 Woolbeard (Angry)
 Winter Man
-Winter Man (Beard)
+Bearded Sunglasses Man
 Blue-and-White Hat Man
 Margaret
 Winter Woman
