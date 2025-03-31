@@ -2,7 +2,8 @@
 This is a simple graphical editor for FF1 and FFC enemy teams.
 
 You MUST put the ROM in the same folder as the exe, or it won't work. Furthermore, this is only designed for Windows. For Mac and
-Linux, I can only point you to WINE: https://www.winehq.org
+Linux, I can only point you to WINE: https://www.winehq.org. When running this through WINE, please use the command
+``wine teams.exe "ROMNAME.NDS"``, not ``wine teams.exe`` alone.
 
 To use, just drag and drop a ROM onto teams.exe. If the folder NDS_UNPACK does not exist, it will make that folder and unpack the
 ROM into it; be patient as it does so (especially for FFC). Then, you can use the editor. It should be mostly self-eplanatory,
